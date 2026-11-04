@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["2L7RFD7CXX.com.albertobruno.magicpal.app"],
+        "components": [
+          { "/": "/g", "comment": "Partite condivise via QR" },
+          { "/": "/g/*" }
+        ]
+      }
+    ]
+  }
+}

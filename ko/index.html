@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MTG 앱: 카드 스캐너와 커맨더 덱 | ManaPal</title>
+<meta name="description" content="내 카드를 아는 매직 더 개더링 앱. 컬렉션을 스캔해 가치를 확인하고, 가진 카드로 커맨더 덱을 만들고, 모든 게임을 기록하세요.">
+<meta name="apple-itunes-app" content="app-id=6822809444">
+<meta name="theme-color" content="#0b0a10">
+<link rel="canonical" href="https://manapal.app/ko/">
+<link rel="alternate" hreflang="en-US" href="https://manapal.app/">
+<link rel="alternate" hreflang="it" href="https://manapal.app/it/">
+<link rel="alternate" hreflang="de-DE" href="https://manapal.app/de-DE/">
+<link rel="alternate" hreflang="fr-FR" href="https://manapal.app/fr-FR/">
+<link rel="alternate" hreflang="es-ES" href="https://manapal.app/es-ES/">
+<link rel="alternate" hreflang="es-MX" href="https://manapal.app/es-MX/">
+<link rel="alternate" hreflang="pt-BR" href="https://manapal.app/pt-BR/">
+<link rel="alternate" hreflang="pl" href="https://manapal.app/pl/">
+<link rel="alternate" hreflang="tr" href="https://manapal.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://manapal.app/ru/">
+<link rel="alternate" hreflang="ja" href="https://manapal.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://manapal.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://manapal.app/zh-Hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://manapal.app/zh-Hant/">
+<link rel="alternate" hreflang="x-default" href="https://manapal.app/">
+<link rel="icon" type="image/png" href="../assets/icon.png">
+<link rel="apple-touch-icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ManaPal">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="ManaPal: 내 카드를 아는 MTG 앱">
+<meta property="og:description" content="컬렉션을 스캔하고, 가진 카드로 커맨더 덱을 만들고, 모든 게임을 기록하고, AI 전문가 Mote에게 물어보세요.">
+<meta property="og:url" content="https://manapal.app/ko/">
+<meta property="og:image" content="https://manapal.app/assets/app-images/screenshots/en/assistant.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ManaPal: 내 카드를 아는 MTG 앱">
+<meta name="twitter:description" content="컬렉션을 스캔하고, 가진 카드로 커맨더 덱을 만들고, 모든 게임을 기록하고, AI 전문가 Mote에게 물어보세요.">
+<meta name="twitter:image" content="https://manapal.app/assets/app-images/screenshots/en/assistant.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ManaPal",
+  "operatingSystem": "iOS 18.0 이상",
+  "applicationCategory": "UtilitiesApplication",
+  "url": "https://manapal.app/ko/",
+  "downloadUrl": "https://apps.apple.com/app/id6822809444",
+  "installUrl": "https://apps.apple.com/app/id6822809444",
+  "image": "https://manapal.app/assets/icon.png",
+  "screenshot": [
+    "https://manapal.app/assets/app-images/screenshots/en/assistant.webp",
+    "https://manapal.app/assets/app-images/screenshots/en/scanner.webp",
+    "https://manapal.app/assets/app-images/screenshots/en/collection.webp"
+  ],
+  "description": "ManaPal은 매직 더 개더링 컬렉션, 덱, 게임을 iPhone과 iPad용 앱 하나에 모아 줍니다. 내 카드를 아는 AI 어시스턴트 Mote도 함께합니다.",
+  "inLanguage": "ko",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" },
+  "author": { "@type": "Organization", "name": "AlbosApps", "email": "albosapps@gmail.com" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "ManaPal은 무료인가요?", "acceptedAnswer": { "@type": "Answer", "text": "네. ManaPal은 무료로 다운로드할 수 있고, 컬렉션, 가격, 스캐너, 확장판, 프리컨 덱, 덱, 라이프 카운터는 영구 무료입니다. AI 기능은 Mana를 사용합니다. 환영 선물로 20 Mana를 받고, 매일 빠른 질문 1개는 무료입니다. ManaPal Pro는 선택 사항입니다." } },
+    { "@type": "Question", "name": "ManaPal로 MTG 카드를 스캔할 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "네. iPhone 카메라를 카드에 비추면 ManaPal이 카드를 인식해 가격을 보여 주고 컬렉션에 추가합니다. 확장판을 고르고 포일로 표시한 뒤 바로 계속 스캔할 수 있습니다." } },
+    { "@type": "Question", "name": "내 MTG 컬렉션의 가치는 어떻게 알 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "카드를 스캔하거나 목록을 가져와 ManaPal에 추가하세요. 컬렉션 화면에서 최신 가격 기준 총 가치와 시간에 따른 변화를 볼 수 있습니다." } },
+    { "@type": "Question", "name": "가진 카드로 커맨더 덱을 만들어 주나요?", "acceptedAnswer": { "@type": "Answer", "text": "네. '내 카드로 덱 만들기'를 사용하면 Mote가 컬렉션의 카드를 먼저 활용해 100장짜리 커맨더 덱을 만들고, 부족한 몇 장을 알려 줍니다." } },
+    { "@type": "Question", "name": "나에게 맞는 커맨더는 어떻게 고르나요?", "acceptedAnswer": { "@type": "Answer", "text": "좋아하는 승리 방식, 선호하는 색, 예산에서 시작하세요. ManaPal의 '나의 커맨더 찾기' 퀴즈는 12개의 질문으로 저예산, 중간, 최상위 목록의 커맨더를 추천합니다." } },
+    { "@type": "Question", "name": "커맨더 덱에는 대지가 몇 장 필요한가요?", "acceptedAnswer": { "@type": "Answer", "text": "대부분의 커맨더 덱은 대지 36~38장과 램프 카드 약 10장을 넣습니다. 마나 곡선이 낮으면 적게, 비싼 주문이 많으면 더 많이 넣습니다. ManaPal은 대지 수, 마나 곡선, 시작 핸드 확률을 보여 줍니다." } },
+    { "@type": "Question", "name": "커맨더 피해를 기록하는 라이프 카운터가 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "네. 2~6인 게임에서 커맨더 피해, 독 카운터, 군주, 주도권, Planechase, Archenemy를 관리하고 모든 게임을 통계에 저장합니다." } },
+    { "@type": "Question", "name": "내 카드와 덱은 어디에 저장되나요?", "acceptedAnswer": { "@type": "Answer", "text": "사용자의 기기와 본인의 iCloud에 저장되며 iPhone과 iPad 사이에서 동기화됩니다. 저희는 이 데이터를 볼 수 없고 판매하지 않습니다." } }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
+    <nav class="header-nav" aria-label="주요 메뉴">
+      <a class="hide-sm" href="#download">기능</a>
+      <a class="hide-sm" href="#guides">가이드</a>
+      <a class="hide-sm" href="#faq">FAQ</a>
+      <details class="lang">
+        <summary aria-label="언어 변경">KO</summary>
+        <ul>
+          <li><a href="../index.html" hreflang="en-US" lang="en-US">English (US)</a></li>
+          <li><a href="../it/index.html" hreflang="it" lang="it">Italiano</a></li>
+          <li><a href="../de-DE/index.html" hreflang="de-DE" lang="de-DE">Deutsch</a></li>
+          <li><a href="../fr-FR/index.html" hreflang="fr-FR" lang="fr-FR">Français</a></li>
+          <li><a href="../es-ES/index.html" hreflang="es-ES" lang="es-ES">Español (España)</a></li>
+          <li><a href="../es-MX/index.html" hreflang="es-MX" lang="es-MX">Español (México)</a></li>
+          <li><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+          <li><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a></li>
+          <li><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></li>
+          <li><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a></li>
+          <li><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a></li>
+          <li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li>
+          <li><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+          <li><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <div>
+        <img class="hero-icon" src="../assets/icon.png" alt="ManaPal 앱 아이콘" width="84" height="84">
+        <span class="eyebrow">ManaPal · iPhone과 iPad에 곧 출시</span>
+        <h1 id="hero-title">내 카드를 아는 <span class="gold">MTG 앱</span></h1>
+        <p class="lead">매직 더 개더링 컬렉션을 스캔하고, 얼마나 가치가 있는지 확인하고, 이미 가진 카드로 커맨더 덱을 만들고, 모든 게임을 기록하세요. AI 덱 전문가 Mote가 내 카드를 바탕으로 답해 줍니다.</p>
+        <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>곧 출시 예정</small><strong>App Store</strong></span></span>
+        <p class="btn-note">무료 다운로드 · iPhone 및 iPad · iOS 18 이상</p>
+        <ul class="trust">
+          <li>카드 스캐너</li>
+          <li>커맨더 라이프 카운터</li>
+          <li>14개 언어</li>
+          <li>iCloud 동기화</li>
+        </ul>
+      </div>
+      <div class="hero-shot">
+        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ManaPal의 AI 어시스턴트가 이미 가진 카드로 커맨더 덱 교체안 3개를 제안하고 부족한 카드 4장을 가격과 함께 보여 주는 화면" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="download" aria-labelledby="download-title">
+    <div class="container">
+      <div class="panel">
+        <div class="download-grid">
+          <div>
+            <h2 id="download-title">컬렉션, 덱, 게임을 무료 앱 하나로</h2>
+            <p class="lead">스프레드시트, 앱 세 개, 라이프를 적던 펜은 이제 필요 없습니다. ManaPal이 모든 것을 한곳에 모으고, 어시스턴트는 답하기 전에 내 카드를 먼저 확인합니다.</p>
+            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>곧 출시 예정</small><strong>App Store</strong></span></span>
+          </div>
+          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="ManaPal의 어시스턴트인 황금빛 마나 방울 Mote가 윙크하며 인사하는 모습">
+        </div>
+        <ul class="reasons">
+          <li><strong>스캔하고 가치 확인</strong><span>카메라를 카드에 비추면 가격과 함께 컬렉션에 들어갑니다. 총 가치의 변화도 확인하세요.</span></li>
+          <li><strong>가진 카드로 만드는 덱</strong><span>Mote가 컬렉션으로 커맨더 덱을 만들거나, 내 덱을 분석해 이미 가진 카드로 교체안을 제안합니다.</span></li>
+          <li><strong>나의 커맨더 찾기</strong><span>12개의 질문에 답하면 저예산, 중간, 최상위 목록으로 나에게 맞는 커맨더를 추천합니다.</span></li>
+          <li><strong>커맨더를 위한 카운터</strong><span>2~6인, 커맨더 피해, 독, 군주, 주도권, Planechase, Archenemy 지원. 모든 게임이 통계에 남습니다.</span></li>
+          <li><strong>덱을 설명하는 통계</strong><span>마나 곡선, 대지, 색, 시작 핸드 확률, 덱 가치, 부족한 카드 비용.</span></li>
+          <li><strong>카드를 그대로 가져오기</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer, Cardmarket에서 가져오기. iCloud로 동기화.</span></li>
+        </ul>
+        <p class="btn-note">영구 무료: 컬렉션, 가격, 스캐너, 덱, 게임. AI 기능은 Mana를 사용합니다. 환영 선물로 20 Mana를 받고 매일 빠른 질문 1개는 무료이며, 실행 전에 항상 비용이 표시됩니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="screenshots" aria-labelledby="shots-title">
+    <div class="container section-head">
+      <h2 id="shots-title">ManaPal 둘러보기</h2>
+      <p class="scroll-hint">옆으로 스크롤해 모든 화면을 확인하세요. (스크린샷은 영어 버전입니다)</p>
+    </div>
+    <ul class="shots" tabindex="0" aria-label="ManaPal 스크린샷">
+      <li><figure><img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" loading="lazy" alt="Mote가 가진 카드로 교체안 3개를 제안하고 부족한 카드 4장을 구매하는 버튼을 보여 줌"><figcaption>내 카드로 교체</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/scanner.webp" width="490" height="1000" loading="lazy" alt="스캐너가 The One Ring을 인식해 가격을 표시하고 바로 컬렉션에 추가"><figcaption>카메라로 스캔</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/collection.webp" width="490" height="1000" loading="lazy" alt="카드 124장의 총 가치, 바인더, 위시리스트, 확장판, 트레이드가 있는 컬렉션 화면"><figcaption>컬렉션 가치</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/analysis.webp" width="490" height="1000" loading="lazy" alt="커맨더 덱의 AI 분석: 브래킷과 내 카드에서 고른 교체 제안"><figcaption>AI 덱 분석</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/commander.webp" width="490" height="1000" loading="lazy" alt="나의 커맨더 찾기 퀴즈와 가격이 표시된 인기 커맨더 목록"><figcaption>나의 커맨더 찾기</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/deck.webp" width="490" height="1000" loading="lazy" alt="Mote, 테스트 플레이, 통계 버튼이 있는 커맨더 덱 페이지"><figcaption>덱을 한눈에</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/stats.webp" width="490" height="1000" loading="lazy" alt="덱 통계: 대지 38장, 평균 마나 비용, 시작 핸드 확률, 마나 곡선"><figcaption>덱 통계</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/games.webp" width="490" height="1000" loading="lazy" alt="각 커맨더의 일러스트와 커맨더 피해가 표시된 4인용 라이프 카운터"><figcaption>커맨더 카운터</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/history.webp" width="490" height="1000" loading="lazy" alt="진행 중인 게임, 플레이 그룹, 최근 결과가 있는 게임 화면"><figcaption>게임과 순위</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/mote.webp" width="490" height="1000" loading="lazy" alt="이야기할 덱이나 카드를 고르도록 안내하는 Mote 홈 화면"><figcaption>Mote를 소개합니다</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/search.webp" width="490" height="1000" loading="lazy" alt="이름이나 확장판으로 검색, 가져오기, 필터가 있는 카드 추가 화면"><figcaption>카드 검색과 가져오기</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/card.webp" width="490" height="1000" loading="lazy" alt="Ashling, the Limitless의 전체 규칙 텍스트가 보이는 카드 상세 화면"><figcaption>카드 상세 정보</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="section" id="how-it-works" aria-labelledby="how-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="how-title">사용 방법</h2>
+        <p>카드 상자에서 테이블 위의 덱까지, 네 단계면 충분합니다.</p>
+      </div>
+      <ol class="steps four">
+        <li><h3>카드 추가</h3><p>카메라로 스캔하거나, 이름이나 확장판으로 검색하거나, 다른 앱에서 목록을 가져오세요.</p></li>
+        <li><h3>덱 만들기 또는 가져오기</h3><p>덱을 직접 만들거나 Moxfield, Archidekt, 텍스트 목록에서 가져오거나, Mote에게 컬렉션으로 만들어 달라고 하세요.</p></li>
+        <li><h3>Mote에게 질문</h3><p>규칙 질문, 덱 분석, 내 카드로 교체. 필요한 Mana는 시작 전에 표시됩니다.</p></li>
+        <li><h3>플레이하고 기록</h3><p>카운터를 열고 플레이하면 모든 결과가 통계와 그룹 순위에 반영됩니다.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="guides" aria-labelledby="guides-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="guides-title">MTG 플레이어를 위한 가이드</h2>
+        <p>게임 전에 자주 나오는 질문에 대한 실용적인 답변입니다. 가이드는 현재 영어로만 제공됩니다.</p>
+      </div>
+      <ul class="cards">
+        <li><a class="card-link" href="../guides/how-to-scan-mtg-cards.html" hreflang="en"><h3>iPhone으로 MTG 카드 스캔하는 법</h3><p>카드 이름을 하나도 입력하지 않고 컬렉션 전체를 디지털화하세요.</p><span class="more">가이드 읽기 (영어) →</span></a></li>
+        <li><a class="card-link" href="../guides/how-much-is-my-mtg-collection-worth.html" hreflang="en"><h3>내 MTG 컬렉션의 가치는?</h3><p>가치 있는 카드를 찾고 현실적인 총액을 계산하세요.</p><span class="more">가이드 읽기 (영어) →</span></a></li>
+        <li><a class="card-link" href="../guides/build-commander-deck-from-your-collection.html" hreflang="en"><h3>내 컬렉션으로 커맨더 덱 만들기</h3><p>가진 카드를 제대로 돌아가는 100장 덱으로.</p><span class="more">가이드 읽기 (영어) →</span></a></li>
+        <li><a class="card-link" href="../guides/how-to-choose-a-commander.html" hreflang="en"><h3>커맨더 고르는 법</h3><p>플레이 스타일과 예산에 맞는 커맨더.</p><span class="more">가이드 읽기 (영어) →</span></a></li>
+        <li><a class="card-link" href="../guides/how-many-lands-in-a-commander-deck.html" hreflang="en"><h3>커맨더 덱의 대지는 몇 장?</h3><p>대지 부족도, 대지만 뽑는 것도 이제 그만.</p><span class="more">가이드 읽기 (영어) →</span></a></li>
+        <li><a class="card-link" href="../guides/mtg-life-counter-commander-damage.html" hreflang="en"><h3>라이프와 커맨더 피해 관리</h3><p>라이프 40, 커맨더 피해, 독, 군주를 깔끔하게.</p><span class="more">가이드 읽기 (영어) →</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="narrow">
+      <div class="section-head">
+        <h2 id="faq-title">자주 묻는 질문</h2>
+      </div>
+      <div class="faq">
+        <details><summary><h3>ManaPal은 무료인가요?</h3></summary><div class="answer"><p>네. ManaPal은 무료로 다운로드할 수 있고, 컬렉션, 가격, 스캐너, 확장판, 프리컨 덱, 덱, 라이프 카운터는 영구 무료입니다. AI 기능은 Mana를 사용합니다. 환영 선물로 20 Mana를 받고, 매일 빠른 질문 1개는 무료입니다. ManaPal Pro는 선택 사항입니다. <a href="../guides/build-commander-deck-from-your-collection.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>ManaPal로 MTG 카드를 스캔할 수 있나요?</h3></summary><div class="answer"><p>네. iPhone 카메라를 카드에 비추면 ManaPal이 카드를 인식해 가격을 보여 주고 컬렉션에 추가합니다. 확장판을 고르고 포일로 표시한 뒤 바로 계속 스캔할 수 있습니다. <a href="../guides/how-to-scan-mtg-cards.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>내 MTG 컬렉션의 가치는 어떻게 알 수 있나요?</h3></summary><div class="answer"><p>카드를 스캔하거나 목록을 가져와 ManaPal에 추가하세요. 컬렉션 화면에서 최신 가격 기준 총 가치와 시간에 따른 변화를 볼 수 있습니다. <a href="../guides/how-much-is-my-mtg-collection-worth.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>가진 카드로 커맨더 덱을 만들어 주나요?</h3></summary><div class="answer"><p>네. '내 카드로 덱 만들기'를 사용하면 Mote가 컬렉션의 카드를 먼저 활용해 100장짜리 커맨더 덱을 만들고, 부족한 몇 장을 알려 줍니다. <a href="../guides/build-commander-deck-from-your-collection.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>나에게 맞는 커맨더는 어떻게 고르나요?</h3></summary><div class="answer"><p>좋아하는 승리 방식, 선호하는 색, 예산에서 시작하세요. ManaPal의 '나의 커맨더 찾기' 퀴즈는 12개의 질문으로 저예산, 중간, 최상위 목록의 커맨더를 추천합니다. <a href="../guides/how-to-choose-a-commander.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>커맨더 덱에는 대지가 몇 장 필요한가요?</h3></summary><div class="answer"><p>대부분의 커맨더 덱은 대지 36~38장과 램프 카드 약 10장을 넣습니다. 마나 곡선이 낮으면 적게, 비싼 주문이 많으면 더 많이 넣습니다. ManaPal은 대지 수, 마나 곡선, 시작 핸드 확률을 보여 줍니다. <a href="../guides/how-many-lands-in-a-commander-deck.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>커맨더 피해를 기록하는 라이프 카운터가 있나요?</h3></summary><div class="answer"><p>네. 2~6인 게임에서 커맨더 피해, 독 카운터, 군주, 주도권, Planechase, Archenemy를 관리하고 모든 게임을 통계에 저장합니다. <a href="../guides/mtg-life-counter-commander-damage.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+        <details><summary><h3>내 카드와 덱은 어디에 저장되나요?</h3></summary><div class="answer"><p>사용자의 기기와 본인의 iCloud에 저장되며 iPhone과 iPad 사이에서 동기화됩니다. 저희는 이 데이터를 볼 수 없고 판매하지 않습니다. <a href="../privacy.html" hreflang="en">자세히 보기 (영어)</a></p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section final-cta" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="panel">
+        <img class="mote" src="../assets/app-images/mote/happy.webp" width="120" height="120" alt="">
+        <h2 id="cta-title">내 카드를 테이블로</h2>
+        <p>ManaPal이 곧 iPhone과 iPad용으로 App Store에 출시됩니다. 첫 카드를 스캔하고, 다음 커맨더 덱을 만들고, 계산은 Mote에게 맡기세요.</p>
+        <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>곧 출시 예정</small><strong>App Store</strong></span></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
+        <p>MTG 컬렉션, 덱, 게임을 앱 하나로. 내 카드를 아는 어시스턴트와 함께.</p>
+        <p>© 2026 AlbosApps</p>
+      </div>
+      <nav aria-label="가이드">
+        <h2>가이드 (영어)</h2>
+        <ul>
+          <li><a href="../guides/how-to-scan-mtg-cards.html" hreflang="en">카드 스캔</a></li>
+          <li><a href="../guides/how-much-is-my-mtg-collection-worth.html" hreflang="en">컬렉션 가치</a></li>
+          <li><a href="../guides/build-commander-deck-from-your-collection.html" hreflang="en">컬렉션으로 덱 만들기</a></li>
+          <li><a href="../guides/how-to-choose-a-commander.html" hreflang="en">커맨더 고르기</a></li>
+          <li><a href="../guides/how-many-lands-in-a-commander-deck.html" hreflang="en">커맨더 덱의 대지</a></li>
+          <li><a href="../guides/mtg-life-counter-commander-damage.html" hreflang="en">커맨더 피해</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="ManaPal">
+        <h2>ManaPal</h2>
+        <ul>
+          <li><a href="../support.html" hreflang="en">지원</a></li>
+          <li><a href="../privacy.html" hreflang="en">개인정보 처리방침</a></li>
+          <li><a href="../terms.html" hreflang="en">이용 약관</a></li>
+          <li><a href="mailto:albosapps@gmail.com">albosapps@gmail.com</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>언어</h2>
+        <details class="lang">
+          <summary>한국어</summary>
+          <ul>
+            <li><a href="../index.html" hreflang="en-US" lang="en-US">English (US)</a></li>
+            <li><a href="../it/index.html" hreflang="it" lang="it">Italiano</a></li>
+            <li><a href="../de-DE/index.html" hreflang="de-DE" lang="de-DE">Deutsch</a></li>
+            <li><a href="../fr-FR/index.html" hreflang="fr-FR" lang="fr-FR">Français</a></li>
+            <li><a href="../es-ES/index.html" hreflang="es-ES" lang="es-ES">Español (España)</a></li>
+            <li><a href="../es-MX/index.html" hreflang="es-MX" lang="es-MX">Español (México)</a></li>
+            <li><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a></li>
+            <li><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></li>
+            <li><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a></li>
+            <li><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a></li>
+            <li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li>
+            <li><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+            <li><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+    <p class="legal-note" lang="en">ManaPal is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+    <p class="legal-note">카드 데이터 및 이미지: Scryfall. Apple, iPhone, iPad는 Apple Inc.의 상표입니다. App Store는 Apple Inc.의 서비스 마크입니다.</p>
+  </div>
+</footer>
+</body>
+</html>

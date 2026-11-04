@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Domain: manapal.app (from docs/SITE-BRIEF.md). If the site is published elsewhere, replace https://manapal.app everywhere. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://manapal.app/</loc><lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://manapal.app/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://manapal.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="de-DE" href="https://manapal.app/de-DE/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://manapal.app/fr-FR/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://manapal.app/es-ES/"/>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://manapal.app/es-MX/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://manapal.app/pt-BR/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://manapal.app/pl/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://manapal.app/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://manapal.app/ru/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://manapal.app/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://manapal.app/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://manapal.app/zh-Hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://manapal.app/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://manapal.app/"/>
+  </url>
+  <url><loc>https://manapal.app/it/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/de-DE/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/fr-FR/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/es-ES/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/es-MX/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/pt-BR/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/pl/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/tr/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/ru/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/ja/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/ko/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/zh-Hans/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/zh-Hant/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/guides/how-to-scan-mtg-cards.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/guides/how-much-is-my-mtg-collection-worth.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/guides/build-commander-deck-from-your-collection.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/guides/how-to-choose-a-commander.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/guides/how-many-lands-in-a-commander-deck.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/guides/mtg-life-counter-commander-damage.html</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://manapal.app/support.html</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://manapal.app/privacy.html</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://manapal.app/terms.html</loc><lastmod>2026-10-31</lastmod></url>
+</urlset>

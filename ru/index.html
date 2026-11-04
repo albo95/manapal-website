@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Приложение для Magic: сканер карт и колоды | ManaPal</title>
+<meta name="description" content="Приложение для Magic: The Gathering, которое знает твои карты: сканируй коллекцию, узнай её цену, собирай колоды Commander и записывай партии.">
+<meta name="apple-itunes-app" content="app-id=6822809444">
+<meta name="theme-color" content="#0b0a10">
+<link rel="canonical" href="https://manapal.app/ru/">
+<link rel="alternate" hreflang="en-US" href="https://manapal.app/">
+<link rel="alternate" hreflang="it" href="https://manapal.app/it/">
+<link rel="alternate" hreflang="de-DE" href="https://manapal.app/de-DE/">
+<link rel="alternate" hreflang="fr-FR" href="https://manapal.app/fr-FR/">
+<link rel="alternate" hreflang="es-ES" href="https://manapal.app/es-ES/">
+<link rel="alternate" hreflang="es-MX" href="https://manapal.app/es-MX/">
+<link rel="alternate" hreflang="pt-BR" href="https://manapal.app/pt-BR/">
+<link rel="alternate" hreflang="pl" href="https://manapal.app/pl/">
+<link rel="alternate" hreflang="tr" href="https://manapal.app/tr/">
+<link rel="alternate" hreflang="ru" href="https://manapal.app/ru/">
+<link rel="alternate" hreflang="ja" href="https://manapal.app/ja/">
+<link rel="alternate" hreflang="ko" href="https://manapal.app/ko/">
+<link rel="alternate" hreflang="zh-Hans" href="https://manapal.app/zh-Hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://manapal.app/zh-Hant/">
+<link rel="alternate" hreflang="x-default" href="https://manapal.app/">
+<link rel="icon" type="image/png" href="../assets/icon.png">
+<link rel="apple-touch-icon" href="../assets/icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ManaPal">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="ManaPal: приложение для Magic, которое знает твои карты">
+<meta property="og:description" content="Сканируй коллекцию, собирай колоды Commander из своих карт, записывай каждую партию и спрашивай Mote, своего ИИ-эксперта.">
+<meta property="og:url" content="https://manapal.app/ru/">
+<meta property="og:image" content="https://manapal.app/assets/app-images/screenshots/en/assistant.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ManaPal: приложение для Magic, которое знает твои карты">
+<meta name="twitter:description" content="Сканируй коллекцию, собирай колоды Commander из своих карт, записывай каждую партию и спрашивай Mote, своего ИИ-эксперта.">
+<meta name="twitter:image" content="https://manapal.app/assets/app-images/screenshots/en/assistant.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "ManaPal",
+  "operatingSystem": "iOS 18.0 или новее",
+  "applicationCategory": "UtilitiesApplication",
+  "url": "https://manapal.app/ru/",
+  "downloadUrl": "https://apps.apple.com/app/id6822809444",
+  "installUrl": "https://apps.apple.com/app/id6822809444",
+  "image": "https://manapal.app/assets/icon.png",
+  "screenshot": [
+    "https://manapal.app/assets/app-images/screenshots/en/assistant.webp",
+    "https://manapal.app/assets/app-images/screenshots/en/scanner.webp",
+    "https://manapal.app/assets/app-images/screenshots/en/collection.webp"
+  ],
+  "description": "ManaPal объединяет твою коллекцию Magic: The Gathering, колоды и партии в одном приложении для iPhone и iPad, а ИИ-ассистент Mote знает твои карты.",
+  "inLanguage": "ru",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Organization", "name": "AlbosApps", "email": "albosapps@gmail.com" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "ManaPal бесплатное?", "acceptedAnswer": { "@type": "Answer", "text": "Да. ManaPal скачивается бесплатно, а коллекция, цены, сканер, выпуски, готовые колоды, колоды и счётчик жизней бесплатны навсегда. Действия ИИ расходуют Ману: ты начинаешь с 20 приветственной Маны и каждый день получаешь один быстрый вопрос бесплатно. ManaPal Pro — по желанию." } },
+    { "@type": "Question", "name": "Может ли ManaPal сканировать карты Magic?", "acceptedAnswer": { "@type": "Answer", "text": "Да. Наведи камеру iPhone на карту: ManaPal распознает её, покажет цену и добавит в коллекцию. Можно выбрать выпуск, отметить фойл и продолжать сканирование." } },
+    { "@type": "Question", "name": "Как узнать, сколько стоит моя коллекция Magic?", "acceptedAnswer": { "@type": "Answer", "text": "Добавь карты в ManaPal сканированием или импортом списка: экран «Коллекция» покажет общую стоимость по актуальным ценам и её изменение со временем." } },
+    { "@type": "Question", "name": "Соберёт ли ManaPal колоду Commander из моих карт?", "acceptedAnswer": { "@type": "Answer", "text": "Да. С функцией «Собери колоду из моих карт» Mote собирает колоду Commander из 100 карт, в первую очередь из твоей коллекции, и перечисляет несколько недостающих." } },
+    { "@type": "Question", "name": "Как выбрать подходящего командира?", "acceptedAnswer": { "@type": "Answer", "text": "Отталкивайся от того, как ты любишь побеждать, от любимых цветов и бюджета. В ManaPal тест «Найди своего командира» задаёт 12 вопросов и предлагает командиров в бюджетном, среднем и топовом списках." } },
+    { "@type": "Question", "name": "Сколько земель нужно в колоде Commander?", "acceptedAnswer": { "@type": "Answer", "text": "Большинство колод Commander играют 36–38 земель и около 10 карт рампа. Меньше при низкой кривой, больше при множестве дорогих заклинаний. ManaPal показывает число земель, кривую маны и вероятности стартовой руки." } },
+    { "@type": "Question", "name": "Есть ли в ManaPal счётчик жизней с уроном от командира?", "acceptedAnswer": { "@type": "Answer", "text": "Да. Счётчик поддерживает от 2 до 6 игроков с уроном от командира, ядом, монархом, инициативой, Planechase и Archenemy и сохраняет каждую партию в статистику." } },
+    { "@type": "Question", "name": "Где хранятся мои карты и колоды?", "acceptedAnswer": { "@type": "Answer", "text": "На твоём устройстве и в твоём собственном iCloud, с синхронизацией между iPhone и iPad. Мы их не видим и не продаём." } }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
+    <nav class="header-nav" aria-label="Основная навигация">
+      <a class="hide-sm" href="#download">Возможности</a>
+      <a class="hide-sm" href="#guides">Гайды</a>
+      <a class="hide-sm" href="#faq">Вопросы</a>
+      <details class="lang">
+        <summary aria-label="Сменить язык">RU</summary>
+        <ul>
+          <li><a href="../index.html" hreflang="en-US" lang="en-US">English (US)</a></li>
+          <li><a href="../it/index.html" hreflang="it" lang="it">Italiano</a></li>
+          <li><a href="../de-DE/index.html" hreflang="de-DE" lang="de-DE">Deutsch</a></li>
+          <li><a href="../fr-FR/index.html" hreflang="fr-FR" lang="fr-FR">Français</a></li>
+          <li><a href="../es-ES/index.html" hreflang="es-ES" lang="es-ES">Español (España)</a></li>
+          <li><a href="../es-MX/index.html" hreflang="es-MX" lang="es-MX">Español (México)</a></li>
+          <li><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+          <li><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a></li>
+          <li><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></li>
+          <li><a href="index.html" hreflang="ru" lang="ru" aria-current="page">Русский</a></li>
+          <li><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a></li>
+          <li><a href="../ko/index.html" hreflang="ko" lang="ko">한국어</a></li>
+          <li><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+          <li><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+        </ul>
+      </details>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <div>
+        <img class="hero-icon" src="../assets/icon.png" alt="Значок приложения ManaPal" width="84" height="84">
+        <span class="eyebrow">ManaPal · скоро на iPhone и iPad</span>
+        <h1 id="hero-title"><span class="gold">Приложение для Magic</span>, которое знает твои карты</h1>
+        <p class="lead">Сканируй свою коллекцию Magic: The Gathering, узнай, сколько она стоит, собирай колоды Commander из карт, которые у тебя уже есть, и записывай каждую партию. Mote, твой ИИ-эксперт по колодам, отвечает с учётом твоих карт.</p>
+        <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Скоро в</small><strong>App Store</strong></span></span>
+        <p class="btn-note">Бесплатная загрузка · iPhone и iPad · iOS 18 или новее</p>
+        <ul class="trust">
+          <li>Сканер карт</li>
+          <li>Счётчик жизней для Commander</li>
+          <li>14 языков</li>
+          <li>Синхронизация с iCloud</li>
+        </ul>
+      </div>
+      <div class="hero-shot">
+        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ИИ-ассистент ManaPal предлагает три замены для колоды Commander из карт, которые у тебя уже есть, и показывает четыре недостающие карты с ценой" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="download" aria-labelledby="download-title">
+    <div class="container">
+      <div class="panel">
+        <div class="download-grid">
+          <div>
+            <h2 id="download-title">Коллекция, колоды и партии в одном бесплатном приложении</h2>
+            <p class="lead">Хватит таблиц, трёх разных приложений и ручки с бумагой для подсчёта жизней. ManaPal собирает всё вместе, а ассистент смотрит на твои карты, прежде чем ответить.</p>
+            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Скоро в</small><strong>App Store</strong></span></span>
+          </div>
+          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="Mote, золотая капля Маны и ассистент ManaPal, подмигивает в знак приветствия">
+        </div>
+        <ul class="reasons">
+          <li><strong>Сканируй и узнавай цену</strong><span>Наведи камеру на карту, и она попадёт в коллекцию вместе с ценой. Следи за общей стоимостью со временем.</span></li>
+          <li><strong>Колоды из того, что есть</strong><span>Mote соберёт колоду Commander из твоей коллекции или проанализирует твою и предложит замены из карт, которые у тебя уже есть.</span></li>
+          <li><strong>Найди своего командира</strong><span>Ответь на 12 вопросов и получи подходящих тебе командиров в бюджетном, среднем и топовом списках.</span></li>
+          <li><strong>Счётчик, созданный для Commander</strong><span>От 2 до 6 игроков, урон от командира, яд, монарх, инициатива, Planechase и Archenemy. Каждая партия попадает в статистику.</span></li>
+          <li><strong>Статистика, которая объясняет колоду</strong><span>Кривая маны, земли, цвета, вероятности стартовой руки, стоимость колоды и цена недостающих карт.</span></li>
+          <li><strong>Перенеси свои карты</strong><span>Импорт из ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer или Cardmarket. Синхронизация через iCloud.</span></li>
+        </ul>
+        <p class="btn-note">Бесплатно навсегда: коллекция, цены, сканер, колоды и партии. Действия ИИ расходуют Ману: ты начинаешь с 20 приветственной Маны и каждый день получаешь один быстрый вопрос бесплатно. Стоимость всегда видна заранее.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="screenshots" aria-labelledby="shots-title">
+    <div class="container section-head">
+      <h2 id="shots-title">ManaPal в деле</h2>
+      <p class="scroll-hint">Листай в сторону, чтобы увидеть все экраны. (Скриншоты на английском)</p>
+    </div>
+    <ul class="shots" tabindex="0" aria-label="Скриншоты ManaPal">
+      <li><figure><img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" loading="lazy" alt="Mote предлагает три замены из твоих карт и кнопку для покупки четырёх недостающих"><figcaption>Замены из твоих карт</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/scanner.webp" width="490" height="1000" loading="lazy" alt="Сканер распознаёт The One Ring, показывает цену и сразу добавляет карту в коллекцию"><figcaption>Сканируй камерой</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/collection.webp" width="490" height="1000" loading="lazy" alt="Экран «Коллекция» с общей стоимостью 124 карт, папками, списком желаний, выпусками и обменом"><figcaption>Стоимость коллекции</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/analysis.webp" width="490" height="1000" loading="lazy" alt="ИИ-анализ колоды Commander с уровнем силы и предложенными заменами из твоих карт"><figcaption>ИИ-анализ колоды</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/commander.webp" width="490" height="1000" loading="lazy" alt="Тест «Найди своего командира» и список популярных командиров с ценами"><figcaption>Найди своего командира</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/deck.webp" width="490" height="1000" loading="lazy" alt="Страница колоды Commander с кнопками Mote, тестовой партии и статистики"><figcaption>Каждая колода как на ладони</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/stats.webp" width="490" height="1000" loading="lazy" alt="Статистика колоды: 38 земель, средняя стоимость маны, вероятности стартовой руки и кривая маны"><figcaption>Статистика колоды</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/games.webp" width="490" height="1000" loading="lazy" alt="Счётчик жизней Commander на четырёх игроков с артом каждого командира и уроном от командира"><figcaption>Счётчик для Commander</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/history.webp" width="490" height="1000" loading="lazy" alt="Экран «Партии» с текущей игрой, твоей игровой группой и последними результатами"><figcaption>Партии и рейтинги</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/mote.webp" width="490" height="1000" loading="lazy" alt="Экран Mote предлагает выбрать колоду или карту для разговора"><figcaption>Знакомься: Mote</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/search.webp" width="490" height="1000" loading="lazy" alt="Добавление карт с поиском по названию или выпуску, импортом и фильтрами"><figcaption>Ищи или импортируй карты</figcaption></figure></li>
+      <li><figure><img src="../assets/app-images/screenshots/en/card.webp" width="490" height="1000" loading="lazy" alt="Карточка Ashling, the Limitless с полным текстом правил"><figcaption>Каждая карта в деталях</figcaption></figure></li>
+    </ul>
+  </section>
+
+  <section class="section" id="how-it-works" aria-labelledby="how-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="how-title">Как это работает</h2>
+        <p>От коробки карт до колоды на столе за четыре шага.</p>
+      </div>
+      <ol class="steps four">
+        <li><h3>Добавь карты</h3><p>Отсканируй их камерой, найди по названию или выпуску либо импортируй список из другого приложения.</p></li>
+        <li><h3>Собери или импортируй колоды</h3><p>Создай колоду, импортируй её из Moxfield, Archidekt или текстового списка, или попроси Mote собрать её из твоей коллекции.</p></li>
+        <li><h3>Спроси Mote</h3><p>Вопросы по правилам, анализ колоды и замены из твоих карт. Стоимость в Мане видна до начала.</p></li>
+        <li><h3>Играй и записывай</h3><p>Открой счётчик, играй, и каждый результат попадёт в твою статистику и рейтинг группы.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="guides" aria-labelledby="guides-title">
+    <div class="container">
+      <div class="section-head">
+        <h2 id="guides-title">Гайды для игроков в Magic</h2>
+        <p>Практичные ответы на вопросы перед каждым игровым вечером. Пока гайды доступны на английском.</p>
+      </div>
+      <ul class="cards">
+        <li><a class="card-link" href="../guides/how-to-scan-mtg-cards.html" hreflang="en"><h3>Как сканировать карты МТГ на iPhone</h3><p>Оцифруй всю коллекцию, не вводя ни одного названия.</p><span class="more">Читать гайд (на английском) →</span></a></li>
+        <li><a class="card-link" href="../guides/how-much-is-my-mtg-collection-worth.html" hreflang="en"><h3>Сколько стоит моя коллекция Magic?</h3><p>Найди ценные карты и получи реалистичную сумму.</p><span class="more">Читать гайд (на английском) →</span></a></li>
+        <li><a class="card-link" href="../guides/build-commander-deck-from-your-collection.html" hreflang="en"><h3>Колода Commander из твоей коллекции</h3><p>Преврати свои карты в рабочую колоду из 100 карт.</p><span class="more">Читать гайд (на английском) →</span></a></li>
+        <li><a class="card-link" href="../guides/how-to-choose-a-commander.html" hreflang="en"><h3>Как выбрать командира</h3><p>Под твой стиль игры и твой бюджет.</p><span class="more">Читать гайд (на английском) →</span></a></li>
+        <li><a class="card-link" href="../guides/how-many-lands-in-a-commander-deck.html" hreflang="en"><h3>Сколько земель в колоде Commander?</h3><p>Хватит пропускать земли или тянуть одни земли.</p><span class="more">Читать гайд (на английском) →</span></a></li>
+        <li><a class="card-link" href="../guides/mtg-life-counter-commander-damage.html" hreflang="en"><h3>Жизни и урон от командира</h3><p>40 жизней, урон от командира, яд и монарх без путаницы.</p><span class="more">Читать гайд (на английском) →</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="faq" aria-labelledby="faq-title">
+    <div class="narrow">
+      <div class="section-head">
+        <h2 id="faq-title">Частые вопросы</h2>
+      </div>
+      <div class="faq">
+        <details><summary><h3>ManaPal бесплатное?</h3></summary><div class="answer"><p>Да. ManaPal скачивается бесплатно, а коллекция, цены, сканер, выпуски, готовые колоды, колоды и счётчик жизней бесплатны навсегда. Действия ИИ расходуют Ману: ты начинаешь с 20 приветственной Маны и каждый день получаешь один быстрый вопрос бесплатно. ManaPal Pro — по желанию. <a href="../guides/build-commander-deck-from-your-collection.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Может ли ManaPal сканировать карты Magic?</h3></summary><div class="answer"><p>Да. Наведи камеру iPhone на карту: ManaPal распознает её, покажет цену и добавит в коллекцию. Можно выбрать выпуск, отметить фойл и продолжать сканирование. <a href="../guides/how-to-scan-mtg-cards.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Как узнать, сколько стоит моя коллекция Magic?</h3></summary><div class="answer"><p>Добавь карты в ManaPal сканированием или импортом списка: экран «Коллекция» покажет общую стоимость по актуальным ценам и её изменение со временем. <a href="../guides/how-much-is-my-mtg-collection-worth.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Соберёт ли ManaPal колоду Commander из моих карт?</h3></summary><div class="answer"><p>Да. С функцией «Собери колоду из моих карт» Mote собирает колоду Commander из 100 карт, в первую очередь из твоей коллекции, и перечисляет несколько недостающих. <a href="../guides/build-commander-deck-from-your-collection.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Как выбрать подходящего командира?</h3></summary><div class="answer"><p>Отталкивайся от того, как ты любишь побеждать, от любимых цветов и бюджета. В ManaPal тест «Найди своего командира» задаёт 12 вопросов и предлагает командиров в бюджетном, среднем и топовом списках. <a href="../guides/how-to-choose-a-commander.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Сколько земель нужно в колоде Commander?</h3></summary><div class="answer"><p>Большинство колод Commander играют 36–38 земель и около 10 карт рампа. Меньше при низкой кривой, больше при множестве дорогих заклинаний. ManaPal показывает число земель, кривую маны и вероятности стартовой руки. <a href="../guides/how-many-lands-in-a-commander-deck.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Есть ли в ManaPal счётчик жизней с уроном от командира?</h3></summary><div class="answer"><p>Да. Счётчик поддерживает от 2 до 6 игроков с уроном от командира, ядом, монархом, инициативой, Planechase и Archenemy и сохраняет каждую партию в статистику. <a href="../guides/mtg-life-counter-commander-damage.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+        <details><summary><h3>Где хранятся мои карты и колоды?</h3></summary><div class="answer"><p>На твоём устройстве и в твоём собственном iCloud, с синхронизацией между iPhone и iPad. Мы их не видим и не продаём. <a href="../privacy.html" hreflang="en">Подробнее (на английском)</a></p></div></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section final-cta" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="panel">
+        <img class="mote" src="../assets/app-images/mote/happy.webp" width="120" height="120" alt="">
+        <h2 id="cta-title">Неси свои карты к столу</h2>
+        <p>ManaPal скоро появится в App Store для iPhone и iPad. Отсканируй первые карты, собери следующую колоду Commander, а подсчёты оставь Mote.</p>
+        <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Скоро в</small><strong>App Store</strong></span></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
+        <p>Твоя коллекция Magic, колоды и партии в одном приложении, с ассистентом, который знает твои карты.</p>
+        <p>© 2026 AlbosApps</p>
+      </div>
+      <nav aria-label="Гайды">
+        <h2>Гайды (на английском)</h2>
+        <ul>
+          <li><a href="../guides/how-to-scan-mtg-cards.html" hreflang="en">Сканирование карт</a></li>
+          <li><a href="../guides/how-much-is-my-mtg-collection-worth.html" hreflang="en">Стоимость коллекции</a></li>
+          <li><a href="../guides/build-commander-deck-from-your-collection.html" hreflang="en">Колода из коллекции</a></li>
+          <li><a href="../guides/how-to-choose-a-commander.html" hreflang="en">Выбор командира</a></li>
+          <li><a href="../guides/how-many-lands-in-a-commander-deck.html" hreflang="en">Земли в Commander</a></li>
+          <li><a href="../guides/mtg-life-counter-commander-damage.html" hreflang="en">Урон от командира</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="ManaPal">
+        <h2>ManaPal</h2>
+        <ul>
+          <li><a href="../support.html" hreflang="en">Поддержка</a></li>
+          <li><a href="../privacy.html" hreflang="en">Конфиденциальность</a></li>
+          <li><a href="../terms.html" hreflang="en">Условия использования</a></li>
+          <li><a href="mailto:albosapps@gmail.com">albosapps@gmail.com</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Язык</h2>
+        <details class="lang">
+          <summary>Русский</summary>
+          <ul>
+            <li><a href="../index.html" hreflang="en-US" lang="en-US">English (US)</a></li>
+            <li><a href="../it/index.html" hreflang="it" lang="it">Italiano</a></li>
+            <li><a href="../de-DE/index.html" hreflang="de-DE" lang="de-DE">Deutsch</a></li>
+            <li><a href="../fr-FR/index.html" hreflang="fr-FR" lang="fr-FR">Français</a></li>
+            <li><a href="../es-ES/index.html" hreflang="es-ES" lang="es-ES">Español (España)</a></li>
+            <li><a href="../es-MX/index.html" hreflang="es-MX" lang="es-MX">Español (México)</a></li>
+            <li><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
+            <li><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a></li>
+            <li><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></li>
+            <li><a href="index.html" hreflang="ru" lang="ru" aria-current="page">Русский</a></li>
+            <li><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a></li>
+            <li><a href="../ko/index.html" hreflang="ko" lang="ko">한국어</a></li>
+            <li><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
+            <li><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
+          </ul>
+        </details>
+      </div>
+    </div>
+    <p class="legal-note" lang="en">ManaPal is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>
+    <p class="legal-note">Данные и изображения карт: Scryfall. Apple, iPhone и iPad — товарные знаки Apple Inc. App Store — знак обслуживания Apple Inc.</p>
+  </div>
+</footer>
+</body>
+</html>
