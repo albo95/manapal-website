@@ -40,7 +40,7 @@
   <p class="meta">Last updated: November 13, 2026</p>
 
   <div class="answer-box">
-    <p><strong>In short:</strong> your collection, decks, games and playgroup stay on your device and in your own iCloud. We can't see them and we don't sell them. If you create an online profile to add friends, your profile and the games you play together are stored on our server so they reach your friends' phones. When you use an AI feature, only what's needed for the answer is sent to our server and to our AI provider, and only after you've agreed in the app. Usage statistics are optional and off by default: if you turn them on, Google Analytics for Firebase tells us how the app is used, never what you write. Purchases are handled by Apple.</p>
+    <p><strong>In short:</strong> your collection, decks, games and playgroup stay on your device and in your own iCloud. We can't see them and we don't sell them. If you create an online profile to add friends, your profile and the games you play together are stored on our server so they reach your friends' phones. When you use an AI feature, only what's needed for the answer is sent to our server and to one of our AI providers, and only after you've agreed in the app. Usage statistics are optional and off by default: if you turn them on, Google Analytics for Firebase tells us how the app is used, never what you write. Purchases are handled by Apple.</p>
   </div>
 
   <h2>Who we are</h2>
@@ -50,7 +50,7 @@
   <p>Your collection, binders, wishlist, decks, games, game history and the names of the friends you add to your playgroup are stored on your device and synced through your private iCloud account (Apple CloudKit). This data is not sent to our server and we can't access it, except for the online profile and the shared games described in the next section, which you choose to use. Apple's privacy policy applies to iCloud.</p>
 
   <h2>Online profile, friends and shared games</h2>
-  <p>Friends are optional. If you create an online profile, we store on our server (hosted by Supabase) the name you choose, your color, the card art you pick as avatar (a Scryfall reference, never a photo of yours), your friend code and the decks you choose to show in your profile (name, format, colors, commander and cover card). Only you and your friends can see them. To create the profile the app signs you in anonymously, or with Sign in with Apple if you've linked it.</p>
+  <p>Friends are optional. If you create an online profile, we store on our server (hosted by Supabase) the name you choose, your color, the card art you pick as avatar (a Scryfall reference, never a photo of yours), your friend code and the decks you choose to show in your profile (name, format, colors, commander and cover card). Your friends can see them. Anyone who opens an invite link or QR code you share sees your name, color and avatar, so they can add you. To create the profile the app signs you in anonymously, or with Sign in with Apple if you've linked it.</p>
   <p>When you add a friend (with a QR code, a link or a friend code) we store the friendship between the two profiles. When you play a game with a linked friend, the game is uploaded so it appears on their phone too: date, duration, format and, for each seat, the player's name, deck, commander, final life total and who won. Only the players linked to that game can see it, and each of them can hide it. We also store the people you block, and short-lived records of invites and attempts, to prevent abuse.</p>
   <p>You can delete your online profile at any time from your profile in the app: this deletes your profile, showcase decks, friendships and invites from our server. The games you uploaded are deleted too. In games your friends uploaded, your seat keeps the name you played with, no longer linked to any profile. You can also report a friend from their page: the report is an email to us that includes their profile identifier.</p>
 
@@ -61,30 +61,37 @@
   <p>ManaPal uses the camera only when you scan cards, to recognize them. Card photos leave your device only when you use an AI feature that needs them (for example AI card recognition or the card condition estimate), as described in the next section.</p>
 
   <h2>AI features (Mote)</h2>
-  <p>When you ask Mote a question, request a deck analysis, ask it to build a deck, take the "Find your Commander" quiz or request a condition estimate, we send to our server and to one of our AI providers, Anthropic (Claude) or OpenAI (GPT), depending on the feature:</p>
+  <p>When you ask Mote a question, ask it for a rules verdict, request a deck analysis or another deck tool, ask it to build a deck or write a deck description, take the "Find your Commander" quiz, or ask it to recognize a card or estimate its condition, we send to our server and to one of our AI providers, Anthropic (Claude) or OpenAI (GPT), depending on the feature:</p>
   <ul>
     <li>your request;</li>
     <li>the cards and decks needed to answer it;</li>
     <li>the card photos to recognize or assess, when relevant;</li>
     <li>your Magic experience level and favorite formats, if you gave them in the onboarding survey, so Mote can adapt its answers.</li>
   </ul>
-  <p>This happens only after you give your consent in the app, and only to generate the answer. We never send your name or email address. Anthropic processes this data under its <a href="https://www.anthropic.com/legal/commercial-terms" rel="noopener">commercial terms</a> and its <a href="https://www.anthropic.com/legal/privacy" rel="noopener">privacy policy</a>; OpenAI under its <a href="https://openai.com/policies/services-agreement/" rel="noopener">services agreement</a> and its <a href="https://openai.com/policies/privacy-policy/" rel="noopener">privacy policy</a>. Neither provider uses this data to train its models. Both are based in the United States, so this data is processed there.</p>
+  <p>For some questions the AI provider may run a web search to complete the answer; the search is based on your request and never includes your name. This happens only after you give your consent in the app, and only to generate the answer. We never send your name or email address. Anthropic processes this data under its <a href="https://www.anthropic.com/legal/commercial-terms" rel="noopener">commercial terms</a> and its <a href="https://www.anthropic.com/legal/privacy" rel="noopener">privacy policy</a>; OpenAI under its <a href="https://openai.com/policies/services-agreement/" rel="noopener">services agreement</a> and its <a href="https://openai.com/policies/privacy-policy/" rel="noopener">privacy policy</a>. Neither provider uses this data to train its models. Both are based in the United States, so this data is processed there.</p>
 
   <h2>Sign in with Apple and Mana</h2>
   <p>AI features require Sign in with Apple. We use the anonymous identifier provided by Apple to manage your Mana balance, your free daily AI allowance, your ManaPal Pro status and invite codes. This information is stored on our server, hosted by Supabase. Collection, decks and games work without signing in.</p>
   <p>For each AI action, our server also records its type, cost, the AI model used, the amount of processing it took (tokens), whether it completed or was refunded, and when it happened. This record is linked to your account's anonymous identifier. It doesn't contain your questions, your cards or your photos, and it isn't tied to the statistics switch below, because we need it to charge and refund Mana and to apply daily limits. We also look at these records to understand which AI features are used, how often they fail and what they cost.</p>
 
   <h2>Purchases</h2>
-  <p>Mana packs and ManaPal Pro subscriptions are sold and processed by Apple through the App Store. We don't receive your payment details: we only receive the confirmation needed to credit your Mana or activate Pro.</p>
+  <p>Mana packs and ManaPal Pro subscriptions are sold and processed by Apple through the App Store. We don't receive your payment details: we only receive the confirmation needed to credit your Mana or activate Pro. We keep the transaction identifier, the product and the Mana credited, so that the same purchase can't be credited twice.</p>
 
   <h2>Invite codes</h2>
   <p>If you use or share an invite code, we record the link between the two accounts' anonymous identifiers to give the Mana reward to both the person who invited and the person who joined.</p>
 
   <h2>Card data, images and prices</h2>
-  <p>Card data and images are downloaded from Scryfall. As with any internet request, Scryfall receives the technical information needed to deliver them, such as your IP address. If you use "buy the missing cards" or a "Buy on…" button, the app opens a third-party store (such as TCGplayer or Card Kingdom), whose own privacy policy applies.</p>
+  <p>Card data and images are downloaded from Scryfall. The app also contacts directly a few other public Magic services:</p>
+  <ul>
+    <li><strong>Commander Spellbook</strong>, which receives the list of cards in a deck to find its combos;</li>
+    <li><strong>MTGJSON</strong>, for official precons and their decklists;</li>
+    <li><strong>Archidekt</strong>, for public decklists and when you import a deck from an Archidekt link;</li>
+    <li><strong>Frankfurter</strong>, for currency exchange rates (European Central Bank data), to show prices in your currency.</li>
+  </ul>
+  <p>As with any internet request, these services receive the technical information needed to answer, such as your IP address, but no account information. Tournament results and decklists from TopDeck.gg reach the app through our server, so TopDeck.gg doesn't receive anything from you. If you use "buy the missing cards" or a "Buy on…" button, the app opens a third-party store (such as Cardmarket, TCGplayer, CardTrader or Card Kingdom), whose own privacy policy applies.</p>
 
   <h2>Store links (affiliate links)</h2>
-  <p>Some "Buy on…" links are affiliate links: they include a ManaPal code, and if you buy something the store may pay us a small commission, at no extra cost to you. The app marks these links as affiliate links. The store may use cookies to recognize the referral. We don't receive your name, your order or your payment details: stores only report to us aggregated sales and commissions.</p>
+  <p>Some "Buy on…" links may be affiliate links: they include a ManaPal code, and if you buy something the store may pay us a small commission, at no extra cost to you. The app marks these links as affiliate links. The store may use cookies to recognize the referral. We don't receive your name, your order or your payment details: stores only report to us aggregated sales and commissions.</p>
 
   <h2>Onboarding survey</h2>
   <p>When you first open ManaPal you can answer a short optional survey: how long you've played Magic, what you play, what you want to do with the app and which app you used before. Your answers are stored on your device and used to tailor the app, for example which tab opens first and the default format for new decks. Your experience level and favorite formats are also included in your AI requests, as described above. The answers reach Google only if you turn on usage statistics.</p>
@@ -105,12 +112,12 @@
   <h2>Legal bases</h2>
   <ul>
     <li><strong>Performance of a contract:</strong> providing the features you request, including managing your Mana, Pro status and invite codes, your online profile, friends, shared games and notifications.</li>
-    <li><strong>Consent:</strong> sending content to our AI provider and collecting usage statistics. You can withdraw consent to usage statistics at any time with the switch in Settings › Privacy. You can withdraw consent to AI processing by no longer using the AI features and writing to us. Withdrawing doesn't affect processing that already took place.</li>
+    <li><strong>Consent:</strong> sending content to our AI providers and collecting usage statistics. You can withdraw consent to usage statistics at any time with the switch in Settings › Privacy. You can withdraw consent to AI processing by no longer using the AI features and writing to us. Withdrawing doesn't affect processing that already took place.</li>
     <li><strong>Legitimate interest:</strong> looking at the records of AI actions on our server to keep the AI features reliable and their costs under control. You can object by writing to us.</li>
   </ul>
 
   <h2>Retention</h2>
-  <p>Data on our server is kept for as long as your account exists. You can delete your account in the app, from the account menu in the Mana store, or ask us to do it: this erases your Mana balance, Pro status, invite codes, AI action records and your online profile with its friendships. We keep only a note that your anonymous Apple identifier has already received the welcome Mana, so that it can't be claimed twice.</p>
+  <p>Data on our server is kept for as long as your account exists. You can delete your account in the app, from the account menu in the Mana store, or ask us to do it: this erases your Mana balance, Pro status, invite codes, AI action records, your online profile with its friendships and shared games, and your notification token. We keep only what prevents the same thing from being credited twice: the purchase records described above, and a note that your anonymous Apple identifier has already received the welcome gift. The sign-in account is shared with our other apps: it's deleted too, together with the purchase records, unless you still use another AlbosApps app with it. The welcome-gift note isn't linked to your account and stays.</p>
   <p>Usage statistics linked to the random identifier are kept by Google for up to 14 months and then deleted. Reports that combine data from many users and contain no identifier can be kept for longer.</p>
 
   <h2>Your rights</h2>

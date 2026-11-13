@@ -66,14 +66,16 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "Is ManaPal free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ManaPal is free to download, and the collection, prices, scanner, sets, precons, decks and life counter are free forever. AI actions run on Mana: you start with 20 welcome Mana and get one quick AI question free every day. ManaPal Pro is optional." } },
+    { "@type": "Question", "name": "Is ManaPal free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ManaPal is free to download, and the collection, prices, scanner, sets, precons and life counter are free forever, with up to 7 built decks. AI actions run on Mana: one quick AI question is free every day and your first Find your Commander is free. ManaPal Pro is optional and adds Mana every month, advanced stats and unlimited decks, binders and playtest." } },
     { "@type": "Question", "name": "Can ManaPal scan Magic: The Gathering cards?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Point your iPhone camera at a card and ManaPal recognizes it, shows its price and adds it to your collection. You can pick the set, mark it as foil and keep scanning without leaving the camera." } },
     { "@type": "Question", "name": "How do I find out how much my MTG collection is worth?", "acceptedAnswer": { "@type": "Answer", "text": "Add your cards to ManaPal by scanning them or importing a list: the collection screen shows the total value, updated with current market prices, and how it changes over time." } },
-    { "@type": "Question", "name": "Can ManaPal build a Commander deck from the cards I own?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. With \"Build a deck with my cards\", Mote builds a 100-card Commander deck using the cards in your collection first, and lists the few you are missing." } },
+    { "@type": "Question", "name": "Can ManaPal build a Commander deck from the cards I own?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. With \"Build me a deck with my cards\", Mote builds a 100-card Commander deck using the cards in your collection first, and lists the few you are missing." } },
     { "@type": "Question", "name": "How do I choose the right commander?", "acceptedAnswer": { "@type": "Answer", "text": "Start from how you like to win, your favorite colors and your budget. In ManaPal, the \"Find the right Commander for you\" quiz asks 12 questions and suggests commanders in budget, mid and top lists." } },
     { "@type": "Question", "name": "How many lands should a Commander deck run?", "acceptedAnswer": { "@type": "Answer", "text": "Most Commander decks play 36 to 38 lands plus about 10 ramp pieces. Go lower with a cheap curve and lots of ramp, higher with many expensive spells or landfall payoffs. ManaPal shows your land count, mana curve and opening-hand odds." } },
     { "@type": "Question", "name": "Does ManaPal have a life counter with commander damage?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The life counter handles 2 to 6 players with commander damage, poison, monarch, initiative, Planechase and Archenemy, and saves every game in your stats." } },
-    { "@type": "Question", "name": "Can I import my collection from ManaBox or Moxfield?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ManaPal imports collections from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer and Cardmarket CSV files, and decks from Archidekt, Moxfield or a plain text list." } },
+    { "@type": "Question", "name": "Can I import my collection from ManaBox or Moxfield?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. ManaPal imports collections from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer and Cardmarket CSV files, and decks from Archidekt, Moxfield, ManaBox, MTG Arena or a plain text list." } },
+    { "@type": "Question", "name": "Can ManaPal answer Magic rules questions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The official Comprehensive Rules and every card's official rulings are in the app and work offline, and you can look up several cards at once to see how they interact. For a tricky interaction, Ask Mote reads the rules and the rulings and gives you a verdict with the rules it relied on." } },
+    { "@type": "Question", "name": "Can I play with my friends in ManaPal?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Create a free online profile, add friends with a QR code, a link or a friend code, and the games you play together show up on everyone's phone, with stats for your playgroup." } },
     { "@type": "Question", "name": "Where are my cards and decks stored?", "acceptedAnswer": { "@type": "Answer", "text": "On your device and in your own iCloud, synced across your iPhone and iPad. We can't see them and we don't sell them." } },
     { "@type": "Question", "name": "Is ManaPal an official Wizards of the Coast app?", "acceptedAnswer": { "@type": "Answer", "text": "No. ManaPal is unofficial Fan Content permitted under the Fan Content Policy. It is not approved or endorsed by Wizards of the Coast." } }
   ]
@@ -126,6 +128,8 @@
         <ul class="trust">
           <li>Card scanner</li>
           <li>Commander life counter</li>
+          <li>Offline rules</li>
+          <li>Play with friends</li>
           <li>14 languages</li>
           <li>iCloud sync</li>
         </ul>
@@ -148,14 +152,17 @@
           <img class="download-mote" src="assets/app-images/mote/greeting.webp" width="170" height="170" alt="Mote, ManaPal's golden Mana-drop assistant, winking hello">
         </div>
         <ul class="reasons">
-          <li><strong>Scan it, see what it's worth</strong><span>Point the camera at a card and it's added with its price. Watch your collection's total value change over time.</span></li>
-          <li><strong>Decks built from what you own</strong><span>Mote builds a Commander deck from your collection, or analyzes yours and suggests swaps with cards you already have.</span></li>
-          <li><strong>Find your Commander</strong><span>Answer 12 questions and get commanders that fit you, in budget, mid and top lists.</span></li>
-          <li><strong>A life counter made for Commander</strong><span>2 to 6 players, commander damage, poison, monarch, initiative, Planechase and Archenemy. Every game lands in your stats.</span></li>
-          <li><strong>Stats that explain your deck</strong><span>Mana curve, lands, colors, opening-hand odds, deck value and what the missing cards cost.</span></li>
-          <li><strong>Bring your cards with you</strong><span>Import from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer or Cardmarket. Synced with iCloud.</span></li>
+          <li class="t-collection"><strong>Scan it, see what it's worth</strong><span>Point the camera at one card after another: they're added with their price, without stopping. Watch your collection's total value change over time.</span></li>
+          <li class="t-decks"><strong>Decks built from what you own</strong><span>Mote builds a Commander deck from your collection, or analyzes yours and suggests swaps with cards you already have.</span></li>
+          <li class="t-commander"><strong>Find your Commander</strong><span>Answer 12 questions and get commanders that fit you, in budget, mid and top lists, then import decks that placed at real tournaments.</span></li>
+          <li class="t-games"><strong>A life counter made for Commander</strong><span>2 to 6 players, commander damage, poison, monarch, initiative, Planechase and Archenemy. Every game lands in your history.</span></li>
+          <li class="t-games"><strong>Play with your friends</strong><span>Add friends with a QR code or a link: the games you play together show up on everyone's phone, with your playgroup's leaderboard.</span></li>
+          <li class="t-mote"><strong>Rules at the table</strong><span>The Comprehensive Rules and every card's official rulings, offline. For a tricky interaction, Ask Mote gives you a verdict with the rules it cites.</span></li>
+          <li class="t-decks"><strong>Stats that explain your deck</strong><span>Mana curve, lands, colors, combos, opening-hand odds, deck value and what the missing cards cost.</span></li>
+          <li class="t-decks"><strong>Precons and test games</strong><span>Every official precon with its description, and a test game to see how a deck draws before you sleeve it.</span></li>
+          <li class="t-collection"><strong>Bring your cards with you</strong><span>Import from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer or Cardmarket. Synced with iCloud.</span></li>
         </ul>
-        <p class="btn-note">Free forever: collection, prices, scanner, decks and games. AI actions use Mana: you start with 20 welcome Mana and get a free quick question every day. You always see the cost before an action starts.</p>
+        <p class="btn-note">Free forever: collection, prices, scanner, games and up to 7 built decks. AI actions use Mana and you always see the cost before an action starts: one quick question is free every day, and so is your first Find your Commander. ManaPal Pro is optional: Mana every month, advanced stats, unlimited decks, binders and playtest.</p>
       </div>
     </div>
   </section>
@@ -191,7 +198,7 @@
         <li><h3>Add your cards</h3><p>Scan them with the camera, search by name or set, or import your list from another app.</p></li>
         <li><h3>Build or import decks</h3><p>Create a deck, import it from Moxfield, Archidekt or a text list, or let Mote build one from your collection.</p></li>
         <li><h3>Ask Mote</h3><p>Rules questions, deck analysis and swaps from your own cards. The Mana cost is shown before anything starts.</p></li>
-        <li><h3>Play and track</h3><p>Open the life counter, play, and every result goes into your stats and your playgroup's leaderboard.</p></li>
+        <li><h3>Play and track</h3><p>Open the life counter, play, and every result goes into your history, your playgroup's leaderboard and your friends' phones.</p></li>
       </ol>
     </div>
   </section>
@@ -219,14 +226,16 @@
         <h2 id="faq-title">Frequently asked questions</h2>
       </div>
       <div class="faq">
-        <details><summary><h3>Is ManaPal free?</h3></summary><div class="answer"><p>Yes. ManaPal is free to download, and the collection, prices, scanner, sets, precons, decks and life counter are free forever. AI actions run on Mana: you start with 20 welcome Mana and get one quick AI question free every day. ManaPal Pro is optional. <a href="guides/build-commander-deck-from-your-collection.html">Learn more</a></p></div></details>
+        <details><summary><h3>Is ManaPal free?</h3></summary><div class="answer"><p>Yes. ManaPal is free to download, and the collection, prices, scanner, sets, precons and life counter are free forever, with up to 7 built decks. AI actions run on Mana: one quick AI question is free every day and your first Find your Commander is free. ManaPal Pro is optional and adds Mana every month, advanced stats and unlimited decks, binders and playtest. <a href="guides/build-commander-deck-from-your-collection.html">Learn more</a></p></div></details>
         <details><summary><h3>Can ManaPal scan Magic: The Gathering cards?</h3></summary><div class="answer"><p>Yes. Point your iPhone camera at a card and ManaPal recognizes it, shows its price and adds it to your collection. You can pick the set, mark it as foil and keep scanning without leaving the camera. <a href="guides/how-to-scan-mtg-cards.html">Learn more</a></p></div></details>
         <details><summary><h3>How do I find out how much my MTG collection is worth?</h3></summary><div class="answer"><p>Add your cards to ManaPal by scanning them or importing a list: the collection screen shows the total value, updated with current market prices, and how it changes over time. <a href="guides/how-much-is-my-mtg-collection-worth.html">Learn more</a></p></div></details>
-        <details><summary><h3>Can ManaPal build a Commander deck from the cards I own?</h3></summary><div class="answer"><p>Yes. With "Build a deck with my cards", Mote builds a 100-card Commander deck using the cards in your collection first, and lists the few you are missing. <a href="guides/build-commander-deck-from-your-collection.html">Learn more</a></p></div></details>
+        <details><summary><h3>Can ManaPal build a Commander deck from the cards I own?</h3></summary><div class="answer"><p>Yes. With "Build me a deck with my cards", Mote builds a 100-card Commander deck using the cards in your collection first, and lists the few you are missing. <a href="guides/build-commander-deck-from-your-collection.html">Learn more</a></p></div></details>
         <details><summary><h3>How do I choose the right commander?</h3></summary><div class="answer"><p>Start from how you like to win, your favorite colors and your budget. In ManaPal, the "Find the right Commander for you" quiz asks 12 questions and suggests commanders in budget, mid and top lists. <a href="guides/how-to-choose-a-commander.html">Learn more</a></p></div></details>
         <details><summary><h3>How many lands should a Commander deck run?</h3></summary><div class="answer"><p>Most Commander decks play 36 to 38 lands plus about 10 ramp pieces. Go lower with a cheap curve and lots of ramp, higher with many expensive spells or landfall payoffs. ManaPal shows your land count, mana curve and opening-hand odds. <a href="guides/how-many-lands-in-a-commander-deck.html">Learn more</a></p></div></details>
         <details><summary><h3>Does ManaPal have a life counter with commander damage?</h3></summary><div class="answer"><p>Yes. The life counter handles 2 to 6 players with commander damage, poison, monarch, initiative, Planechase and Archenemy, and saves every game in your stats. <a href="guides/mtg-life-counter-commander-damage.html">Learn more</a></p></div></details>
-        <details><summary><h3>Can I import my collection from ManaBox or Moxfield?</h3></summary><div class="answer"><p>Yes. ManaPal imports collections from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer and Cardmarket CSV files, and decks from Archidekt, Moxfield or a plain text list. <a href="guides/how-to-scan-mtg-cards.html#import">Learn more</a></p></div></details>
+        <details><summary><h3>Can I import my collection from ManaBox or Moxfield?</h3></summary><div class="answer"><p>Yes. ManaPal imports collections from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer and Cardmarket CSV files, and decks from Archidekt, Moxfield, ManaBox, MTG Arena or a plain text list. <a href="guides/how-to-scan-mtg-cards.html#import">Learn more</a></p></div></details>
+        <details><summary><h3>Can ManaPal answer Magic rules questions?</h3></summary><div class="answer"><p>Yes. The official Comprehensive Rules and every card's official rulings are in the app and work offline, and you can look up several cards at once to see how they interact. For a tricky interaction, Ask Mote reads the rules and the rulings and gives you a verdict with the rules it relied on. At a tournament, the judge still has the final say.</p></div></details>
+        <details><summary><h3>Can I play with my friends in ManaPal?</h3></summary><div class="answer"><p>Yes. Create a free online profile, add friends with a QR code, a link or a friend code, and the games you play together show up on everyone's phone, with stats for your playgroup. <a href="support.html">Learn more</a></p></div></details>
         <details><summary><h3>Where are my cards and decks stored?</h3></summary><div class="answer"><p>On your device and in your own iCloud, synced across your iPhone and iPad. We can't see them and we don't sell them. <a href="privacy.html">Learn more</a></p></div></details>
         <details><summary><h3>Is ManaPal an official Wizards of the Coast app?</h3></summary><div class="answer"><p>No. ManaPal is unofficial Fan Content permitted under the Fan Content Policy. It is not approved or endorsed by Wizards of the Coast. <a href="terms.html">Learn more</a></p></div></details>
       </div>

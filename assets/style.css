@@ -1,48 +1,47 @@
-/* ManaPal: shared stylesheet. No external requests, system fonts only. */
+/* ManaPal: shared stylesheet. No external requests: the only font is the app's own, served from here.
+   The look follows the app: dark ink canvas with the mana aurora, flat gold buttons, violet for AI,
+   Young Serif titles, translucent surfaces and glass capsules. Values come from the app's AppTheme. */
+
+@font-face {
+  font-family: "Young Serif";
+  src: url("fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
-  color-scheme: dark light;
+  color-scheme: dark;
+  /* AppTheme.ink / inkRaised / surface */
   --bg: #0b0a10;
-  --bg-2: #110f18;
-  --surface: #17161f;
-  --surface-2: #201e2b;
-  --border: rgba(255, 255, 255, 0.09);
-  --text: #f5f1e8;
-  --muted: #b8b2c4;
+  --bg-2: #171620;
+  --surface: rgba(34, 33, 41, 0.92);
+  --surface-2: rgba(46, 45, 54, 0.9);
+  --glass: rgba(40, 38, 48, 0.55);
+  --border: rgba(255, 255, 255, 0.13);
+  --text: #f7f4ee;
+  --muted: #b6b1bf;
+  /* Mana theme accent */
   --accent: #ffc63c;
   --accent-light: #ffe89e;
   --accent-deep: #db8c14;
   --accent-text: #ffc63c;
-  --arcane: #9e73ff;
-  --on-accent: #1f1229;
-  --halo-gold: rgba(255, 198, 60, 0.16);
-  --halo-violet: rgba(158, 115, 255, 0.16);
-  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
-  --radius: 22px;
-  --radius-sm: 14px;
+  --on-accent: #0b0a10;
+  /* AppTheme.arcaneButton: AI actions */
+  --arcane: #7852db;
+  --arcane-text: #b88cff;
+  /* Tab colors */
+  --tab-collection: #4dcc73;
+  --tab-decks: #4da8ff;
+  --tab-commander: #b88cff;
+  --tab-games: #ff6b3d;
+  --tab-mote: #ffc63c;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+  --radius: 26px;
+  --radius-sm: 16px;
   --max: 1120px;
-  --serif: ui-serif, "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --serif: "Young Serif", ui-serif, "New York", Georgia, "Times New Roman", serif;
   --sans: -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg: #fbf8f1;
-    --bg-2: #f4efe3;
-    --surface: #ffffff;
-    --surface-2: #f3eee2;
-    --border: rgba(31, 18, 41, 0.12);
-    --text: #1a1722;
-    --muted: #565063;
-    --accent-text: #8a5a00;
-    --halo-gold: rgba(219, 140, 20, 0.14);
-    --halo-violet: rgba(158, 115, 255, 0.12);
-    --shadow: 0 20px 50px rgba(31, 18, 41, 0.14);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root { color-scheme: dark; }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -55,9 +54,14 @@ body {
   font-size: 1.0625rem;
   line-height: 1.6;
   color: var(--text);
+  /* The app's mesh canvas (AppCanvasMesh, mana theme): ink on top, blue and violet in the middle band,
+     green low on the left, ember low on the right. */
   background:
-    radial-gradient(60rem 40rem at 100% -10%, var(--halo-violet), transparent 60%),
-    radial-gradient(50rem 36rem at -10% 10%, var(--halo-gold), transparent 60%),
+    radial-gradient(70vw 45vh at 0% 32%, rgba(77, 168, 255, 0.24), transparent 70%),
+    radial-gradient(70vw 45vh at 100% 30%, rgba(158, 115, 255, 0.28), transparent 70%),
+    radial-gradient(60vw 45vh at 8% 100%, rgba(77, 204, 115, 0.2), transparent 70%),
+    radial-gradient(60vw 45vh at 100% 100%, rgba(255, 107, 61, 0.24), transparent 70%),
+    radial-gradient(40vw 30vh at 55% 70%, rgba(255, 198, 60, 0.07), transparent 70%),
     var(--bg);
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
@@ -74,11 +78,13 @@ a:hover { text-decoration-thickness: 2px; }
   border-radius: 6px;
 }
 
+/* Young Serif has one weight: never fake a bold on top of it. */
 h1, h2, h3 {
   font-family: var(--serif);
-  font-weight: 700;
+  font-weight: 400;
+  font-synthesis: none;
   line-height: 1.15;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.005em;
   margin: 0 0 0.5em;
 }
 h1 { font-size: clamp(2.1rem, 6vw, 3.6rem); }
@@ -113,22 +119,28 @@ p { margin: 0 0 1em; }
 }
 
 /* Header */
+/* A floating glass capsule, like the app's tab bar. */
 .site-header {
   position: sticky;
-  top: 0;
+  top: 0.75rem;
   z-index: 50;
-  backdrop-filter: saturate(160%) blur(16px);
-  -webkit-backdrop-filter: saturate(160%) blur(16px);
-  background: var(--bg);
-  background: color-mix(in srgb, var(--bg) 78%, transparent);
-  border-bottom: 1px solid var(--border);
+  padding-top: 0.75rem;
+  margin-top: -0.75rem;
 }
 .site-header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  min-height: 64px;
+  min-height: 58px;
+  padding: 0 0.6rem 0 0.9rem;
+  border-radius: 999px;
+  background: rgba(30, 29, 38, 0.82);
+  background: color-mix(in srgb, var(--glass) 100%, transparent);
+  backdrop-filter: saturate(170%) blur(22px);
+  -webkit-backdrop-filter: saturate(170%) blur(22px);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 .brand {
   display: inline-flex;
@@ -137,13 +149,13 @@ p { margin: 0 0 1em; }
   color: var(--text);
   text-decoration: none;
   font-family: var(--serif);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.2rem;
 }
 .brand img { width: 34px; height: 34px; border-radius: 9px; }
-.header-nav { display: flex; align-items: center; gap: 1.1rem; font-size: 0.95rem; }
-.header-nav a { color: var(--muted); text-decoration: none; }
-.header-nav a:hover { color: var(--text); }
+.header-nav { display: flex; align-items: center; gap: 0.35rem; font-size: 0.95rem; }
+.header-nav a { color: var(--muted); text-decoration: none; padding: 0.4rem 0.8rem; border-radius: 999px; }
+.header-nav a:hover { color: var(--text); background: rgba(255, 255, 255, 0.08); }
 .header-nav .hide-sm { display: none; }
 @media (min-width: 720px) { .header-nav .hide-sm { display: inline; } }
 
@@ -152,11 +164,13 @@ p { margin: 0 0 1em; }
 .lang summary {
   list-style: none;
   cursor: pointer;
-  padding: 0.35rem 0.75rem;
+  padding: 0.4rem 0.85rem;
   border: 1px solid var(--border);
   border-radius: 999px;
-  color: var(--text);
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--accent-text);
   font-size: 0.9rem;
+  font-weight: 600;
 }
 .lang summary::-webkit-details-marker { display: none; }
 .lang ul {
@@ -190,13 +204,13 @@ p { margin: 0 0 1em; }
   align-items: center;
   gap: 0.7rem;
   padding: 0.75rem 1.4rem 0.75rem 1.1rem;
-  border-radius: 16px;
-  background: linear-gradient(135deg, var(--accent-light), var(--accent) 45%, var(--accent-deep));
+  border-radius: 999px;
+  /* Flat, like the app's buttons (AppTheme.usesFlatButtons). */
+  background: var(--accent);
   color: var(--on-accent);
   text-decoration: none;
   font-weight: 700;
   line-height: 1.15;
-  box-shadow: 0 10px 30px rgba(255, 198, 60, 0.25);
 }
 .store-btn svg { width: 26px; height: 26px; flex: none; }
 .store-btn small { display: block; font-size: 0.72rem; font-weight: 600; opacity: 0.85; }
@@ -239,7 +253,9 @@ p { margin: 0 0 1em; }
 .section-head p { color: var(--muted); font-size: 1.1rem; }
 
 .panel {
-  background: linear-gradient(160deg, var(--surface), var(--bg-2));
+  background: var(--surface);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--border);
   border-radius: calc(var(--radius) + 8px);
   padding: clamp(1.75rem, 5vw, 3.5rem);
@@ -253,12 +269,29 @@ p { margin: 0 0 1em; }
 @media (min-width: 640px) { .reasons { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 980px) { .reasons { grid-template-columns: repeat(3, 1fr); } }
 .reasons li {
-  padding: 1.25rem 1.3rem;
+  --tab: var(--accent);
+  position: relative;
+  padding: 1.25rem 1.3rem 1.25rem 1.3rem;
   background: var(--surface-2);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
+  border-radius: var(--radius-sm);
 }
-.reasons strong { display: block; margin-bottom: 0.3rem; font-size: 1.05rem; }
+/* Each feature wears the color of its tab in the app. */
+.reasons li::before {
+  content: "";
+  display: block;
+  width: 2.2rem;
+  height: 0.3rem;
+  margin-bottom: 0.85rem;
+  border-radius: 999px;
+  background: var(--tab);
+}
+.reasons li.t-collection { --tab: var(--tab-collection); }
+.reasons li.t-decks { --tab: var(--tab-decks); }
+.reasons li.t-commander { --tab: var(--tab-commander); }
+.reasons li.t-games { --tab: var(--tab-games); }
+.reasons li.t-mote { --tab: var(--tab-mote); }
+.reasons strong { display: block; margin-bottom: 0.3rem; font-family: var(--serif); font-weight: 400; font-size: 1.15rem; }
 .reasons span { color: var(--muted); font-size: 0.97rem; }
 
 /* Screenshots gallery */
@@ -299,7 +332,7 @@ p { margin: 0 0 1em; }
   height: 2.3rem;
   margin-bottom: 0.9rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent-light), var(--accent));
+  background: var(--accent);
   color: var(--on-accent);
   font-weight: 800;
 }
@@ -353,13 +386,13 @@ p { margin: 0 0 1em; }
   color: var(--accent-text);
 }
 .faq details[open] summary::after { content: "–"; }
-.faq summary h3 { display: inline; font-family: var(--sans); font-size: 1.05rem; font-weight: 650; }
+.faq summary h3 { display: inline; font-family: var(--sans); font-size: 1.05rem; font-weight: 650; font-synthesis: weight; }
 .faq .answer { padding-bottom: 1.1rem; color: var(--muted); }
 .faq .answer p:last-child { margin: 0; }
 
 /* Final CTA */
 .final-cta { text-align: center; }
-.final-cta .panel { background: radial-gradient(40rem 20rem at 50% 0%, var(--halo-gold), transparent), linear-gradient(160deg, var(--surface), var(--bg-2)); }
+.final-cta .panel { background: radial-gradient(40rem 20rem at 50% 0%, rgba(255, 198, 60, 0.14), transparent), var(--surface); }
 .final-cta img.mote { width: 120px; margin: 0 auto 1rem; }
 .final-cta p { color: var(--muted); max-width: 34rem; margin-inline: auto; }
 
@@ -431,5 +464,6 @@ td { color: var(--muted); }
 
 @media print {
   .site-header, .footer, .store-btn { display: none; }
+  .site-header .container { box-shadow: none; }
   body { background: #fff; color: #000; }
 }
