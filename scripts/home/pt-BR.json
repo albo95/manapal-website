@@ -12,6 +12,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Decks",
     "Teste",
     "Noite de jogo",
     "Mais"
@@ -68,6 +69,19 @@
         "Trocas com seus cards"
       ],
       "alt": "A análise do Mote lista trocas com cards que você tem e depois aplica cinco"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Montagem de deck",
+      "title": "Decks que se encaixam.",
+      "text": "Veja seu deck em pilhas, ordenadas por custo. Toque em um card para ver como ele funciona com o resto do deck, os combos aos quais só falta um card e o que você poderia jogar no lugar dele.",
+      "chips": [
+        "Pilhas por custo",
+        "Sinergias e combos",
+        "Alternativas"
+      ],
+      "alt": "Um deck Commander em duas pilhas de cards; Juri se abre com suas sinergias, um combo e alternativas"
     },
     {
       "id": "playtest",

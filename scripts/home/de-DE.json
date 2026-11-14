@@ -12,6 +12,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Decks",
     "Testen",
     "Spieleabend",
     "Mehr"
@@ -68,6 +69,19 @@
         "Tausch mit deinen Karten"
       ],
       "alt": "Motes Deck-Analyse listet Tausche mit Karten auf, die du besitzt, und wendet dann fünf davon an"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Deckbau",
+      "title": "Decks, die zünden.",
+      "text": "Sieh dein Deck in Stapeln, nach Kosten sortiert. Tippe auf eine Karte und sieh, wie sie mit dem Rest des Decks zusammenspielt, welchen Combos nur noch eine Karte fehlt und was du stattdessen spielen könntest.",
+      "chips": [
+        "Stapel nach Kosten",
+        "Synergien und Combos",
+        "Alternativen"
+      ],
+      "alt": "Ein Commander-Deck in zwei Kartenstapeln; Juri öffnet sich mit Synergien, einer Combo und Alternativen"
     },
     {
       "id": "playtest",

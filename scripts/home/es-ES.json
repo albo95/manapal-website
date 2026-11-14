@@ -12,6 +12,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Mazos",
     "Prueba",
     "Noche de juego",
     "Más"
@@ -68,6 +69,19 @@
         "Cambios con tus cartas"
       ],
       "alt": "El análisis de Mote muestra cambios con cartas que tienes y luego aplica cinco"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Construcción de mazos",
+      "title": "Mazos que encajan.",
+      "text": "Mira tu mazo en pilas, ordenadas por coste. Toca una carta para ver cómo funciona con el resto del mazo, los combos a los que solo les falta una carta y qué podrías jugar en su lugar.",
+      "chips": [
+        "Pilas por coste",
+        "Sinergias y combos",
+        "Alternativas"
+      ],
+      "alt": "Un mazo Commander en dos pilas de cartas; Juri se abre con sus sinergias, un combo y alternativas"
     },
     {
       "id": "playtest",

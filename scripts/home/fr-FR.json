@@ -12,6 +12,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Decks",
     "Test",
     "Soirée jeux",
     "Plus"
@@ -68,6 +69,19 @@
         "Échanges avec tes cartes"
       ],
       "alt": "L'analyse de Mote liste des échanges avec des cartes que tu possèdes, puis en applique cinq"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Construction de deck",
+      "title": "Des decks qui tournent.",
+      "text": "Vois ton deck en piles, triées par coût. Touche une carte pour voir comment elle fonctionne avec le reste du deck, les combos auxquelles il ne manque qu'une carte et ce que tu pourrais jouer à sa place.",
+      "chips": [
+        "Piles par coût",
+        "Synergies et combos",
+        "Alternatives"
+      ],
+      "alt": "Un deck Commander en deux piles de cartes ; Juri s'ouvre avec ses synergies, une combo et des alternatives"
     },
     {
       "id": "playtest",

@@ -25,8 +25,8 @@ PAGES = {
 
 # Clip shown by each chapter, and the hero's.
 HERO_CLIP = "foil"
-CLIPS = {"scan": "scanner", "foils": "card", "commander": "commander", "mote": "swaps", "playtest": "playtest", "play": "dice"}
-FALLBACK = {"scanner": "scanner", "card": "card", "commander": "commander", "swaps": "assistant", "playtest": "deck", "dice": "games", "foil": "card"}
+CLIPS = {"scan": "scanner", "foils": "cards", "deckbuild": "deckbuild", "commander": "commander", "mote": "swaps", "playtest": "playtest", "play": "dice"}
+FALLBACK = {"scanner": "scanner", "card": "card", "cards": "card", "deckbuild": "deck", "commander": "commander", "swaps": "assistant", "playtest": "deck", "dice": "games", "foil": "card"}
 
 
 def asset(lang, name):

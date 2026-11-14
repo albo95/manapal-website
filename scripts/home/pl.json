@@ -12,6 +12,7 @@
     "Foile",
     "Dowódca",
     "Mote",
+    "Talie",
     "Test",
     "Wieczór gier",
     "Więcej"
@@ -68,6 +69,19 @@
         "Zamiany z Twoich kart"
       ],
       "alt": "Analiza Mote pokazuje zamiany na posiadane karty, a potem stosuje pięć z nich"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Budowanie talii",
+      "title": "Talie, które grają.",
+      "text": "Zobacz talię w stosach, posortowaną według kosztu. Dotknij karty, by zobaczyć, jak współgra z resztą talii, którym combo brakuje już tylko jednej karty i co możesz zagrać zamiast niej.",
+      "chips": [
+        "Stosy według kosztu",
+        "Synergie i combo",
+        "Alternatywy"
+      ],
+      "alt": "Talia Commander w dwóch stosach kart; Juri otwiera się z synergiami, combo i alternatywami"
     },
     {
       "id": "playtest",
