@@ -13,6 +13,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Regeln",
     "Testen",
     "Spieleabend",
     "Mehr"
@@ -84,6 +85,19 @@
       "alt": "Motes Deck-Analyse listet Tausche mit Karten auf, die du besitzt, und wendet dann fünf davon an"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Regeln am Tisch",
+      "title": "Ein Judge in der Tasche.",
+      "text": "Beschreib die Situation und markiere die Karten mit /. Mote liest die Umfassenden Regeln und die Rulings jeder Karte und gibt dir dann ein Urteil mit den Regeln, auf die er sich stützt. Und die Umfassenden Regeln sind immer dabei, auch offline.",
+      "chips": [
+        "Urteil in Sekunden",
+        "Regeln zitiert",
+        "Regeln offline"
+      ],
+      "alt": "Mote wird gefragt, ob eine 2/2 mit Todesberührung Das Questentier blocken kann: Das Urteil zitiert die Regeln"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Decks",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Regeln am Tisch",
-      "text": "Die Umfassenden Regeln und die Rulings jeder Karte, offline. Frag Mote nach einem Urteil."
+      "title": "Kartenzustand",
+      "text": "Mach ein paar Fotos von einer Karte: Mote schlägt dir den Zustand vor, von NM bis DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "Wertentwicklung",
+      "text": "Ein Diagramm deines Sammlungswerts und die Karten, die diese Woche steigen und fallen."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Mit Freunden spielen",
       "text": "Füge Freunde per QR-Code hinzu: gemeinsame Partien und eine Rangliste für deine Spielgruppe."
     },
     {
+      "tab": "commander",
+      "title": "Commander erkunden",
+      "text": "Die meistgespielten Commander, nach Farbe, Thema und Preis."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Alle Precons",
-      "text": "Offizielle Precon-Decks mit Beschreibung, bereit zum Import."
+      "title": "Decks per QR",
+      "text": "Gib ein Deck per QR-Code in Sekunden an das iPhone eines Freundes weiter."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Turnierdecks",
       "text": "Listen, die bei Commander-Turnieren vorne lagen, von TopDeck.gg."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Alle Precons",
+      "text": "Offizielle Precon-Decks mit Beschreibung, bereit zum Import."
+    },
+    {
+      "tab": "mote",
+      "title": "Schnelle Fragen",
+      "text": "Frag Mote alles über deine Karten: Eine schnelle Antwort pro Tag ist kostenlos."
+    },
+    {
+      "tab": "decks",
       "title": "Statistiken und Combos",
       "text": "Kurve, Länder, Farben, Combos und der Wert deines Decks."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Binder, Sets, Wunschliste",
+      "text": "Organisiere deine Binder und deine Wunschliste und sieh, wie viel du von jedem Set besitzt."
+    },
+    {
+      "tab": "collection",
       "title": "Bring deine Karten mit",
       "text": "Importiere aus ManaBox, Moxfield, Archidekt, Delver Lens und mehr."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Binder, Wunschliste, Tausch",
-      "text": "Organisiere deine Karten und sieh, welche Sets du gerade vervollständigst."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud und 14 Sprachen",
       "text": "Synchron auf iPhone und iPad, in deiner Sprache und deiner Währung."
     }

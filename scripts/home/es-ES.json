@@ -13,6 +13,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Reglas",
     "Prueba",
     "Noche de juego",
     "Más"
@@ -84,6 +85,19 @@
       "alt": "El análisis de Mote muestra cambios con cartas que tienes y luego aplica cinco"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Las reglas en la mesa",
+      "title": "Un juez en el bolsillo.",
+      "text": "Describe la situación y añade las cartas con /. Mote lee las Reglas completas y los rulings de cada carta, y te da un veredicto con las reglas en las que se basa. Y las Reglas completas siempre están ahí, incluso sin conexión.",
+      "chips": [
+        "Veredicto en segundos",
+        "Reglas citadas",
+        "Reglas sin conexión"
+      ],
+      "alt": "Se le pregunta a Mote si una 2/2 con toque mortal puede bloquear a La Bestia Buscada: el veredicto cita las reglas"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Mazos",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Las reglas en la mesa",
-      "text": "Las Reglas completas y los rulings de cada carta, sin conexión. Pídele un veredicto a Mote."
+      "title": "Estado de la carta",
+      "text": "Haz unas fotos a una carta: Mote te sugiere su estado, de NM a DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "El valor en el tiempo",
+      "text": "Un gráfico del valor de tu colección y las cartas que suben y bajan esta semana."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Juega con tus amigos",
       "text": "Añade amigos con un código QR: partidas compartidas y clasificación del grupo."
     },
     {
+      "tab": "commander",
+      "title": "Explorar comandantes",
+      "text": "Los comandantes más jugados, por color, temática y precio."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Todos los precons",
-      "text": "Los mazos precon oficiales con su descripción, listos para importar."
+      "title": "Mazos por QR",
+      "text": "Pasa un mazo al iPhone de un amigo con un código QR, en segundos."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Mazos de torneo",
       "text": "Listas que se clasificaron en torneos de Commander, de TopDeck.gg."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Todos los precons",
+      "text": "Los mazos precon oficiales con su descripción, listos para importar."
+    },
+    {
+      "tab": "mote",
+      "title": "Preguntas rápidas",
+      "text": "Pregúntale a Mote lo que quieras sobre tus cartas: una respuesta rápida al día es gratis."
+    },
+    {
+      "tab": "decks",
       "title": "Estadísticas y combos",
       "text": "Curva, tierras, colores, combos y el valor de tu mazo."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Carpetas, expansiones, lista de deseos",
+      "text": "Organiza tus carpetas y tu lista de deseos, y mira cuánto tienes de cada expansión."
+    },
+    {
+      "tab": "collection",
       "title": "Trae tus cartas",
       "text": "Importa desde ManaBox, Moxfield, Archidekt, Delver Lens y más."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Carpetas, lista de deseos, intercambio",
-      "text": "Organiza tus cartas y mira qué expansiones estás completando."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud y 14 idiomas",
       "text": "Sincronizada en iPhone y iPad, en tu idioma y tu moneda."
     }

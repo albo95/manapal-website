@@ -131,7 +131,7 @@
         <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="ManaPal 카드 뷰어에서 기울어지며 빛을 받는 포일 Giada, Font of Hope"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
-    <nav class="container jumps" aria-label="기능으로 이동"><ul><li><a href="#scan">스캔</a></li><li><a href="#deckbuild">덱</a></li><li><a href="#foils">포일</a></li><li><a href="#commander">커맨더</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">테스트</a></li><li><a href="#play">게임의 밤</a></li><li><a href="#more">더 보기</a></li></ul></nav>
+    <nav class="container jumps" aria-label="기능으로 이동"><ul><li><a href="#scan">스캔</a></li><li><a href="#deckbuild">덱</a></li><li><a href="#foils">포일</a></li><li><a href="#commander">커맨더</a></li><li><a href="#mote">Mote</a></li><li><a href="#rules">규칙</a></li><li><a href="#playtest">테스트</a></li><li><a href="#play">게임의 밤</a></li><li><a href="#more">더 보기</a></li></ul></nav>
   </section>
 
   <div id="features">
@@ -190,7 +190,18 @@
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Mote의 덱 분석이 가진 카드로 추천 교체를 보여 주고, 다섯 장을 교체"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
-  <section class="chapter t-decks is-flipped" id="playtest" aria-labelledby="playtest-title">
+  <section class="chapter t-mote is-flipped" id="rules" aria-labelledby="rules-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">테이블 위의 규칙</p>
+        <h2 id="rules-title">주머니 속의 저지.</h2>
+        <p class="chapter-text">상황을 설명하고 /로 카드를 넣으세요. Mote가 종합 규칙과 각 카드의 판정을 읽고, 근거가 되는 규칙과 함께 결론을 알려 줍니다. 종합 규칙은 언제든, 오프라인에서도 볼 수 있습니다.</p>
+        <ul class="chips"><li>몇 초 만에 결론</li><li>근거 규칙 인용</li><li>오프라인 규칙</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/judge.webp" data-src="../assets/app-images/videos/en/judge.mp4" aria-label="죽음의 손길을 가진 2/2가 탐색하는 야수를 방어할 수 있는지 Mote에게 질문: 결론에 규칙이 인용됨"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">덱</p>
@@ -201,7 +212,7 @@
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="테스트 게임: 시작 손패, 멀리건, 전장에 나온 첫 카드들"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
-  <section class="chapter t-games" id="play" aria-labelledby="play-title">
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">게임의 밤</p>
@@ -220,7 +231,7 @@
         <h2 id="more-title">그리고 더 있습니다</h2>
         <p>MTG 플레이어에게 필요한 모든 것을 앱 하나에.</p>
       </div>
-      <ul class="more-grid"><li class="t-mote reveal"><strong>테이블 위의 규칙</strong><span>종합 규칙과 모든 카드의 판정을 오프라인으로. 결론은 Mote에게 물어보세요.</span></li><li class="t-games reveal"><strong>친구와 플레이</strong><span>QR 코드로 친구 추가: 함께한 게임과 플레이 그룹 순위표.</span></li><li class="t-decks reveal"><strong>모든 프리컨</strong><span>설명이 담긴 공식 프리컨 덱을 바로 가져올 수 있습니다.</span></li><li class="t-commander reveal"><strong>대회 덱</strong><span>커맨더 대회에서 입상한 리스트를 TopDeck.gg에서.</span></li><li class="t-decks reveal"><strong>통계와 콤보</strong><span>마나 곡선, 대지, 색, 콤보, 그리고 덱 가치.</span></li><li class="t-collection reveal"><strong>카드 가져오기</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens 등에서 가져오세요.</span></li><li class="t-collection reveal"><strong>바인더, 위시리스트, 트레이드</strong><span>카드를 정리하고 어떤 세트를 채워 가고 있는지 확인하세요.</span></li><li class="t-mote reveal"><strong>iCloud와 14개 언어</strong><span>iPhone과 iPad에서 동기화. 내 언어, 내 통화로.</span></li></ul>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>카드 상태</strong><span>카드 사진을 몇 장 찍으면 Mote가 NM부터 DMG까지 상태를 제안합니다.</span></li><li class="t-collection reveal"><strong>가치 추이</strong><span>컬렉션 가치 그래프와 이번 주 상승·하락한 카드.</span></li><li class="t-games reveal"><strong>친구와 플레이</strong><span>QR 코드로 친구 추가: 함께한 게임과 플레이 그룹 순위표.</span></li><li class="t-commander reveal"><strong>커맨더 둘러보기</strong><span>가장 많이 플레이되는 커맨더를 색, 테마, 가격별로.</span></li><li class="t-decks reveal"><strong>QR로 덱 공유</strong><span>QR 코드로 친구의 iPhone에 덱을 몇 초 만에 보내세요.</span></li><li class="t-commander reveal"><strong>대회 덱</strong><span>커맨더 대회에서 입상한 리스트를 TopDeck.gg에서.</span></li><li class="t-decks reveal"><strong>모든 프리컨</strong><span>설명이 담긴 공식 프리컨 덱을 바로 가져올 수 있습니다.</span></li><li class="t-mote reveal"><strong>빠른 질문</strong><span>내 카드에 대해 Mote에게 무엇이든 물어보세요. 빠른 답변은 하루 한 번 무료.</span></li><li class="t-decks reveal"><strong>통계와 콤보</strong><span>마나 곡선, 대지, 색, 콤보, 그리고 덱 가치.</span></li><li class="t-collection reveal"><strong>바인더, 세트, 위시리스트</strong><span>바인더와 위시리스트를 정리하고 세트별로 얼마나 모았는지 확인하세요.</span></li><li class="t-collection reveal"><strong>카드 가져오기</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens 등에서 가져오세요.</span></li><li class="t-mote reveal"><strong>iCloud와 14개 언어</strong><span>iPhone과 iPad에서 동기화. 내 언어, 내 통화로.</span></li></ul>
     </div>
   </section>
 

@@ -13,6 +13,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Regras",
     "Teste",
     "Noite de jogo",
     "Mais"
@@ -84,6 +85,19 @@
       "alt": "A análise do Mote lista trocas com cards que você tem e depois aplica cinco"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Regras na mesa",
+      "title": "Um juiz no seu bolso.",
+      "text": "Descreva a situação e marque os cards com /. O Mote lê as Regras Completas e as regras oficiais de cada card e dá um veredito com as regras em que se baseia. E as Regras Completas estão sempre ali, mesmo offline.",
+      "chips": [
+        "Veredito em segundos",
+        "Regras citadas",
+        "Regras offline"
+      ],
+      "alt": "Perguntando ao Mote se uma 2/2 com toque mortífero pode bloquear Fera das Demandas: o veredito cita as regras"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Decks",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Regras na mesa",
-      "text": "As Regras Completas e as regras oficiais de cada card, offline. Peça um veredito ao Mote."
+      "title": "Condição do card",
+      "text": "Tire algumas fotos de um card: o Mote sugere a condição, de NM a DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "O valor ao longo do tempo",
+      "text": "Um gráfico do valor da sua coleção e os cards que estão subindo e caindo esta semana."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Jogue com os amigos",
       "text": "Adicione amigos com um código QR: partidas compartilhadas e ranking do grupo."
     },
     {
+      "tab": "commander",
+      "title": "Explorar comandantes",
+      "text": "Os comandantes mais jogados, por cor, tema e preço."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Todos os precons",
-      "text": "Os decks pré-montados oficiais com descrição, prontos para importar."
+      "title": "Decks por QR",
+      "text": "Passe um deck para o iPhone de um amigo com um código QR, em segundos."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Decks de torneio",
       "text": "Listas que se classificaram em torneios de Commander, do TopDeck.gg."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Todos os precons",
+      "text": "Os decks pré-montados oficiais com descrição, prontos para importar."
+    },
+    {
+      "tab": "mote",
+      "title": "Perguntas rápidas",
+      "text": "Pergunte ao Mote o que quiser sobre seus cards: uma resposta rápida por dia é grátis."
+    },
+    {
+      "tab": "decks",
       "title": "Estatísticas e combos",
       "text": "Curva, terrenos, cores, combos e o valor do seu deck."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Fichários, edições, lista de desejos",
+      "text": "Organize seus fichários e sua lista de desejos e veja quanto você tem de cada edição."
+    },
+    {
+      "tab": "collection",
       "title": "Traga seus cards",
       "text": "Importe do ManaBox, Moxfield, Archidekt, Delver Lens e outros."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Fichários, lista de desejos, trocas",
-      "text": "Organize seus cards e veja quais edições você está completando."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud e 14 idiomas",
       "text": "Sincronizado no iPhone e no iPad, no seu idioma e na sua moeda."
     }

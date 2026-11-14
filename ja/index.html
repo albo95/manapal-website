@@ -131,7 +131,7 @@
         <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="ManaPalのカードビューアで傾けると光をとらえる、フォイルのGiada, Font of Hope"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
-    <nav class="container jumps" aria-label="機能へ移動"><ul><li><a href="#scan">スキャン</a></li><li><a href="#deckbuild">デッキ</a></li><li><a href="#foils">フォイル</a></li><li><a href="#commander">統率者</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">テストプレイ</a></li><li><a href="#play">対戦</a></li><li><a href="#more">その他</a></li></ul></nav>
+    <nav class="container jumps" aria-label="機能へ移動"><ul><li><a href="#scan">スキャン</a></li><li><a href="#deckbuild">デッキ</a></li><li><a href="#foils">フォイル</a></li><li><a href="#commander">統率者</a></li><li><a href="#mote">Mote</a></li><li><a href="#rules">ルール</a></li><li><a href="#playtest">テストプレイ</a></li><li><a href="#play">対戦</a></li><li><a href="#more">その他</a></li></ul></nav>
   </section>
 
   <div id="features">
@@ -190,7 +190,18 @@
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Moteのデッキ分析が手持ちのカードでの入れ替え候補を挙げ、5枚を入れ替える"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
-  <section class="chapter t-decks is-flipped" id="playtest" aria-labelledby="playtest-title">
+  <section class="chapter t-mote is-flipped" id="rules" aria-labelledby="rules-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">テーブルでルールを</p>
+        <h2 id="rules-title">ポケットにジャッジを。</h2>
+        <p class="chapter-text">状況を説明して、/でカードを入力。Moteが総合ルールと各カードの裁定を読み、根拠となるルールを添えて判定します。総合ルールはいつでも、オフラインでも見られます。</p>
+        <ul class="chips"><li>数秒で判定</li><li>根拠ルールを提示</li><li>オフラインのルール</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/judge.webp" data-src="../assets/app-images/videos/en/judge.mp4" aria-label="接死を持つ2/2が《探索する獣》をブロックできるかMoteに質問。判定はルールを引用している"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">デッキ</p>
@@ -201,7 +212,7 @@
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="テストプレイ：初手、マリガン、戦場に出た最初のカード"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
-  <section class="chapter t-games" id="play" aria-labelledby="play-title">
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">みんなで対戦</p>
@@ -220,7 +231,7 @@
         <h2 id="more-title">まだまだあります</h2>
         <p>MTGプレイヤーに必要なすべてを、ひとつのアプリに。</p>
       </div>
-      <ul class="more-grid"><li class="t-mote reveal"><strong>テーブルでルールを</strong><span>総合ルールと全カードの裁定をオフラインで。判定はMoteに聞こう。</span></li><li class="t-games reveal"><strong>フレンドと遊ぶ</strong><span>QRコードでフレンドを追加。対戦を共有して、プレイグループのランキングも。</span></li><li class="t-decks reveal"><strong>すべての構築済みデッキ</strong><span>公式の構築済みデッキを解説つきで。すぐに読み込めます。</span></li><li class="t-commander reveal"><strong>大会デッキ</strong><span>統率者戦の大会で入賞したリストを、TopDeck.ggから。</span></li><li class="t-decks reveal"><strong>統計とコンボ</strong><span>マナカーブ、土地、色、コンボ、そしてデッキの価値。</span></li><li class="t-collection reveal"><strong>カードをそのまま移行</strong><span>ManaBox、Moxfield、Archidekt、Delver Lensなどから読み込み。</span></li><li class="t-collection reveal"><strong>バインダー、ウィッシュリスト、トレード</strong><span>カードを整理して、コンプリートに近いセットをチェック。</span></li><li class="t-mote reveal"><strong>iCloudと14言語</strong><span>iPhoneとiPadで同期。あなたの言語と通貨で。</span></li></ul>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>カードの状態</strong><span>カードの写真を数枚撮るだけで、MoteがNMからDMGまでで状態を提案。</span></li><li class="t-collection reveal"><strong>価値の推移</strong><span>コレクションの価値をグラフで。今週の値上がり・値下がりカードも。</span></li><li class="t-games reveal"><strong>フレンドと遊ぶ</strong><span>QRコードでフレンドを追加。対戦を共有して、プレイグループのランキングも。</span></li><li class="t-commander reveal"><strong>統率者を探す</strong><span>よくプレイされている統率者を、色・テーマ・価格別に。</span></li><li class="t-decks reveal"><strong>QRでデッキを共有</strong><span>QRコードで、フレンドのiPhoneにデッキを数秒で送れます。</span></li><li class="t-commander reveal"><strong>大会デッキ</strong><span>統率者戦の大会で入賞したリストを、TopDeck.ggから。</span></li><li class="t-decks reveal"><strong>すべての構築済みデッキ</strong><span>公式の構築済みデッキを解説つきで。すぐに読み込めます。</span></li><li class="t-mote reveal"><strong>クイック質問</strong><span>カードのことならMoteに何でも。クイック回答は1日1回無料。</span></li><li class="t-decks reveal"><strong>統計とコンボ</strong><span>マナカーブ、土地、色、コンボ、そしてデッキの価値。</span></li><li class="t-collection reveal"><strong>バインダー、セット、ウィッシュリスト</strong><span>バインダーとウィッシュリストを整理して、各セットの所持状況をチェック。</span></li><li class="t-collection reveal"><strong>カードをそのまま移行</strong><span>ManaBox、Moxfield、Archidekt、Delver Lensなどから読み込み。</span></li><li class="t-mote reveal"><strong>iCloudと14言語</strong><span>iPhoneとiPadで同期。あなたの言語と通貨で。</span></li></ul>
     </div>
   </section>
 

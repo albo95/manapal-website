@@ -13,6 +13,7 @@
     "Foil",
     "Commander",
     "Mote",
+    "Regole",
     "Prova",
     "Serata di gioco",
     "Altro"
@@ -84,6 +85,19 @@
       "alt": "L'analisi di Mote elenca gli scambi che possiedi, poi applica cinque scambi"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Regole al tavolo",
+      "title": "Un arbitro in tasca.",
+      "text": "Descrivi la situazione e inserisci le carte con /. Mote legge il regolamento completo e i ruling di ogni carta, poi ti dà il verdetto con le regole su cui si basa. E il regolamento completo è sempre lì, anche offline.",
+      "chips": [
+        "Verdetto in pochi secondi",
+        "Regole citate",
+        "Regolamento offline"
+      ],
+      "alt": "Si chiede a Mote se una 2/2 con tocco letale può bloccare la Bestia dei Cimenti: il verdetto cita le regole"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Mazzi",
@@ -115,8 +129,13 @@
   "more": [
     {
       "tab": "mote",
-      "title": "Le regole al tavolo",
-      "text": "Il Regolamento completo e i ruling di ogni carta, offline. Chiedi a Mote un verdetto."
+      "title": "Condizione della carta",
+      "text": "Fai qualche foto alla carta: Mote ti suggerisce il grado, da NM a DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "Il valore nel tempo",
+      "text": "Il grafico del valore della collezione, e le carte che salgono e scendono questa settimana."
     },
     {
       "tab": "games",
@@ -124,9 +143,14 @@
       "text": "Aggiungi gli amici con un codice QR: partite condivise e classifica del gruppo."
     },
     {
+      "tab": "commander",
+      "title": "Esplora i comandanti",
+      "text": "I comandanti più giocati, per colore, tema e prezzo."
+    },
+    {
       "tab": "decks",
-      "title": "Tutti i precostruiti",
-      "text": "I mazzi precostruiti ufficiali con la loro descrizione, pronti da importare."
+      "title": "Mazzi via QR",
+      "text": "Passa un mazzo all'iPhone di un amico con un codice QR, in pochi secondi."
     },
     {
       "tab": "commander",
@@ -135,18 +159,28 @@
     },
     {
       "tab": "decks",
+      "title": "Tutti i precostruiti",
+      "text": "I mazzi precostruiti ufficiali con la loro descrizione, pronti da importare."
+    },
+    {
+      "tab": "mote",
+      "title": "Domande veloci",
+      "text": "Chiedi a Mote qualsiasi cosa sulle tue carte: una risposta veloce al giorno è gratis."
+    },
+    {
+      "tab": "decks",
       "title": "Statistiche e combo",
       "text": "Curva, terre, colori, combo e valore del mazzo."
     },
     {
       "tab": "collection",
-      "title": "Porta le tue carte",
-      "text": "Importa da ManaBox, Moxfield, Archidekt, Delver Lens e altre app."
+      "title": "Binder, espansioni, wishlist",
+      "text": "Organizza binder e wishlist, e guarda quanto ti manca per completare ogni espansione."
     },
     {
       "tab": "collection",
-      "title": "Binder, wishlist, scambi",
-      "text": "Organizza le carte e guarda quali espansioni stai completando."
+      "title": "Porta le tue carte",
+      "text": "Importa da ManaBox, Moxfield, Archidekt, Delver Lens e altre app."
     },
     {
       "tab": "mote",

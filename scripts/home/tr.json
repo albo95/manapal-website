@@ -13,6 +13,7 @@
     "Foil",
     "Commander",
     "Mote",
+    "Kurallar",
     "Dene",
     "Oyun gecesi",
     "Dahası"
@@ -84,6 +85,19 @@
       "alt": "Mote'un deste analizi sahip olduğun kartlarla önerilen değişiklikleri listeliyor, sonra beşini uyguluyor"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Masadaki kurallar",
+      "title": "Cebindeki hakem.",
+      "text": "Durumu anlat ve kartları / ile ekle. Mote Kapsamlı Kurallar'ı ve her kartın ruling'lerini okur, sonra dayandığı kurallarla birlikte kararını verir. Kapsamlı Kurallar da her zaman yanında, çevrimdışı bile.",
+      "chips": [
+        "Saniyeler içinde karar",
+        "Kurallar alıntılanır",
+        "Çevrimdışı kurallar"
+      ],
+      "alt": "Mote'a, deathtouch'lı 2/2 bir yaratığın Questing Beast'i block'layıp block'layamayacağı soruluyor: karar kuralları alıntılıyor"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Desteler",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Masadaki kurallar",
-      "text": "Kapsamlı Kurallar ve her kartın ruling'leri, çevrimdışı. Kararı Mote'a sor."
+      "title": "Kart kondisyonu",
+      "text": "Karttan birkaç fotoğraf çek: Mote, NM'den DMG'ye kadar kondisyonunu önerir."
+    },
+    {
+      "tab": "collection",
+      "title": "Zaman içinde değer",
+      "text": "Koleksiyonunun değer grafiği ve bu hafta yükselen ve düşen kartlar."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Arkadaşlarınla oyna",
       "text": "Arkadaşlarını QR koduyla ekle: ortak oyunlar ve oyun grubu sıralaması."
     },
     {
+      "tab": "commander",
+      "title": "Komutanları keşfet",
+      "text": "En çok oynanan komutanlar; renge, temaya ve fiyata göre."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Tüm hazır desteler",
-      "text": "Resmî hazır desteler açıklamalarıyla, içe aktarmaya hazır."
+      "title": "QR ile desteler",
+      "text": "Bir desteyi QR koduyla saniyeler içinde arkadaşının iPhone'una gönder."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Turnuva desteleri",
       "text": "Commander turnuvalarında derece yapmış listeler, TopDeck.gg'den."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Tüm hazır desteler",
+      "text": "Resmî hazır desteler açıklamalarıyla, içe aktarmaya hazır."
+    },
+    {
+      "tab": "mote",
+      "title": "Hızlı sorular",
+      "text": "Kartlarınla ilgili Mote'a her şeyi sor: günde bir hızlı yanıt ücretsiz."
+    },
+    {
+      "tab": "decks",
       "title": "İstatistikler ve kombolar",
       "text": "Mana eğrisi, land'ler, renkler, kombolar ve destenin değeri."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Binder'lar, setler, istek listesi",
+      "text": "Binder'larını ve istek listeni düzenle, her setin ne kadarına sahip olduğunu gör."
+    },
+    {
+      "tab": "collection",
       "title": "Kartlarını getir",
       "text": "ManaBox, Moxfield, Archidekt, Delver Lens ve daha fazlasından içe aktar."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Binder, istek listesi, takas",
-      "text": "Kartlarını düzenle ve hangi setleri tamamladığını gör."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud ve 14 dil",
       "text": "iPhone ve iPad'de eşitlenir; senin dilinde, senin para biriminde."
     }

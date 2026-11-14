@@ -13,6 +13,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Règles",
     "Test",
     "Soirée jeux",
     "Plus"
@@ -84,6 +85,19 @@
       "alt": "L'analyse de Mote liste des échanges avec des cartes que tu possèdes, puis en applique cinq"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Les règles à table",
+      "title": "Un arbitre dans ta poche.",
+      "text": "Décris la situation et ajoute les cartes avec /. Mote lit les Règles complètes et les rulings de chaque carte, puis te donne un verdict avec les règles sur lesquelles il s'appuie. Et les Règles complètes sont toujours là, même hors ligne.",
+      "chips": [
+        "Verdict en quelques secondes",
+        "Règles citées",
+        "Règles hors ligne"
+      ],
+      "alt": "On demande à Mote si une 2/2 avec le contact mortel peut bloquer Bête de Quête : le verdict cite les règles"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Decks",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Les règles à table",
-      "text": "Les Règles complètes et les rulings de chaque carte, hors ligne. Demande un verdict à Mote."
+      "title": "État de la carte",
+      "text": "Prends quelques photos d'une carte : Mote te suggère son état, de NM à DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "La valeur dans le temps",
+      "text": "Un graphique de la valeur de ta collection, et les cartes en hausse et en baisse cette semaine."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Joue avec tes amis",
       "text": "Ajoute tes amis avec un code QR : parties partagées et classement du groupe."
     },
     {
+      "tab": "commander",
+      "title": "Explorer les commandants",
+      "text": "Les commandants les plus joués, par couleur, thème et prix."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Tous les précons",
-      "text": "Les decks préconstruits officiels avec leur description, prêts à importer."
+      "title": "Decks par QR",
+      "text": "Passe un deck à l'iPhone d'un ami avec un code QR, en quelques secondes."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Decks de tournoi",
       "text": "Des listes bien classées en tournoi Commander, via TopDeck.gg."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Tous les précons",
+      "text": "Les decks préconstruits officiels avec leur description, prêts à importer."
+    },
+    {
+      "tab": "mote",
+      "title": "Questions rapides",
+      "text": "Demande à Mote tout ce que tu veux sur tes cartes : une réponse rapide par jour est gratuite."
+    },
+    {
+      "tab": "decks",
       "title": "Stats et combos",
       "text": "Courbe, terrains, couleurs, combos et valeur de ton deck."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Classeurs, éditions, wishlist",
+      "text": "Organise tes classeurs et ta wishlist, et vois combien tu possèdes de chaque édition."
+    },
+    {
+      "tab": "collection",
       "title": "Apporte tes cartes",
       "text": "Importe depuis ManaBox, Moxfield, Archidekt, Delver Lens et d'autres."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Classeurs, wishlist, échanges",
-      "text": "Organise tes cartes et vois quelles éditions tu es en train de compléter."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud et 14 langues",
       "text": "Synchronisée sur iPhone et iPad, dans ta langue et ta devise."
     }

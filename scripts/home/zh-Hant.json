@@ -13,6 +13,7 @@
     "閃卡",
     "指揮官",
     "Mote",
+    "規則",
     "試玩",
     "牌局之夜",
     "更多"
@@ -84,6 +85,19 @@
       "alt": "Mote 的套牌分析列出用已有卡牌的替換建議，然後套用五處替換"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "牌桌上的規則",
+      "title": "口袋裡的裁判。",
+      "text": "描述局面，用 / 加入卡牌。Mote 會閱讀完整規則和每張卡牌的裁定，然後給出結論，並附上所依據的規則。完整規則隨時可查，離線也能用。",
+      "chips": [
+        "幾秒內給出結論",
+        "引用規則",
+        "離線規則"
+      ],
+      "alt": "問 Mote 一個具有死觸的 2/2 能否阻擋尋水獸：結論引用了規則"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "套牌",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "牌桌上的規則",
-      "text": "完整規則和每張卡牌的裁定，離線可用。讓 Mote 給出結論。"
+      "title": "卡牌品相",
+      "text": "幫卡牌拍幾張照片：Mote 會建議它的品相，從 NM 到 DMG。"
+    },
+    {
+      "tab": "collection",
+      "title": "價值走勢",
+      "text": "收藏價值圖表，還有本週上漲和下跌的卡牌。"
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "和好友一起玩",
       "text": "用 QR 碼新增好友：共享對局，還有牌友群排行榜。"
     },
     {
+      "tab": "commander",
+      "title": "探索指揮官",
+      "text": "最常使用的指揮官，依顏色、主題和價格瀏覽。"
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "所有預組套牌",
-      "text": "官方預組套牌附有介紹，隨時可以匯入。"
+      "title": "掃碼分享套牌",
+      "text": "用 QR 碼把套牌傳給好友的 iPhone，幾秒就好。"
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "比賽套牌",
       "text": "在指揮官比賽中取得名次的套牌清單，來自 TopDeck.gg。"
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "所有預組套牌",
+      "text": "官方預組套牌附有介紹，隨時可以匯入。"
+    },
+    {
+      "tab": "mote",
+      "title": "快速提問",
+      "text": "關於你的卡牌，什麼都可以問 Mote：每天一次快速回答免費。"
+    },
+    {
+      "tab": "decks",
       "title": "統計與組合技",
       "text": "魔法力曲線、地、顏色、組合技和套牌價值。"
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "卡冊、系列、願望單",
+      "text": "整理卡冊和願望單，看看每個系列你已經擁有多少。"
+    },
+    {
+      "tab": "collection",
       "title": "帶著你的卡牌過來",
       "text": "可從 ManaBox、Moxfield、Archidekt、Delver Lens 等匯入。"
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "卡冊、願望單、交易",
-      "text": "整理你的卡牌，看看哪些系列快要收齊。"
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud 與 14 種語言",
       "text": "在 iPhone 與 iPad 上同步，用你的語言和貨幣。"
     }

@@ -13,6 +13,7 @@
     "Foils",
     "Commander",
     "Mote",
+    "Rules",
     "Playtest",
     "Game night",
     "More"
@@ -84,6 +85,19 @@
       "alt": "Mote's deck analysis lists suggested swaps marked You own it, then applies five swaps"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Rules at the table",
+      "title": "A judge in your pocket.",
+      "text": "Describe the situation and tag the cards with /. Mote reads the Comprehensive Rules and every card's rulings, then gives you a verdict with the rules it relies on. And the full rules are always there, even offline.",
+      "chips": [
+        "Verdict in seconds",
+        "Rules cited",
+        "Offline rules"
+      ],
+      "alt": "Asking Mote whether a 2/2 with deathtouch can block Questing Beast: the verdict cites the rules"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Decks",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Rules at the table",
-      "text": "The Comprehensive Rules and every card's rulings, offline. Ask Mote for a verdict."
+      "title": "Card condition",
+      "text": "Take a few photos of a card: Mote suggests its grade, from NM to DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "Value over time",
+      "text": "A chart of your collection's value, and the cards rising and falling this week."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Play with friends",
       "text": "Add friends with a QR code: shared games and a playgroup leaderboard."
     },
     {
+      "tab": "commander",
+      "title": "Explore commanders",
+      "text": "The most played commanders, by color, theme and price."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Every precon",
-      "text": "Official preconstructed decks with their description, ready to import."
+      "title": "Decks by QR",
+      "text": "Pass a deck to a friend's iPhone with a QR code, in seconds."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Tournament decks",
       "text": "Lists that placed at Commander tournaments, from TopDeck.gg."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Every precon",
+      "text": "Official preconstructed decks with their description, ready to import."
+    },
+    {
+      "tab": "mote",
+      "title": "Quick questions",
+      "text": "Ask Mote anything about your cards: one quick answer a day is free."
+    },
+    {
+      "tab": "decks",
       "title": "Stats and combos",
       "text": "Curve, lands, colors, combos and the value of your deck."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Binders, sets, wishlist",
+      "text": "Organize your binders and wishlist, and see how much of each set you own."
+    },
+    {
+      "tab": "collection",
       "title": "Bring your cards",
       "text": "Import from ManaBox, Moxfield, Archidekt, Delver Lens and more."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Binders, wishlist, trade",
-      "text": "Organize your cards and see which sets you're completing."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud and 14 languages",
       "text": "Synced on iPhone and iPad, in your language and your currency."
     }

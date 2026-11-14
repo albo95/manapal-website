@@ -13,6 +13,7 @@
     "Foile",
     "Dowódca",
     "Mote",
+    "Zasady",
     "Test",
     "Wieczór gier",
     "Więcej"
@@ -84,6 +85,19 @@
       "alt": "Analiza Mote pokazuje zamiany na posiadane karty, a potem stosuje pięć z nich"
     },
     {
+      "id": "rules",
+      "tab": "mote",
+      "kicker": "Zasady przy stole",
+      "title": "Sędzia w kieszeni.",
+      "text": "Opisz sytuację i oznacz karty znakiem /. Mote czyta Pełne zasady i orzeczenia do każdej karty, a potem daje Ci werdykt z zasadami, na których się opiera. A Pełne zasady masz zawsze pod ręką, nawet offline.",
+      "chips": [
+        "Werdykt w kilka sekund",
+        "Przytoczone zasady",
+        "Zasady offline"
+      ],
+      "alt": "Pytanie do Mote, czy stwór 2/2 z deathtouch może zablokować Questing Beast: werdykt przytacza zasady"
+    },
+    {
       "id": "playtest",
       "tab": "decks",
       "kicker": "Talie",
@@ -115,49 +129,61 @@
   "more": [
     {
       "tab": "mote",
-      "icon": "⚖️",
-      "title": "Zasady przy stole",
-      "text": "Pełne zasady i orzeczenia do każdej karty, offline. Zapytaj Mote o werdykt."
+      "title": "Stan karty",
+      "text": "Zrób kilka zdjęć karty: Mote podpowie jej stan, od NM do DMG."
+    },
+    {
+      "tab": "collection",
+      "title": "Wartość w czasie",
+      "text": "Wykres wartości Twojej kolekcji oraz karty, które w tym tygodniu drożeją i tanieją."
     },
     {
       "tab": "games",
-      "icon": "🤝",
       "title": "Graj ze znajomymi",
       "text": "Dodawaj znajomych kodem QR: wspólne gry i ranking grupy."
     },
     {
+      "tab": "commander",
+      "title": "Odkrywaj dowódców",
+      "text": "Najczęściej grani dowódcy, według koloru, motywu i ceny."
+    },
+    {
       "tab": "decks",
-      "icon": "📦",
-      "title": "Wszystkie gotowe talie",
-      "text": "Oficjalne talie precon z opisem, gotowe do importu."
+      "title": "Talie przez QR",
+      "text": "Przekaż talię na iPhone'a znajomego kodem QR, w kilka sekund."
     },
     {
       "tab": "commander",
-      "icon": "🏆",
       "title": "Talie turniejowe",
       "text": "Listy, które zajęły miejsca w turniejach Commander, z TopDeck.gg."
     },
     {
       "tab": "decks",
-      "icon": "📊",
+      "title": "Wszystkie gotowe talie",
+      "text": "Oficjalne talie precon z opisem, gotowe do importu."
+    },
+    {
+      "tab": "mote",
+      "title": "Szybkie pytania",
+      "text": "Pytaj Mote o wszystko, co dotyczy Twoich kart: jedna szybka odpowiedź dziennie jest za darmo."
+    },
+    {
+      "tab": "decks",
       "title": "Statystyki i combo",
       "text": "Krzywa many, lądy, kolory, combo i wartość Twojej talii."
     },
     {
       "tab": "collection",
-      "icon": "⇄",
+      "title": "Bindery, dodatki, lista życzeń",
+      "text": "Uporządkuj bindery i listę życzeń i zobacz, ile masz z każdego dodatku."
+    },
+    {
+      "tab": "collection",
       "title": "Przenieś swoje karty",
       "text": "Importuj z ManaBox, Moxfield, Archidekt, Delver Lens i innych."
     },
     {
-      "tab": "collection",
-      "icon": "📒",
-      "title": "Bindery, lista życzeń, wymiana",
-      "text": "Uporządkuj karty i zobacz, które dodatki kompletujesz."
-    },
-    {
       "tab": "mote",
-      "icon": "☁️",
       "title": "iCloud i 14 języków",
       "text": "Synchronizacja na iPhonie i iPadzie, w Twoim języku i Twojej walucie."
     }
