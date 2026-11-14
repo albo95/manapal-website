@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Coming soon for iPhone and iPad",
+  "h1": "The <span class=\"gold\">MTG app</span> that knows your cards",
+  "lead": "Scan your collection, build decks from what you own and play with friends. Mote, your AI deck expert, does the math.",
+  "store_small": "Coming soon on the",
+  "store_big": "App Store",
+  "note": "Free to download · iPhone and iPad · iOS 18 or later",
+  "hero_alt": "A foil Giada, Font of Hope tilting in ManaPal's card viewer, catching the light",
+  "jump_label": "Jump to a feature",
+  "jumps": ["Scan", "Foils", "Commander", "Mote", "Playtest", "Game night", "More"],
+  "chapters": [
+    {"id": "scan", "tab": "collection", "kicker": "Collection", "title": "Point. Scan. Done.", "text": "Card after card, without stopping: each one lands in your collection with its price, and you watch the total grow.", "chips": ["Continuous scanning", "Set and foil", "Live prices"], "alt": "The camera scanner recognizes The One Ring and adds it with its price"},
+    {"id": "foils", "tab": "collection", "kicker": "Every card", "title": "Your cards, like you've never seen them.", "text": "Open any card and tilt it: foils catch the light. Rules text, official rulings and prices from every store are one swipe away.", "chips": ["Foil effect", "Official rulings", "Store prices"], "alt": "Opening a card from the collection grid into its detail page"},
+    {"id": "commander", "tab": "commander", "kicker": "Find your Commander", "title": "The Commander made for you.", "text": "Answer 12 questions about how you play. Mote picks three commanders, with budget, mid and top lists, and you can import decks that placed at real tournaments.", "chips": ["12 questions", "3 budgets", "Tournament decks"], "alt": "Mote reveals three suggested commanders: Lathril, Atarka and Omnath"},
+    {"id": "mote", "tab": "mote", "kicker": "Mote, your AI expert", "title": "An expert that reads your cards.", "text": "Mote analyzes your deck and suggests swaps with cards you already own. One tap and they're in. It can also build a whole deck from your collection.", "chips": ["Deck analysis", "Build me a deck", "Swaps you own"], "alt": "Mote's deck analysis lists suggested swaps marked You own it, then applies five swaps"},
+    {"id": "playtest", "tab": "decks", "kicker": "Decks", "title": "Test it before you sleeve it.", "text": "Draw an opening hand, mulligan, play your first turns. See the odds of drawing lands, your curve and what the missing cards cost.", "chips": ["Opening hand", "Mulligan", "Deck stats"], "alt": "A playtest: opening hand, a mulligan and the first cards on the battlefield"},
+    {"id": "play", "tab": "games", "kicker": "Game night", "title": "Everything for the table.", "text": "A life counter for 2 to 6 players with commander damage, poison, monarch and initiative. Hold the die, let it roll, and every game reaches your friends' phones.", "chips": ["Commander damage", "3D die", "Play with friends"], "alt": "Holding and rolling the 3D twenty-sided die over a four-player life counter"}
+  ],
+  "more_title": "And there's more",
+  "more_lead": "Everything a Magic player needs, in one app.",
+  "more": [
+    {"tab": "mote", "icon": "⚖️", "title": "Rules at the table", "text": "The Comprehensive Rules and every card's rulings, offline. Ask Mote for a verdict."},
+    {"tab": "games", "icon": "🤝", "title": "Play with friends", "text": "Add friends with a QR code: shared games and a playgroup leaderboard."},
+    {"tab": "decks", "icon": "📦", "title": "Every precon", "text": "Official preconstructed decks with their description, ready to import."},
+    {"tab": "commander", "icon": "🏆", "title": "Tournament decks", "text": "Lists that placed at Commander tournaments, from TopDeck.gg."},
+    {"tab": "decks", "icon": "📊", "title": "Stats and combos", "text": "Curve, lands, colors, combos and the value of your deck."},
+    {"tab": "collection", "icon": "⇄", "title": "Bring your cards", "text": "Import from ManaBox, Moxfield, Archidekt, Delver Lens and more."},
+    {"tab": "collection", "icon": "📒", "title": "Binders, wishlist, trade", "text": "Organize your cards and see which sets you're completing."},
+    {"tab": "mote", "icon": "☁️", "title": "iCloud and 14 languages", "text": "Synced on iPhone and iPad, in your language and your currency."}
+  ],
+  "free_title": "Free forever",
+  "free_items": ["Collection, prices and scanner", "Life counter and game history", "Up to 7 built decks", "A free quick AI question every day", "Your first Find your Commander"],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "Optional",
+  "pro_items": ["Mana for Mote every month", "Advanced stats", "Unlimited decks and binders", "Unlimited playtest", "App themes and custom games"],
+  "pricing_note": "AI actions use Mana and you always see the cost before an action starts."
+}

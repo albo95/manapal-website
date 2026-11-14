@@ -87,7 +87,7 @@
   <div class="container">
     <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
     <nav class="header-nav" aria-label="メインナビゲーション">
-      <a class="hide-sm" href="#download">機能</a>
+      <a class="hide-sm" href="#features">機能</a>
       <a class="hide-sm" href="#guides">ガイド</a>
       <a class="hide-sm" href="#faq">よくある質問</a>
       <details class="lang">
@@ -114,98 +114,113 @@
 </header>
 
 <main id="main">
+  <!-- home:start -->
   <section class="hero" aria-labelledby="hero-title">
-    <div class="container">
-      <div>
-        <img class="hero-icon" src="../assets/icon.png" alt="ManaPalのアプリアイコン" width="84" height="84">
-        <span class="eyebrow">ManaPal · iPhone・iPadに近日登場</span>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img class="hero-icon" src="../assets/icon.png" alt="" width="72" height="72">
+        <span class="eyebrow">iPhone・iPadに近日登場</span>
         <h1 id="hero-title">あなたのカードを知っている<span class="gold">MTGアプリ</span></h1>
-        <p class="lead">マジック：ザ・ギャザリングのコレクションをスキャンして価値を確認し、手持ちのカードで統率者戦デッキを組み、すべての対戦を記録。AIデッキエキスパートのMoteが、あなたのカードをもとに答えます。</p>
+        <p class="lead">コレクションをスキャンして、手持ちのカードでデッキを組み、フレンドと遊ぼう。計算はAIデッキエキスパートのMoteにおまかせ。</p>
         <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>近日公開</small><strong>App Store</strong></span></span>
         <p class="btn-note">無料ダウンロード · iPhone・iPad · iOS 18以降</p>
-        <ul class="trust">
-          <li>カードスキャナー</li>
-          <li>統率者戦ライフカウンター</li>
-          <li>オフライン対応ルール</li>
-          <li>フレンドと遊ぶ</li>
-          <li>14言語</li>
-          <li>iCloud同期</li>
-        </ul>
       </div>
-      <div class="hero-shot">
-        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ManaPalのAIアシスタントが、手持ちのカードを使った統率者戦デッキの入れ替え案を3つ提示し、足りない4枚のカードを価格つきで表示している画面" fetchpriority="high">
+      <div class="hero-media">
+        <div class="hero-back is-left" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/commander.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="hero-back is-right" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/swaps.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="ManaPalのカードビューアで傾けると光をとらえる、フォイルのGiada, Font of Hope"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
+    <nav class="container jumps" aria-label="機能へ移動"><ul><li><a href="#scan">スキャン</a></li><li><a href="#foils">フォイル</a></li><li><a href="#commander">統率者</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">テストプレイ</a></li><li><a href="#play">対戦</a></li><li><a href="#more">その他</a></li></ul></nav>
   </section>
 
-  <!-- reel:start -->
-  <section class="reel-section" id="screenshots" aria-labelledby="shots-title">
-    <div class="container section-head">
-      <h2 id="shots-title">ManaPalの画面</h2>
-    </div>
-    <div class="reel" data-reel tabindex="0" aria-roledescription="carousel" aria-labelledby="shots-title">
-      <ul class="reel-track">
-        <li class="reel-slide" data-caption="光をとらえるフォイル"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="光をとらえるフォイル"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">光をとらえるフォイル</p></li>
-        <li class="reel-slide" data-caption="あなたにぴったりの統率者を見つけよう"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="あなたにぴったりの統率者を見つけよう"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">あなたにぴったりの統率者を見つけよう</p></li>
-        <li class="reel-slide" data-caption="手持ちのカードで入れ替え"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="手持ちのカードで入れ替え"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">手持ちのカードで入れ替え</p></li>
-        <li class="reel-slide" data-caption="スリーブに入れる前にデッキをテスト"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="スリーブに入れる前にデッキをテスト"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">スリーブに入れる前にデッキをテスト</p></li>
-        <li class="reel-slide" data-caption="サイコロを振ろう"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="サイコロを振ろう"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">サイコロを振ろう</p></li>
-        <li class="reel-slide" data-caption="どのカードも細部まで"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="どのカードも細部まで"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">どのカードも細部まで</p></li>
-        <li class="reel-slide" data-caption="カメラでカードをスキャン"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="カメラでカードをスキャン" loading="lazy"></div><p class="reel-label">カメラでカードをスキャン</p></li>
-      </ul>
-      <p class="reel-caption" aria-live="polite"></p>
-      <div class="reel-progress" aria-hidden="true"><span></span></div>
-      <div class="reel-controls">
-        <button type="button" class="reel-arrow" data-reel-prev aria-label="前へ">‹</button>
-        <div class="reel-dots"><button type="button" aria-label="動画へ移動 1: 光をとらえるフォイル"></button><button type="button" aria-label="動画へ移動 2: あなたにぴったりの統率者を見つけよう"></button><button type="button" aria-label="動画へ移動 3: 手持ちのカードで入れ替え"></button><button type="button" aria-label="動画へ移動 4: スリーブに入れる前にデッキをテスト"></button><button type="button" aria-label="動画へ移動 5: サイコロを振ろう"></button><button type="button" aria-label="動画へ移動 6: どのカードも細部まで"></button><button type="button" aria-label="動画へ移動 7: カメラでカードをスキャン"></button></div>
-        <button type="button" class="reel-arrow" data-reel-next aria-label="次へ">›</button>
+  <div id="features">
+  <section class="chapter t-collection" id="scan" aria-labelledby="scan-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">コレクション</p>
+        <h2 id="scan-title">かざす。スキャン。完了。</h2>
+        <p class="chapter-text">1枚、また1枚と止まらずに。どのカードも価格つきでコレクションに入り、合計額が増えていくのが見えます。</p>
+        <ul class="chips"><li>連続スキャン</li><li>セットとフォイル</li><li>最新の価格</li></ul>
       </div>
+      <div class="chapter-media reveal"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="カメラスキャナーがThe One Ringを認識し、価格つきで追加" loading="lazy"></div></div>
     </div>
   </section>
-  <!-- reel:end -->
+  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">すべてのカードを</p>
+        <h2 id="foils-title">見たことのない、あなたのカード。</h2>
+        <p class="chapter-text">カードを開いて傾ければ、フォイルが光をとらえます。ルール・テキスト、公式裁定、各ストアの価格もスワイプひとつで。</p>
+        <ul class="chips"><li>フォイル効果</li><li>公式裁定</li><li>ストア価格</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="コレクションのグリッドからカードを開き、詳細ページを表示"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">あなたの統率者を探す</p>
+        <h2 id="commander-title">あなたのための統率者。</h2>
+        <p class="chapter-text">プレイスタイルについての12の質問に答えるだけ。Moteが低予算・中予算・トップのリストつきで統率者を3体選び、実際の大会で入賞したデッキも読み込めます。</p>
+        <ul class="chips"><li>12の質問</li><li>3つの予算</li><li>大会デッキ</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Moteがおすすめの統率者3体を発表：Lathril、Atarka、Omnath"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">AIエキスパート、Mote</p>
+        <h2 id="mote-title">あなたのカードを読むエキスパート。</h2>
+        <p class="chapter-text">Moteがデッキを分析し、すでに持っているカードとの入れ替えを提案。タップひとつで反映されます。コレクションからデッキを丸ごと組むこともできます。</p>
+        <ul class="chips"><li>デッキ分析</li><li>デッキを組んで</li><li>手持ちで入れ替え</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Moteのデッキ分析が手持ちのカードでの入れ替え候補を挙げ、5枚を入れ替える"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">デッキ</p>
+        <h2 id="playtest-title">スリーブの前に、テスト。</h2>
+        <p class="chapter-text">初手を引いて、マリガンして、最初のターンをプレイ。土地を引く確率、マナカーブ、足りないカードの費用もわかります。</p>
+        <ul class="chips"><li>初手</li><li>マリガン</li><li>デッキの統計</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="テストプレイ：初手、マリガン、戦場に出た最初のカード"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">みんなで対戦</p>
+        <h2 id="play-title">テーブルに必要なすべてを。</h2>
+        <p class="chapter-text">2〜6人対応のライフカウンターで、統率者ダメージ、毒、統治者、イニシアチブも管理。ダイスを長押しして転がせば、すべての対戦がフレンドのスマホに届きます。</p>
+        <ul class="chips"><li>統率者ダメージ</li><li>3Dダイス</li><li>フレンドと遊ぶ</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="4人用ライフカウンターの上で、3Dの20面ダイスを長押しして転がす"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  </div>
 
-  <section class="section" id="download" aria-labelledby="download-title">
+  <section class="section more" id="more" aria-labelledby="more-title">
     <div class="container">
-      <div class="panel">
-        <div class="download-grid">
-          <div>
-            <h2 id="download-title">コレクション、デッキ、対戦をひとつの無料アプリに</h2>
-            <p class="lead">表計算ソフトも、3つのアプリの使い分けも、ライフを書くペンももう不要です。ManaPalがすべてをまとめ、アシスタントはあなたのカードを見てから答えます。</p>
-            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>近日公開</small><strong>App Store</strong></span></span>
-          </div>
-          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="ManaPalのアシスタント、金色のマナのしずくMoteがウインクであいさつしている">
-        </div>
-        <ul class="reasons">
-          <li class="t-collection"><strong>スキャンして価値がわかる</strong><span>カードに次々とカメラを向けるだけで、止まることなく価格つきで追加されます。コレクションの合計額の推移も追えます。</span></li>
-          <li class="t-decks"><strong>手持ちのカードでデッキを</strong><span>Moteがコレクションから統率者戦デッキを組み、または既存のデッキを分析して、持っているカードとの入れ替えを提案します。</span></li>
-          <li class="t-commander"><strong>あなたの統率者を探す</strong><span>12の質問に答えると、あなたに合う統率者を低予算・中予算・トップのリストで提案。さらに、実際の大会で入賞したデッキも読み込めます。</span></li>
-          <li class="t-games"><strong>統率者戦のためのカウンター</strong><span>2〜6人、統率者ダメージ、毒、統治者、イニシアチブ、Planechase、Archenemyに対応。すべての対戦が履歴に残ります。</span></li>
-          <li class="t-games"><strong>フレンドと遊ぶ</strong><span>QRコードやリンクでフレンドを追加。一緒に遊んだ対戦がみんなのスマホに表示され、プレイグループのランキングも見られます。</span></li>
-          <li class="t-mote"><strong>テーブルでルールを確認</strong><span>総合ルールと各カードの公式裁定を、オフラインで。複雑な相互作用は「Moteに聞く」が、根拠のルールを示して判定します。</span></li>
-          <li class="t-decks"><strong>デッキがわかる統計</strong><span>マナカーブ、土地、色、コンボ、初手の確率、デッキの価値、足りないカードの費用。</span></li>
-          <li class="t-decks"><strong>構築済みデッキとテストプレイ</strong><span>すべての公式構築済みデッキを解説つきで。スリーブに入れる前に、テストプレイでデッキの引きを確かめられます。</span></li>
-          <li class="t-collection"><strong>カードをそのまま移行</strong><span>ManaBox、Moxfield、Archidekt、Delver Lens、Dragon Shield、Deckbox、TCGplayer、Cardmarketから読み込み。iCloudで同期します。</span></li>
-        </ul>
-        <p class="btn-note">ずっと無料：コレクション、価格、スキャナー、対戦、作成したデッキ7つまで。AI機能はManaを使い、実行前に必ず費用が表示されます。毎日1回の簡単な質問は無料、最初の「あなたの統率者を探す」も無料です。ManaPal Proは任意：毎月のMana、詳細な統計、デッキ・バインダー・テストプレイが無制限に。</p>
+      <div class="section-head centered reveal">
+        <h2 id="more-title">まだまだあります</h2>
+        <p>MTGプレイヤーに必要なすべてを、ひとつのアプリに。</p>
       </div>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>テーブルでルールを</strong><span>総合ルールと全カードの裁定をオフラインで。判定はMoteに聞こう。</span></li><li class="t-games reveal"><strong>フレンドと遊ぶ</strong><span>QRコードでフレンドを追加。対戦を共有して、プレイグループのランキングも。</span></li><li class="t-decks reveal"><strong>すべての構築済みデッキ</strong><span>公式の構築済みデッキを解説つきで。すぐに読み込めます。</span></li><li class="t-commander reveal"><strong>大会デッキ</strong><span>統率者戦の大会で入賞したリストを、TopDeck.ggから。</span></li><li class="t-decks reveal"><strong>統計とコンボ</strong><span>マナカーブ、土地、色、コンボ、そしてデッキの価値。</span></li><li class="t-collection reveal"><strong>カードをそのまま移行</strong><span>ManaBox、Moxfield、Archidekt、Delver Lensなどから読み込み。</span></li><li class="t-collection reveal"><strong>バインダー、ウィッシュリスト、トレード</strong><span>カードを整理して、コンプリートに近いセットをチェック。</span></li><li class="t-mote reveal"><strong>iCloudと14言語</strong><span>iPhoneとiPadで同期。あなたの言語と通貨で。</span></li></ul>
     </div>
   </section>
 
-
-  <section class="section" id="how-it-works" aria-labelledby="how-title">
-    <div class="container">
-      <div class="section-head">
-        <h2 id="how-title">使い方</h2>
-        <p>カードの箱からテーブルの上のデッキまで、4つのステップで。</p>
-      </div>
-      <ol class="steps four">
-        <li><h3>カードを追加</h3><p>カメラでスキャン、名前やエキスパンションで検索、または他のアプリからリストを読み込みます。</p></li>
-        <li><h3>デッキを作成・読み込み</h3><p>デッキを作るか、Moxfield、Archidekt、テキストリストから読み込むか、Moteにコレクションから組んでもらいます。</p></li>
-        <li><h3>Moteに聞く</h3><p>ルールの質問、デッキ分析、手持ちカードでの入れ替え。必要なManaは実行前に表示されます。</p></li>
-        <li><h3>対戦して記録</h3><p>カウンターを開いて対戦すれば、結果は履歴とグループのランキングに反映され、フレンドのスマホにも届きます。</p></li>
-      </ol>
+  <section class="section plans" aria-label="ずっと無料 · ManaPal Pro">
+    <div class="container plans-grid">
+      <div class="plan reveal"><h2>ずっと無料</h2><ul><li>コレクション、価格、スキャナー</li><li>ライフカウンターと対戦履歴</li><li>作成したデッキ7つまで</li><li>毎日1回、AIへの簡単な質問が無料</li><li>最初の「あなたの統率者を探す」</li></ul></div>
+      <div class="plan is-pro reveal"><h2>ManaPal Pro <span class="tag">任意</span></h2><ul><li>毎月、Mote用のMana</li><li>詳細な統計</li><li>デッキとバインダー無制限</li><li>無制限のテストプレイ</li><li>アプリのテーマと自分好みのゲーム</li></ul></div>
+      <p class="plans-note">AI機能はManaを使い、実行前に必ず費用が表示されます。</p>
     </div>
   </section>
+  <!-- home:end -->
 
   <section class="section" id="guides" aria-labelledby="guides-title">
     <div class="container">
@@ -313,6 +328,6 @@
     <p class="legal-note">カードのデータと画像：Scryfall。Apple、iPhone、iPadはApple Inc.の商標です。App StoreはApple Inc.のサービスマークです。</p>
   </div>
 </footer>
-<script src="../assets/reel.js" defer></script>
+<script src="../assets/site.js" defer></script>
 </body>
 </html>

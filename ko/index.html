@@ -87,7 +87,7 @@
   <div class="container">
     <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
     <nav class="header-nav" aria-label="주요 메뉴">
-      <a class="hide-sm" href="#download">기능</a>
+      <a class="hide-sm" href="#features">기능</a>
       <a class="hide-sm" href="#guides">가이드</a>
       <a class="hide-sm" href="#faq">FAQ</a>
       <details class="lang">
@@ -114,98 +114,113 @@
 </header>
 
 <main id="main">
+  <!-- home:start -->
   <section class="hero" aria-labelledby="hero-title">
-    <div class="container">
-      <div>
-        <img class="hero-icon" src="../assets/icon.png" alt="ManaPal 앱 아이콘" width="84" height="84">
-        <span class="eyebrow">ManaPal · iPhone과 iPad에 곧 출시</span>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img class="hero-icon" src="../assets/icon.png" alt="" width="72" height="72">
+        <span class="eyebrow">iPhone과 iPad에 곧 출시</span>
         <h1 id="hero-title">내 카드를 아는 <span class="gold">MTG 앱</span></h1>
-        <p class="lead">매직 더 개더링 컬렉션을 스캔하고, 얼마나 가치가 있는지 확인하고, 이미 가진 카드로 커맨더 덱을 만들고, 모든 게임을 기록하세요. AI 덱 전문가 Mote가 내 카드를 바탕으로 답해 줍니다.</p>
+        <p class="lead">컬렉션을 스캔하고, 가진 카드로 덱을 만들고, 친구와 플레이하세요. 계산은 AI 덱 전문가 Mote가 맡습니다.</p>
         <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>곧 출시 예정</small><strong>App Store</strong></span></span>
         <p class="btn-note">무료 다운로드 · iPhone 및 iPad · iOS 18 이상</p>
-        <ul class="trust">
-          <li>카드 스캐너</li>
-          <li>커맨더 라이프 카운터</li>
-          <li>오프라인 규칙</li>
-          <li>친구와 플레이</li>
-          <li>14개 언어</li>
-          <li>iCloud 동기화</li>
-        </ul>
       </div>
-      <div class="hero-shot">
-        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ManaPal의 AI 어시스턴트가 이미 가진 카드로 커맨더 덱 교체안 3개를 제안하고 부족한 카드 4장을 가격과 함께 보여 주는 화면" fetchpriority="high">
+      <div class="hero-media">
+        <div class="hero-back is-left" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/commander.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="hero-back is-right" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/swaps.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="ManaPal 카드 뷰어에서 기울어지며 빛을 받는 포일 Giada, Font of Hope"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
+    <nav class="container jumps" aria-label="기능으로 이동"><ul><li><a href="#scan">스캔</a></li><li><a href="#foils">포일</a></li><li><a href="#commander">커맨더</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">테스트</a></li><li><a href="#play">게임의 밤</a></li><li><a href="#more">더 보기</a></li></ul></nav>
   </section>
 
-  <!-- reel:start -->
-  <section class="reel-section" id="screenshots" aria-labelledby="shots-title">
-    <div class="container section-head">
-      <h2 id="shots-title">ManaPal 둘러보기</h2>
-    </div>
-    <div class="reel" data-reel tabindex="0" aria-roledescription="carousel" aria-labelledby="shots-title">
-      <ul class="reel-track">
-        <li class="reel-slide" data-caption="빛을 받아 반짝이는 포일"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="빛을 받아 반짝이는 포일"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">빛을 받아 반짝이는 포일</p></li>
-        <li class="reel-slide" data-caption="나에게 맞는 커맨더 찾기"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="나에게 맞는 커맨더 찾기"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">나에게 맞는 커맨더 찾기</p></li>
-        <li class="reel-slide" data-caption="내 카드로 바꾸기"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="내 카드로 바꾸기"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">내 카드로 바꾸기</p></li>
-        <li class="reel-slide" data-caption="슬리브에 넣기 전에 덱 테스트"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="슬리브에 넣기 전에 덱 테스트"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">슬리브에 넣기 전에 덱 테스트</p></li>
-        <li class="reel-slide" data-caption="주사위 굴리기"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="주사위 굴리기"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">주사위 굴리기</p></li>
-        <li class="reel-slide" data-caption="모든 카드를 가까이서"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="모든 카드를 가까이서"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">모든 카드를 가까이서</p></li>
-        <li class="reel-slide" data-caption="카메라로 카드 스캔"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="카메라로 카드 스캔" loading="lazy"></div><p class="reel-label">카메라로 카드 스캔</p></li>
-      </ul>
-      <p class="reel-caption" aria-live="polite"></p>
-      <div class="reel-progress" aria-hidden="true"><span></span></div>
-      <div class="reel-controls">
-        <button type="button" class="reel-arrow" data-reel-prev aria-label="이전">‹</button>
-        <div class="reel-dots"><button type="button" aria-label="영상으로 이동 1: 빛을 받아 반짝이는 포일"></button><button type="button" aria-label="영상으로 이동 2: 나에게 맞는 커맨더 찾기"></button><button type="button" aria-label="영상으로 이동 3: 내 카드로 바꾸기"></button><button type="button" aria-label="영상으로 이동 4: 슬리브에 넣기 전에 덱 테스트"></button><button type="button" aria-label="영상으로 이동 5: 주사위 굴리기"></button><button type="button" aria-label="영상으로 이동 6: 모든 카드를 가까이서"></button><button type="button" aria-label="영상으로 이동 7: 카메라로 카드 스캔"></button></div>
-        <button type="button" class="reel-arrow" data-reel-next aria-label="다음">›</button>
+  <div id="features">
+  <section class="chapter t-collection" id="scan" aria-labelledby="scan-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">컬렉션</p>
+        <h2 id="scan-title">비추고. 스캔하고. 끝.</h2>
+        <p class="chapter-text">한 장 또 한 장, 멈추지 않고. 모든 카드가 가격과 함께 컬렉션에 들어가고, 총액이 늘어나는 게 보입니다.</p>
+        <ul class="chips"><li>연속 스캔</li><li>세트와 포일</li><li>실시간 가격</li></ul>
       </div>
+      <div class="chapter-media reveal"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="카메라 스캐너가 The One Ring을 인식해 가격과 함께 추가" loading="lazy"></div></div>
     </div>
   </section>
-  <!-- reel:end -->
+  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">모든 카드</p>
+        <h2 id="foils-title">처음 보는 내 카드.</h2>
+        <p class="chapter-text">카드를 열고 기울이면 포일이 빛을 받습니다. 규칙 텍스트, 공식 판정, 모든 상점의 가격까지 스와이프 한 번이면 됩니다.</p>
+        <ul class="chips"><li>포일 효과</li><li>공식 판정</li><li>상점 가격</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="컬렉션 그리드에서 카드를 열어 상세 페이지로 이동"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">내 커맨더 찾기</p>
+        <h2 id="commander-title">나를 위한 커맨더.</h2>
+        <p class="chapter-text">플레이 방식에 관한 12개의 질문에 답하세요. Mote가 저예산, 중간, 최상위 목록과 함께 커맨더 세 명을 골라 주고, 실제 대회에서 입상한 덱도 가져올 수 있습니다.</p>
+        <ul class="chips"><li>12개 질문</li><li>3가지 예산</li><li>대회 덱</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Mote가 추천 커맨더 세 명을 공개: Lathril, Atarka, Omnath"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">AI 전문가 Mote</p>
+        <h2 id="mote-title">내 카드를 읽는 전문가.</h2>
+        <p class="chapter-text">Mote가 덱을 분석하고 이미 가진 카드로 교체를 제안합니다. 탭 한 번이면 적용됩니다. 컬렉션으로 덱 하나를 통째로 만들어 주기도 합니다.</p>
+        <ul class="chips"><li>덱 분석</li><li>덱을 만들어 줘</li><li>가진 카드로 교체</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Mote의 덱 분석이 가진 카드로 추천 교체를 보여 주고, 다섯 장을 교체"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">덱</p>
+        <h2 id="playtest-title">슬리브 전에 테스트.</h2>
+        <p class="chapter-text">시작 손패를 뽑고, 멀리건하고, 첫 턴을 플레이하세요. 대지를 뽑을 확률, 마나 곡선, 부족한 카드의 비용까지 확인할 수 있습니다.</p>
+        <ul class="chips"><li>시작 손패</li><li>멀리건</li><li>덱 통계</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="테스트 게임: 시작 손패, 멀리건, 전장에 나온 첫 카드들"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">게임의 밤</p>
+        <h2 id="play-title">테이블에 필요한 모든 것.</h2>
+        <p class="chapter-text">2~6인용 생명점 카운터에 커맨더 피해, 독, 군주, 주도권까지. 주사위를 누르고 굴리면 모든 게임이 친구의 휴대폰에 전달됩니다.</p>
+        <ul class="chips"><li>커맨더 피해</li><li>3D 주사위</li><li>친구와 플레이</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="4인 생명점 카운터 위에서 3D 20면체 주사위를 누르고 굴리는 모습"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  </div>
 
-  <section class="section" id="download" aria-labelledby="download-title">
+  <section class="section more" id="more" aria-labelledby="more-title">
     <div class="container">
-      <div class="panel">
-        <div class="download-grid">
-          <div>
-            <h2 id="download-title">컬렉션, 덱, 게임을 무료 앱 하나로</h2>
-            <p class="lead">스프레드시트, 앱 세 개, 라이프를 적던 펜은 이제 필요 없습니다. ManaPal이 모든 것을 한곳에 모으고, 어시스턴트는 답하기 전에 내 카드를 먼저 확인합니다.</p>
-            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>곧 출시 예정</small><strong>App Store</strong></span></span>
-          </div>
-          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="ManaPal의 어시스턴트인 황금빛 마나 방울 Mote가 윙크하며 인사하는 모습">
-        </div>
-        <ul class="reasons">
-          <li class="t-collection"><strong>스캔하고 가치 확인</strong><span>카메라로 카드를 한 장씩 계속 비추면 멈추지 않고 가격과 함께 추가됩니다. 컬렉션 총 가치의 변화도 확인하세요.</span></li>
-          <li class="t-decks"><strong>가진 카드로 만드는 덱</strong><span>Mote가 컬렉션으로 커맨더 덱을 만들거나, 내 덱을 분석해 이미 가진 카드로 교체안을 제안합니다.</span></li>
-          <li class="t-commander"><strong>내 커맨더 찾기</strong><span>12개의 질문에 답하면 저예산, 중간, 최상위 목록으로 나에게 맞는 커맨더를 추천하고, 실제 대회에서 입상한 덱도 가져올 수 있습니다.</span></li>
-          <li class="t-games"><strong>커맨더를 위한 카운터</strong><span>2~6인, 커맨더 피해, 독, 군주, 주도권, Planechase, Archenemy 지원. 모든 게임이 기록에 남습니다.</span></li>
-          <li class="t-games"><strong>친구와 플레이</strong><span>QR 코드나 링크로 친구를 추가하세요. 함께한 게임이 모두의 휴대폰에 표시되고, 플레이 그룹 순위표도 볼 수 있습니다.</span></li>
-          <li class="t-mote"><strong>테이블 위의 규칙</strong><span>종합 규칙과 모든 카드의 공식 판정을 오프라인으로. 까다로운 상호작용은 'Mote에게 물어보기'가 근거 규칙과 함께 결론을 알려 줍니다.</span></li>
-          <li class="t-decks"><strong>덱을 설명하는 통계</strong><span>마나 곡선, 대지, 색, 콤보, 시작 핸드 확률, 덱 가치, 부족한 카드 비용.</span></li>
-          <li class="t-decks"><strong>프리컨과 테스트 게임</strong><span>모든 공식 프리컨 덱을 설명과 함께. 슬리브에 넣기 전에 테스트 게임으로 덱이 어떻게 풀리는지 확인하세요.</span></li>
-          <li class="t-collection"><strong>카드를 그대로 가져오기</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer, Cardmarket에서 가져오기. iCloud로 동기화.</span></li>
-        </ul>
-        <p class="btn-note">영구 무료: 컬렉션, 가격, 스캐너, 게임, 직접 만든 덱 7개까지. AI 기능은 Mana를 사용하며 실행 전에 항상 비용이 표시됩니다. 매일 빠른 질문 1개와 첫 번째 '내 커맨더 찾기'는 무료입니다. ManaPal Pro는 선택 사항: 매월 Mana, 고급 통계, 무제한 덱·바인더·테스트 플레이.</p>
+      <div class="section-head centered reveal">
+        <h2 id="more-title">그리고 더 있습니다</h2>
+        <p>MTG 플레이어에게 필요한 모든 것을 앱 하나에.</p>
       </div>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>테이블 위의 규칙</strong><span>종합 규칙과 모든 카드의 판정을 오프라인으로. 결론은 Mote에게 물어보세요.</span></li><li class="t-games reveal"><strong>친구와 플레이</strong><span>QR 코드로 친구 추가: 함께한 게임과 플레이 그룹 순위표.</span></li><li class="t-decks reveal"><strong>모든 프리컨</strong><span>설명이 담긴 공식 프리컨 덱을 바로 가져올 수 있습니다.</span></li><li class="t-commander reveal"><strong>대회 덱</strong><span>커맨더 대회에서 입상한 리스트를 TopDeck.gg에서.</span></li><li class="t-decks reveal"><strong>통계와 콤보</strong><span>마나 곡선, 대지, 색, 콤보, 그리고 덱 가치.</span></li><li class="t-collection reveal"><strong>카드 가져오기</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens 등에서 가져오세요.</span></li><li class="t-collection reveal"><strong>바인더, 위시리스트, 트레이드</strong><span>카드를 정리하고 어떤 세트를 채워 가고 있는지 확인하세요.</span></li><li class="t-mote reveal"><strong>iCloud와 14개 언어</strong><span>iPhone과 iPad에서 동기화. 내 언어, 내 통화로.</span></li></ul>
     </div>
   </section>
 
-
-  <section class="section" id="how-it-works" aria-labelledby="how-title">
-    <div class="container">
-      <div class="section-head">
-        <h2 id="how-title">사용 방법</h2>
-        <p>카드 상자에서 테이블 위의 덱까지, 네 단계면 충분합니다.</p>
-      </div>
-      <ol class="steps four">
-        <li><h3>카드 추가</h3><p>카메라로 스캔하거나, 이름이나 확장판으로 검색하거나, 다른 앱에서 목록을 가져오세요.</p></li>
-        <li><h3>덱 만들기 또는 가져오기</h3><p>덱을 직접 만들거나 Moxfield, Archidekt, 텍스트 목록에서 가져오거나, Mote에게 컬렉션으로 만들어 달라고 하세요.</p></li>
-        <li><h3>Mote에게 질문</h3><p>규칙 질문, 덱 분석, 내 카드로 교체. 필요한 Mana는 시작 전에 표시됩니다.</p></li>
-        <li><h3>플레이하고 기록</h3><p>카운터를 열고 플레이하면 모든 결과가 기록과 그룹 순위, 친구의 휴대폰에 반영됩니다.</p></li>
-      </ol>
+  <section class="section plans" aria-label="영구 무료 · ManaPal Pro">
+    <div class="container plans-grid">
+      <div class="plan reveal"><h2>영구 무료</h2><ul><li>컬렉션, 가격, 스캐너</li><li>생명점 카운터와 게임 기록</li><li>직접 만든 덱 최대 7개</li><li>매일 무료 빠른 AI 질문 1개</li><li>첫 번째 &#x27;내 커맨더 찾기&#x27;</li></ul></div>
+      <div class="plan is-pro reveal"><h2>ManaPal Pro <span class="tag">선택 사항</span></h2><ul><li>매월 Mote용 Mana</li><li>고급 통계</li><li>무제한 덱과 바인더</li><li>무제한 테스트 플레이</li><li>앱 테마와 나만의 게임</li></ul></div>
+      <p class="plans-note">AI 기능은 Mana를 사용하며, 실행 전에 항상 비용이 표시됩니다.</p>
     </div>
   </section>
+  <!-- home:end -->
 
   <section class="section" id="guides" aria-labelledby="guides-title">
     <div class="container">
@@ -313,6 +328,6 @@
     <p class="legal-note">카드 데이터 및 이미지: Scryfall. Apple, iPhone, iPad는 Apple Inc.의 상표입니다. App Store는 Apple Inc.의 서비스 마크입니다.</p>
   </div>
 </footer>
-<script src="../assets/reel.js" defer></script>
+<script src="../assets/site.js" defer></script>
 </body>
 </html>

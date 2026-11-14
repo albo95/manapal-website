@@ -1,0 +1,37 @@
+{
+  "eyebrow": "即將登陸 iPhone 與 iPad",
+  "h1": "懂你卡牌的<span class=\"gold\">魔法風雲會 App</span>",
+  "lead": "掃描收藏，用手邊的卡牌組套牌，和好友一起玩。你的 AI 套牌專家 Mote 幫你算清一切。",
+  "store_small": "即將登陸",
+  "store_big": "App Store",
+  "note": "免費下載 · iPhone 與 iPad · iOS 18 或以上版本",
+  "hero_alt": "閃卡 Giada, Font of Hope 在 ManaPal 的卡牌檢視器中傾斜，流光閃動",
+  "jump_label": "跳至功能",
+  "jumps": ["掃描", "閃卡", "指揮官", "Mote", "試玩", "牌局之夜", "更多"],
+  "chapters": [
+    {"id": "scan", "tab": "collection", "kicker": "收藏", "title": "對準。掃描。搞定。", "text": "一張接一張，不必停下：每張卡都帶著價格加入收藏，總價值在你眼前不斷增加。", "chips": ["連續掃描", "系列與閃卡", "即時價格"], "alt": "相機掃描辨識出 The One Ring，並連同價格一起加入收藏"},
+    {"id": "foils", "tab": "collection", "kicker": "每一張卡", "title": "前所未見的你的卡牌。", "text": "打開任何一張卡，傾斜一下：閃卡流光閃動。規則敘述、官方裁定和各家商店的價格，滑一下就到。", "chips": ["閃卡效果", "官方裁定", "商店價格"], "alt": "從收藏網格中打開一張卡牌，進入詳細頁面"},
+    {"id": "commander", "tab": "commander", "kicker": "找到你的指揮官", "title": "為你而選的指揮官。", "text": "回答 12 個關於你打法的問題。Mote 為你挑出三位指揮官，附平價、中階和頂級清單，還能匯入在真實比賽中取得名次的套牌。", "chips": ["12 個問題", "3 種預算", "比賽套牌"], "alt": "Mote 揭曉三位推薦指揮官：Lathril、Atarka 和 Omnath"},
+    {"id": "mote", "tab": "mote", "kicker": "Mote，你的 AI 專家", "title": "讀懂你卡牌的專家。", "text": "Mote 分析你的套牌，用你已有的卡牌提出替換建議。輕點一下就換入。它還能用你的收藏組出一整副套牌。", "chips": ["套牌分析", "幫我組一副套牌", "用已有卡牌替換"], "alt": "Mote 的套牌分析列出用已有卡牌的替換建議，然後套用五處替換"},
+    {"id": "playtest", "tab": "decks", "kicker": "套牌", "title": "套上牌套前，先試一試。", "text": "抽起手，再調度，打出前幾個回合。查看抽到地的機率、魔法力曲線，以及缺少卡牌的費用。", "chips": ["起手", "再調度", "套牌統計"], "alt": "一局試玩：起手、一次再調度，以及戰場上的第一批牌"},
+    {"id": "play", "tab": "games", "kicker": "牌局之夜", "title": "牌桌所需，一應俱全。", "text": "支援 2 到 6 名玩家的生命計數器，可記錄指揮官傷害、中毒、君主和先攻。按住骰子再放開讓它滾動，每場對局都會同步到好友的手機上。", "chips": ["指揮官傷害", "3D 骰子", "和好友一起玩"], "alt": "在四人生命計數器上按住並擲出 3D 二十面骰"}
+  ],
+  "more_title": "還有更多",
+  "more_lead": "魔法風雲會玩家需要的一切，盡在一個 App。",
+  "more": [
+    {"tab": "mote", "icon": "⚖️", "title": "牌桌上的規則", "text": "完整規則和每張卡牌的裁定，離線可用。讓 Mote 給出結論。"},
+    {"tab": "games", "icon": "🤝", "title": "和好友一起玩", "text": "用 QR 碼新增好友：共享對局，還有牌友群排行榜。"},
+    {"tab": "decks", "icon": "📦", "title": "所有預組套牌", "text": "官方預組套牌附有介紹，隨時可以匯入。"},
+    {"tab": "commander", "icon": "🏆", "title": "比賽套牌", "text": "在指揮官比賽中取得名次的套牌清單，來自 TopDeck.gg。"},
+    {"tab": "decks", "icon": "📊", "title": "統計與組合技", "text": "魔法力曲線、地、顏色、組合技和套牌價值。"},
+    {"tab": "collection", "icon": "⇄", "title": "帶著你的卡牌過來", "text": "可從 ManaBox、Moxfield、Archidekt、Delver Lens 等匯入。"},
+    {"tab": "collection", "icon": "📒", "title": "卡冊、願望單、交易", "text": "整理你的卡牌，看看哪些系列快要收齊。"},
+    {"tab": "mote", "icon": "☁️", "title": "iCloud 與 14 種語言", "text": "在 iPhone 與 iPad 上同步，用你的語言和貨幣。"}
+  ],
+  "free_title": "永久免費",
+  "free_items": ["收藏、價格和掃描", "生命計數器和對局紀錄", "最多 7 副自組套牌", "每天一次免費 AI 快速提問", "第一次「找到你的指揮官」"],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "選用",
+  "pro_items": ["每月為 Mote 提供 Mana", "進階統計", "無限套牌和卡冊", "無限試玩", "App 主題和自訂對局"],
+  "pricing_note": "AI 操作使用 Mana，每次操作開始前都會先顯示費用。"
+}

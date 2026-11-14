@@ -1,0 +1,169 @@
+{
+  "eyebrow": "Bientôt sur iPhone et iPad",
+  "h1": "L'<span class=\"gold\">appli Magic</span> qui connaît tes cartes",
+  "lead": "Scanne ta collection, construis des decks avec tes cartes et joue avec tes amis. Mote, ton expert IA des decks, fait les calculs.",
+  "store_small": "Bientôt disponible sur",
+  "store_big": "l'App Store",
+  "note": "Téléchargement gratuit · iPhone et iPad · iOS 18 ou ultérieur",
+  "hero_alt": "Une Giada foil s'incline dans la visionneuse de ManaPal et capte la lumière",
+  "jump_label": "Aller à une fonction",
+  "jumps": [
+    "Scan",
+    "Foils",
+    "Commander",
+    "Mote",
+    "Test",
+    "Soirée jeux",
+    "Plus"
+  ],
+  "chapters": [
+    {
+      "id": "scan",
+      "tab": "collection",
+      "kicker": "Collection",
+      "title": "Vise. Scanne. C'est fait.",
+      "text": "Carte après carte, sans t'arrêter : chacune rejoint ta collection avec son prix, et tu vois le total grimper.",
+      "chips": [
+        "Scanner à la suite",
+        "Édition et foil",
+        "Prix à jour"
+      ],
+      "alt": "Le scanner reconnaît The One Ring et l'ajoute avec son prix"
+    },
+    {
+      "id": "foils",
+      "tab": "collection",
+      "kicker": "Chaque carte",
+      "title": "Tes cartes comme jamais.",
+      "text": "Ouvre une carte et incline-la : les foils captent la lumière. Texte de règles, rulings officiels et prix de chaque boutique sont à portée de doigt.",
+      "chips": [
+        "Effet foil",
+        "Rulings officiels",
+        "Prix en boutique"
+      ],
+      "alt": "Une carte s'ouvre depuis la grille de la collection sur sa page de détail"
+    },
+    {
+      "id": "commander",
+      "tab": "commander",
+      "kicker": "Trouve ton Commander",
+      "title": "Le Commander fait pour toi.",
+      "text": "Réponds à 12 questions sur ta façon de jouer. Mote choisit trois commandants, avec des listes petit budget, intermédiaire et top, et tu peux importer des decks bien classés en vrais tournois.",
+      "chips": [
+        "12 questions",
+        "3 budgets",
+        "Decks de tournoi"
+      ],
+      "alt": "Mote révèle trois commandants suggérés : Lathril, Atarka et Omnath"
+    },
+    {
+      "id": "mote",
+      "tab": "mote",
+      "kicker": "Mote, ton expert IA",
+      "title": "Un expert qui lit tes cartes.",
+      "text": "Mote analyse ton deck et propose des échanges avec des cartes que tu as déjà. Un toucher et c'est fait. Il peut aussi construire un deck entier à partir de ta collection.",
+      "chips": [
+        "Analyse du deck",
+        "Construis-moi un deck",
+        "Échanges avec tes cartes"
+      ],
+      "alt": "L'analyse de Mote liste des échanges avec des cartes que tu possèdes, puis en applique cinq"
+    },
+    {
+      "id": "playtest",
+      "tab": "decks",
+      "kicker": "Decks",
+      "title": "Teste-le avant de le mettre sous pochettes.",
+      "text": "Pioche une main de départ, fais un mulligan, joue tes premiers tours. Vois tes chances de piocher des terrains, ta courbe et le prix des cartes qui manquent.",
+      "chips": [
+        "Main de départ",
+        "Mulligan",
+        "Statistiques"
+      ],
+      "alt": "Une partie test : main de départ, un mulligan et les premières cartes sur le champ de bataille"
+    },
+    {
+      "id": "play",
+      "tab": "games",
+      "kicker": "Soirée jeux",
+      "title": "Tout pour la table.",
+      "text": "Un compteur de vie de 2 à 6 joueurs avec blessures de commandant, poison, monarque et initiative. Maintiens le dé, laisse-le rouler, et chaque partie arrive sur le téléphone de tes amis.",
+      "chips": [
+        "Blessures de commandant",
+        "Dé 3D",
+        "Joue avec tes amis"
+      ],
+      "alt": "Le dé 3D à vingt faces, maintenu puis lancé au-dessus d'un compteur de vie à quatre joueurs"
+    }
+  ],
+  "more_title": "Et ce n'est pas tout",
+  "more_lead": "Tout ce qu'il faut à un joueur de Magic, dans une seule appli.",
+  "more": [
+    {
+      "tab": "mote",
+      "icon": "⚖️",
+      "title": "Les règles à table",
+      "text": "Les Règles complètes et les rulings de chaque carte, hors ligne. Demande un verdict à Mote."
+    },
+    {
+      "tab": "games",
+      "icon": "🤝",
+      "title": "Joue avec tes amis",
+      "text": "Ajoute tes amis avec un code QR : parties partagées et classement du groupe."
+    },
+    {
+      "tab": "decks",
+      "icon": "📦",
+      "title": "Tous les précons",
+      "text": "Les decks préconstruits officiels avec leur description, prêts à importer."
+    },
+    {
+      "tab": "commander",
+      "icon": "🏆",
+      "title": "Decks de tournoi",
+      "text": "Des listes bien classées en tournoi Commander, via TopDeck.gg."
+    },
+    {
+      "tab": "decks",
+      "icon": "📊",
+      "title": "Stats et combos",
+      "text": "Courbe, terrains, couleurs, combos et valeur de ton deck."
+    },
+    {
+      "tab": "collection",
+      "icon": "⇄",
+      "title": "Apporte tes cartes",
+      "text": "Importe depuis ManaBox, Moxfield, Archidekt, Delver Lens et d'autres."
+    },
+    {
+      "tab": "collection",
+      "icon": "📒",
+      "title": "Classeurs, wishlist, échanges",
+      "text": "Organise tes cartes et vois quelles éditions tu es en train de compléter."
+    },
+    {
+      "tab": "mote",
+      "icon": "☁️",
+      "title": "iCloud et 14 langues",
+      "text": "Synchronisée sur iPhone et iPad, dans ta langue et ta devise."
+    }
+  ],
+  "free_title": "Gratuit pour toujours",
+  "free_items": [
+    "Collection, prix et scanner",
+    "Compteur de vie et historique des parties",
+    "Jusqu'à 7 decks construits",
+    "Une question rapide à l'IA offerte chaque jour",
+    "Ton premier « Trouve ton Commander »"
+  ],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "Facultatif",
+  "pro_items": [
+    "Mana inclus chaque mois pour Mote",
+    "Stats avancées",
+    "Decks et classeurs illimités",
+    "Simulateur illimité",
+    "Thèmes de l'app et parties sur mesure"
+  ],
+  "pricing_note": "Les actions IA utilisent du Mana, et tu vois toujours le coût avant qu'une action démarre."
+}

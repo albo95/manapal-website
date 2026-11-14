@@ -87,7 +87,7 @@
   <div class="container">
     <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
     <nav class="header-nav" aria-label="主导航">
-      <a class="hide-sm" href="#download">功能</a>
+      <a class="hide-sm" href="#features">功能</a>
       <a class="hide-sm" href="#guides">指南</a>
       <a class="hide-sm" href="#faq">常见问题</a>
       <details class="lang">
@@ -114,98 +114,113 @@
 </header>
 
 <main id="main">
+  <!-- home:start -->
   <section class="hero" aria-labelledby="hero-title">
-    <div class="container">
-      <div>
-        <img class="hero-icon" src="../assets/icon.png" alt="ManaPal App 图标" width="84" height="84">
-        <span class="eyebrow">ManaPal · 即将登陆 iPhone 和 iPad</span>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img class="hero-icon" src="../assets/icon.png" alt="" width="72" height="72">
+        <span class="eyebrow">即将登陆 iPhone 和 iPad</span>
         <h1 id="hero-title">懂你卡牌的<span class="gold">万智牌 App</span></h1>
-        <p class="lead">扫描你的万智牌收藏，了解它值多少钱，用已有的卡牌组指挥官套牌，并记录每一局对战。你的 AI 套牌专家 Mote 会根据你的卡牌给出回答。</p>
+        <p class="lead">扫描收藏，用已有的卡牌组套牌，和好友一起玩。你的 AI 套牌专家 Mote 帮你算清一切。</p>
         <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>即将登陆</small><strong>App Store</strong></span></span>
         <p class="btn-note">免费下载 · iPhone 和 iPad · iOS 18 或更高版本</p>
-        <ul class="trust">
-          <li>卡牌扫描</li>
-          <li>指挥官生命计数器</li>
-          <li>离线规则</li>
-          <li>和好友一起玩</li>
-          <li>14 种语言</li>
-          <li>iCloud 同步</li>
-        </ul>
       </div>
-      <div class="hero-shot">
-        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ManaPal 的 AI 助手用你已有的卡牌为指挥官套牌提出三个替换建议，并显示缺少的四张卡牌及价格" fetchpriority="high">
+      <div class="hero-media">
+        <div class="hero-back is-left" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/commander.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="hero-back is-right" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/swaps.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="闪卡 Giada, Font of Hope 在 ManaPal 的卡牌查看器中倾斜，流光闪动"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
+    <nav class="container jumps" aria-label="跳转到功能"><ul><li><a href="#scan">扫描</a></li><li><a href="#foils">闪卡</a></li><li><a href="#commander">指挥官</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">试玩</a></li><li><a href="#play">牌局之夜</a></li><li><a href="#more">更多</a></li></ul></nav>
   </section>
 
-  <!-- reel:start -->
-  <section class="reel-section" id="screenshots" aria-labelledby="shots-title">
-    <div class="container section-head">
-      <h2 id="shots-title">ManaPal 实际界面</h2>
-    </div>
-    <div class="reel" data-reel tabindex="0" aria-roledescription="carousel" aria-labelledby="shots-title">
-      <ul class="reel-track">
-        <li class="reel-slide" data-caption="流光溢彩的闪卡"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="流光溢彩的闪卡"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">流光溢彩的闪卡</p></li>
-        <li class="reel-slide" data-caption="找到适合你的指挥官"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="找到适合你的指挥官"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">找到适合你的指挥官</p></li>
-        <li class="reel-slide" data-caption="用你自己的卡牌替换"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="用你自己的卡牌替换"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">用你自己的卡牌替换</p></li>
-        <li class="reel-slide" data-caption="套牌套上卡套前先试玩"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="套牌套上卡套前先试玩"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">套牌套上卡套前先试玩</p></li>
-        <li class="reel-slide" data-caption="掷骰子"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="掷骰子"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">掷骰子</p></li>
-        <li class="reel-slide" data-caption="每张卡牌的细节"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="每张卡牌的细节"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">每张卡牌的细节</p></li>
-        <li class="reel-slide" data-caption="用相机扫描卡牌"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="用相机扫描卡牌" loading="lazy"></div><p class="reel-label">用相机扫描卡牌</p></li>
-      </ul>
-      <p class="reel-caption" aria-live="polite"></p>
-      <div class="reel-progress" aria-hidden="true"><span></span></div>
-      <div class="reel-controls">
-        <button type="button" class="reel-arrow" data-reel-prev aria-label="上一个">‹</button>
-        <div class="reel-dots"><button type="button" aria-label="前往视频 1: 流光溢彩的闪卡"></button><button type="button" aria-label="前往视频 2: 找到适合你的指挥官"></button><button type="button" aria-label="前往视频 3: 用你自己的卡牌替换"></button><button type="button" aria-label="前往视频 4: 套牌套上卡套前先试玩"></button><button type="button" aria-label="前往视频 5: 掷骰子"></button><button type="button" aria-label="前往视频 6: 每张卡牌的细节"></button><button type="button" aria-label="前往视频 7: 用相机扫描卡牌"></button></div>
-        <button type="button" class="reel-arrow" data-reel-next aria-label="下一个">›</button>
+  <div id="features">
+  <section class="chapter t-collection" id="scan" aria-labelledby="scan-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">收藏</p>
+        <h2 id="scan-title">对准。扫描。搞定。</h2>
+        <p class="chapter-text">一张接一张，无需停顿：每张卡都带着价格加入收藏，总价值在你眼前不断增长。</p>
+        <ul class="chips"><li>连续扫描</li><li>系列与闪卡</li><li>实时价格</li></ul>
       </div>
+      <div class="chapter-media reveal"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="相机扫描识别出 The One Ring，并连同价格一起加入收藏" loading="lazy"></div></div>
     </div>
   </section>
-  <!-- reel:end -->
+  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">每一张卡</p>
+        <h2 id="foils-title">前所未见的你的卡牌。</h2>
+        <p class="chapter-text">打开任意一张卡，倾斜一下：闪卡流光闪动。规则叙述、官方裁定和各家商店的价格，滑一下就到。</p>
+        <ul class="chips"><li>闪卡效果</li><li>官方裁定</li><li>商店价格</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="从收藏网格中打开一张卡牌，进入详情页"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">找到你的指挥官</p>
+        <h2 id="commander-title">为你而选的指挥官。</h2>
+        <p class="chapter-text">回答 12 个关于你打法的问题。Mote 为你挑出三位指挥官，附平价、中档和顶级列表，还能导入在真实比赛中取得名次的套牌。</p>
+        <ul class="chips"><li>12 个问题</li><li>3 档预算</li><li>比赛套牌</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Mote 揭晓三位推荐指挥官：Lathril、Atarka 和 Omnath"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Mote，你的 AI 专家</p>
+        <h2 id="mote-title">读懂你卡牌的专家。</h2>
+        <p class="chapter-text">Mote 分析你的套牌，用你已有的卡牌给出替换建议。轻点一下即可换入。它还能用你的收藏组一整副套牌。</p>
+        <ul class="chips"><li>套牌分析</li><li>帮我构筑一副套牌</li><li>用已有卡牌替换</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Mote 的套牌分析列出用已有卡牌的替换建议，然后应用五处替换"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">套牌</p>
+        <h2 id="playtest-title">套上牌套前，先试一试。</h2>
+        <p class="chapter-text">抓起手，调度，打出前几个回合。查看抓到地的概率、法术力曲线，以及缺少卡牌的费用。</p>
+        <ul class="chips"><li>起手</li><li>调度</li><li>套牌统计</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="一局试玩：起手、一次调度，以及战场上的第一批牌"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">牌局之夜</p>
+        <h2 id="play-title">牌桌所需，一应俱全。</h2>
+        <p class="chapter-text">支持 2 到 6 名玩家的生命计数器，可记录指挥官伤害、中毒、君主和先攻权。按住骰子再松手让它滚动，每局对战都会同步到好友的手机上。</p>
+        <ul class="chips"><li>指挥官伤害</li><li>3D 骰子</li><li>和好友一起玩</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="在四人生命计数器上按住并掷出 3D 二十面骰"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  </div>
 
-  <section class="section" id="download" aria-labelledby="download-title">
+  <section class="section more" id="more" aria-labelledby="more-title">
     <div class="container">
-      <div class="panel">
-        <div class="download-grid">
-          <div>
-            <h2 id="download-title">收藏、套牌和对战，一个免费 App 全搞定</h2>
-            <p class="lead">不再需要电子表格、三个不同的 App，也不用纸笔记生命。ManaPal 把一切集中起来，助手回答前会先看你的卡牌。</p>
-            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>即将登陆</small><strong>App Store</strong></span></span>
-          </div>
-          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="ManaPal 的助手——金色 Mana 水滴 Mote 眨眼打招呼">
-        </div>
-        <ul class="reasons">
-          <li class="t-collection"><strong>扫描即知价值</strong><span>摄像头一张接一张对准卡牌，它们会带着价格连续加入收藏，无需停顿。随时查看收藏总价值的变化。</span></li>
-          <li class="t-decks"><strong>用已有卡牌组套牌</strong><span>Mote 用你的收藏组一副指挥官套牌，或分析你的套牌，用你已有的卡牌给出替换建议。</span></li>
-          <li class="t-commander"><strong>找到你的指挥官</strong><span>回答 12 个问题，按平价、中档和顶级列表获得适合你的指挥官，还能导入在真实比赛中取得名次的套牌。</span></li>
-          <li class="t-games"><strong>为指挥官打造的计数器</strong><span>2 到 6 名玩家，指挥官伤害、中毒、君主、先攻权、Planechase 和 Archenemy。每局都会记入历史。</span></li>
-          <li class="t-games"><strong>和好友一起玩</strong><span>用二维码或链接添加好友：一起玩的对局会出现在每个人的手机上，还有牌友排行榜。</span></li>
-          <li class="t-mote"><strong>牌桌上的规则</strong><span>完整规则和每张卡牌的官方裁定，离线可用。遇到复杂的互动，“问问 Mote”会给出结论并引用相应规则。</span></li>
-          <li class="t-decks"><strong>读懂套牌的统计</strong><span>法术力曲线、地、颜色、组合技、起手概率、套牌价值和缺少卡牌的费用。</span></li>
-          <li class="t-decks"><strong>预组套牌与试玩</strong><span>每副官方预组套牌都附有介绍。套上牌套之前，先试玩一局，看看套牌的抓牌表现。</span></li>
-          <li class="t-collection"><strong>带上你的卡牌</strong><span>可从 ManaBox、Moxfield、Archidekt、Delver Lens、Dragon Shield、Deckbox、TCGplayer 或 Cardmarket 导入，并通过 iCloud 同步。</span></li>
-        </ul>
-        <p class="btn-note">永久免费：收藏、价格、扫描、对战，以及最多 7 副自组套牌。AI 功能使用 Mana，每次操作前都会先显示费用：每天一次免费快速提问，第一次“找到你的指挥官”也免费。ManaPal Pro 为可选项：每月 Mana、高级统计，以及无限套牌、卡册和试玩。</p>
+      <div class="section-head centered reveal">
+        <h2 id="more-title">还有更多</h2>
+        <p>万智牌玩家需要的一切，尽在一个 App。</p>
       </div>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>牌桌上的规则</strong><span>完整规则和每张卡牌的裁定，离线可用。让 Mote 给出结论。</span></li><li class="t-games reveal"><strong>和好友一起玩</strong><span>扫二维码添加好友：共享对局，还有牌友排行榜。</span></li><li class="t-decks reveal"><strong>所有预组</strong><span>官方预组套牌附带介绍，随时可导入。</span></li><li class="t-commander reveal"><strong>比赛套牌</strong><span>在指挥官比赛中取得名次的套牌列表，来自 TopDeck.gg。</span></li><li class="t-decks reveal"><strong>统计与组合技</strong><span>法术力曲线、地、颜色、组合技和套牌价值。</span></li><li class="t-collection reveal"><strong>带上你的卡牌</strong><span>可从 ManaBox、Moxfield、Archidekt、Delver Lens 等导入。</span></li><li class="t-collection reveal"><strong>卡册、愿望单、交易</strong><span>整理你的卡牌，看看哪些系列快要集齐。</span></li><li class="t-mote reveal"><strong>iCloud 与 14 种语言</strong><span>在 iPhone 和 iPad 上同步，用你的语言和货币。</span></li></ul>
     </div>
   </section>
 
-
-  <section class="section" id="how-it-works" aria-labelledby="how-title">
-    <div class="container">
-      <div class="section-head">
-        <h2 id="how-title">使用方法</h2>
-        <p>从一盒卡牌到桌上的套牌，只需四步。</p>
-      </div>
-      <ol class="steps four">
-        <li><h3>添加卡牌</h3><p>用摄像头扫描、按名称或系列搜索，或从其他 App 导入清单。</p></li>
-        <li><h3>组建或导入套牌</h3><p>自己创建套牌，从 Moxfield、Archidekt 或文本清单导入，或让 Mote 用你的收藏来组。</p></li>
-        <li><h3>问问 Mote</h3><p>规则问题、套牌分析、用你自己的卡牌替换。开始前会显示所需 Mana。</p></li>
-        <li><h3>对战并记录</h3><p>打开计数器开始对战，每个结果都会计入你的历史和牌友排行，并同步到好友的手机上。</p></li>
-      </ol>
+  <section class="section plans" aria-label="永久免费 · ManaPal Pro">
+    <div class="container plans-grid">
+      <div class="plan reveal"><h2>永久免费</h2><ul><li>收藏、价格和扫描</li><li>生命计数器和对战记录</li><li>最多 7 副自组套牌</li><li>每天一次免费 AI 快速提问</li><li>第一次“找到你的指挥官”</li></ul></div>
+      <div class="plan is-pro reveal"><h2>ManaPal Pro <span class="tag">可选</span></h2><ul><li>每月为 Mote 提供 Mana</li><li>高级统计</li><li>无限套牌和卡册</li><li>无限试玩</li><li>App 主题和个性化对局</li></ul></div>
+      <p class="plans-note">AI 操作使用 Mana，每次操作开始前都会先显示费用。</p>
     </div>
   </section>
+  <!-- home:end -->
 
   <section class="section" id="guides" aria-labelledby="guides-title">
     <div class="container">
@@ -313,6 +328,6 @@
     <p class="legal-note">卡牌数据与图片：Scryfall。Apple、iPhone 和 iPad 是 Apple Inc. 的商标。App Store 是 Apple Inc. 的服务商标。</p>
   </div>
 </footer>
-<script src="../assets/reel.js" defer></script>
+<script src="../assets/site.js" defer></script>
 </body>
 </html>

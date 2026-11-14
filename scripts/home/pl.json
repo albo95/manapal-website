@@ -1,0 +1,169 @@
+{
+  "eyebrow": "Wkrótce na iPhone'a i iPada",
+  "h1": "<span class=\"gold\">Aplikacja do Magic</span>, która zna Twoje karty",
+  "lead": "Skanuj kolekcję, buduj talie z kart, które masz, i graj ze znajomymi. Mote, Twój ekspert AI od talii, wszystko policzy.",
+  "store_small": "Wkrótce w",
+  "store_big": "App Store",
+  "note": "Bezpłatne pobieranie · iPhone i iPad · iOS 18 lub nowszy",
+  "hero_alt": "Giada w wersji foil przechyla się w podglądzie kart ManaPal i łapie światło",
+  "jump_label": "Przejdź do funkcji",
+  "jumps": [
+    "Skaner",
+    "Foile",
+    "Dowódca",
+    "Mote",
+    "Test",
+    "Wieczór gier",
+    "Więcej"
+  ],
+  "chapters": [
+    {
+      "id": "scan",
+      "tab": "collection",
+      "kicker": "Kolekcja",
+      "title": "Celuj. Skanuj. Gotowe.",
+      "text": "Karta za kartą, bez zatrzymywania: każda trafia do kolekcji z ceną, a Ty patrzysz, jak rośnie suma.",
+      "chips": [
+        "Skanuj seryjnie",
+        "Dodatek i foil",
+        "Aktualne ceny"
+      ],
+      "alt": "Skaner rozpoznaje The One Ring i dodaje go z ceną"
+    },
+    {
+      "id": "foils",
+      "tab": "collection",
+      "kicker": "Każda karta",
+      "title": "Twoje karty jak nigdy dotąd.",
+      "text": "Otwórz kartę i przechyl ją: foile łapią światło. Tekst zasad, oficjalne orzeczenia i ceny ze wszystkich sklepów masz pod palcem.",
+      "chips": [
+        "Efekt foil",
+        "Oficjalne orzeczenia",
+        "Ceny w sklepach"
+      ],
+      "alt": "Karta z siatki kolekcji otwiera się na stronie szczegółów"
+    },
+    {
+      "id": "commander",
+      "tab": "commander",
+      "kicker": "Znajdź swojego dowódcę",
+      "title": "Dowódca stworzony dla Ciebie.",
+      "text": "Odpowiedz na 12 pytań o to, jak grasz. Mote wybierze trzech dowódców z listami budżetową, średnią i top, a Ty możesz zaimportować talie, które zajęły miejsca w prawdziwych turniejach.",
+      "chips": [
+        "12 pytań",
+        "3 budżety",
+        "Talie turniejowe"
+      ],
+      "alt": "Mote odsłania trzech proponowanych dowódców: Lathril, Atarka i Omnath"
+    },
+    {
+      "id": "mote",
+      "tab": "mote",
+      "kicker": "Mote, Twój ekspert AI",
+      "title": "Ekspert, który czyta Twoje karty.",
+      "text": "Mote analizuje talię i proponuje zamiany na karty, które już masz. Jedno dotknięcie i są w talii. Zbuduje Ci też całą talię z Twojej kolekcji.",
+      "chips": [
+        "Analiza talii",
+        "Zbuduj mi talię",
+        "Zamiany z Twoich kart"
+      ],
+      "alt": "Analiza Mote pokazuje zamiany na posiadane karty, a potem stosuje pięć z nich"
+    },
+    {
+      "id": "playtest",
+      "tab": "decks",
+      "kicker": "Talie",
+      "title": "Przetestuj, zanim zakoszulkujesz.",
+      "text": "Dobierz rękę startową, zrób mulligan, zagraj pierwsze tury. Zobacz szanse na dobranie lądów, krzywą many i ile kosztują brakujące karty.",
+      "chips": [
+        "Ręka startowa",
+        "Mulligan",
+        "Statystyki talii"
+      ],
+      "alt": "Gra testowa: ręka startowa, mulligan i pierwsze karty na polu bitwy"
+    },
+    {
+      "id": "play",
+      "tab": "games",
+      "kicker": "Wieczór gier",
+      "title": "Wszystko, czego trzeba przy stole.",
+      "text": "Licznik życia dla 2–6 graczy z obrażeniami od dowódcy, trucizną, monarchą i inicjatywą. Przytrzymaj kość, puść ją, a każda gra trafi na telefony Twoich znajomych.",
+      "chips": [
+        "Obrażenia od dowódcy",
+        "Kość 3D",
+        "Graj ze znajomymi"
+      ],
+      "alt": "Dwudziestościenna kość 3D przytrzymana i rzucona nad licznikiem życia dla czterech graczy"
+    }
+  ],
+  "more_title": "To nie wszystko",
+  "more_lead": "Wszystko, czego potrzebuje gracz Magic, w jednej aplikacji.",
+  "more": [
+    {
+      "tab": "mote",
+      "icon": "⚖️",
+      "title": "Zasady przy stole",
+      "text": "Pełne zasady i orzeczenia do każdej karty, offline. Zapytaj Mote o werdykt."
+    },
+    {
+      "tab": "games",
+      "icon": "🤝",
+      "title": "Graj ze znajomymi",
+      "text": "Dodawaj znajomych kodem QR: wspólne gry i ranking grupy."
+    },
+    {
+      "tab": "decks",
+      "icon": "📦",
+      "title": "Wszystkie gotowe talie",
+      "text": "Oficjalne talie precon z opisem, gotowe do importu."
+    },
+    {
+      "tab": "commander",
+      "icon": "🏆",
+      "title": "Talie turniejowe",
+      "text": "Listy, które zajęły miejsca w turniejach Commander, z TopDeck.gg."
+    },
+    {
+      "tab": "decks",
+      "icon": "📊",
+      "title": "Statystyki i combo",
+      "text": "Krzywa many, lądy, kolory, combo i wartość Twojej talii."
+    },
+    {
+      "tab": "collection",
+      "icon": "⇄",
+      "title": "Przenieś swoje karty",
+      "text": "Importuj z ManaBox, Moxfield, Archidekt, Delver Lens i innych."
+    },
+    {
+      "tab": "collection",
+      "icon": "📒",
+      "title": "Bindery, lista życzeń, wymiana",
+      "text": "Uporządkuj karty i zobacz, które dodatki kompletujesz."
+    },
+    {
+      "tab": "mote",
+      "icon": "☁️",
+      "title": "iCloud i 14 języków",
+      "text": "Synchronizacja na iPhonie i iPadzie, w Twoim języku i Twojej walucie."
+    }
+  ],
+  "free_title": "Zawsze za darmo",
+  "free_items": [
+    "Kolekcja, ceny i skaner",
+    "Licznik życia i historia gier",
+    "Do 7 zbudowanych talii",
+    "Codziennie jedno darmowe szybkie pytanie do AI",
+    "Pierwsze „Znajdź swojego dowódcę”"
+  ],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "Opcjonalnie",
+  "pro_items": [
+    "Mana w cenie, co miesiąc dla Mote",
+    "Zaawansowane statystyki",
+    "Nieograniczone talie i bindery",
+    "Nielimitowany symulator",
+    "Motywy aplikacji i gry po Twojemu"
+  ],
+  "pricing_note": "Akcje AI zużywają Manę, a koszt widzisz zawsze, zanim akcja się zacznie."
+}

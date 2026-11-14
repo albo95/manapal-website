@@ -1,0 +1,169 @@
+{
+  "eyebrow": "Bald für iPhone und iPad",
+  "h1": "Die <span class=\"gold\">Magic-App</span>, die deine Karten kennt",
+  "lead": "Scanne deine Sammlung, baue Decks aus deinen Karten und spiel mit Freunden. Mote, dein KI-Deckexperte, rechnet für dich.",
+  "store_small": "Demnächst im",
+  "store_big": "App Store",
+  "note": "Kostenloser Download · iPhone und iPad · ab iOS 18",
+  "hero_alt": "Eine Foil-Giada neigt sich in ManaPals Kartenansicht und fängt das Licht ein",
+  "jump_label": "Zu einer Funktion springen",
+  "jumps": [
+    "Scannen",
+    "Foils",
+    "Commander",
+    "Mote",
+    "Testen",
+    "Spieleabend",
+    "Mehr"
+  ],
+  "chapters": [
+    {
+      "id": "scan",
+      "tab": "collection",
+      "kicker": "Sammlung",
+      "title": "Zielen. Scannen. Fertig.",
+      "text": "Karte für Karte, ohne Pause: Jede landet mit ihrem Preis in deiner Sammlung, und du siehst den Gesamtwert wachsen.",
+      "chips": [
+        "Serienscan",
+        "Set und Foil",
+        "Aktuelle Preise"
+      ],
+      "alt": "Der Kamerascanner erkennt The One Ring und fügt ihn mit seinem Preis hinzu"
+    },
+    {
+      "id": "foils",
+      "tab": "collection",
+      "kicker": "Jede Karte",
+      "title": "Deine Karten wie nie zuvor.",
+      "text": "Öffne eine Karte und neige sie: Foils fangen das Licht ein. Regeltext, offizielle Rulings und Preise aller Shops sind nur einen Wisch entfernt.",
+      "chips": [
+        "Foil-Effekt",
+        "Offizielle Rulings",
+        "Shop-Preise"
+      ],
+      "alt": "Eine Karte öffnet sich aus dem Sammlungsraster in ihre Detailseite"
+    },
+    {
+      "id": "commander",
+      "tab": "commander",
+      "kicker": "Finde deinen Commander",
+      "title": "Der Commander, der zu dir passt.",
+      "text": "Beantworte 12 Fragen dazu, wie du spielst. Mote wählt drei Commander, mit Budget-, Mittel- und Top-Listen, und du kannst Decks importieren, die bei echten Turnieren vorne lagen.",
+      "chips": [
+        "12 Fragen",
+        "3 Budgets",
+        "Turnierdecks"
+      ],
+      "alt": "Mote enthüllt drei vorgeschlagene Commander: Lathril, Atarka und Omnath"
+    },
+    {
+      "id": "mote",
+      "tab": "mote",
+      "kicker": "Mote, dein KI-Experte",
+      "title": "Ein Experte, der deine Karten liest.",
+      "text": "Mote analysiert dein Deck und schlägt Tausche mit Karten vor, die du schon hast. Ein Tipp, und sie sind drin. Er baut dir sogar ein ganzes Deck aus deiner Sammlung.",
+      "chips": [
+        "Deck-Analyse",
+        "Bau mir ein Deck",
+        "Tausch mit deinen Karten"
+      ],
+      "alt": "Motes Deck-Analyse listet Tausche mit Karten auf, die du besitzt, und wendet dann fünf davon an"
+    },
+    {
+      "id": "playtest",
+      "tab": "decks",
+      "kicker": "Decks",
+      "title": "Erst testen, dann sleeven.",
+      "text": "Zieh eine Starthand, nimm einen Mulligan, spiel die ersten Züge. Sieh die Chancen, Länder zu ziehen, deine Kurve und was die fehlenden Karten kosten.",
+      "chips": [
+        "Starthand",
+        "Mulligan",
+        "Deck-Statistiken"
+      ],
+      "alt": "Eine Testpartie: Starthand, ein Mulligan und die ersten Karten im Spiel"
+    },
+    {
+      "id": "play",
+      "tab": "games",
+      "kicker": "Spieleabend",
+      "title": "Alles für den Tisch.",
+      "text": "Ein Lebenspunktezähler für 2 bis 6 Spieler mit Commanderschaden, Gift, Monarch und Initiative. Halt den Würfel, lass ihn rollen, und jede Partie landet auf den Handys deiner Freunde.",
+      "chips": [
+        "Commanderschaden",
+        "3D-Würfel",
+        "Mit Freunden spielen"
+      ],
+      "alt": "Der zwanzigseitige 3D-Würfel wird gehalten und über einem Lebenspunktezähler für vier Spieler geworfen"
+    }
+  ],
+  "more_title": "Und das ist nicht alles",
+  "more_lead": "Alles, was Magic-Spieler brauchen, in einer App.",
+  "more": [
+    {
+      "tab": "mote",
+      "icon": "⚖️",
+      "title": "Regeln am Tisch",
+      "text": "Die Umfassenden Regeln und die Rulings jeder Karte, offline. Frag Mote nach einem Urteil."
+    },
+    {
+      "tab": "games",
+      "icon": "🤝",
+      "title": "Mit Freunden spielen",
+      "text": "Füge Freunde per QR-Code hinzu: gemeinsame Partien und eine Rangliste für deine Spielgruppe."
+    },
+    {
+      "tab": "decks",
+      "icon": "📦",
+      "title": "Alle Precons",
+      "text": "Offizielle Precon-Decks mit Beschreibung, bereit zum Import."
+    },
+    {
+      "tab": "commander",
+      "icon": "🏆",
+      "title": "Turnierdecks",
+      "text": "Listen, die bei Commander-Turnieren vorne lagen, von TopDeck.gg."
+    },
+    {
+      "tab": "decks",
+      "icon": "📊",
+      "title": "Statistiken und Combos",
+      "text": "Kurve, Länder, Farben, Combos und der Wert deines Decks."
+    },
+    {
+      "tab": "collection",
+      "icon": "⇄",
+      "title": "Bring deine Karten mit",
+      "text": "Importiere aus ManaBox, Moxfield, Archidekt, Delver Lens und mehr."
+    },
+    {
+      "tab": "collection",
+      "icon": "📒",
+      "title": "Binder, Wunschliste, Tausch",
+      "text": "Organisiere deine Karten und sieh, welche Sets du gerade vervollständigst."
+    },
+    {
+      "tab": "mote",
+      "icon": "☁️",
+      "title": "iCloud und 14 Sprachen",
+      "text": "Synchron auf iPhone und iPad, in deiner Sprache und deiner Währung."
+    }
+  ],
+  "free_title": "Für immer kostenlos",
+  "free_items": [
+    "Sammlung, Preise und Scanner",
+    "Lebenspunktezähler und Spielverlauf",
+    "Bis zu 7 gebaute Decks",
+    "Jeden Tag eine kurze KI-Frage gratis",
+    "Dein erstes „Finde deinen Commander“"
+  ],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "Optional",
+  "pro_items": [
+    "Mana inklusive: jeden Monat für Mote",
+    "Erweiterte Statistiken",
+    "Unbegrenzte Decks und Binder",
+    "Unbegrenzt testen",
+    "App-Designs und individuelle Partien"
+  ],
+  "pricing_note": "KI-Aktionen verbrauchen Mana, und du siehst die Kosten immer, bevor eine Aktion startet."
+}

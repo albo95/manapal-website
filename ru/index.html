@@ -87,7 +87,7 @@
   <div class="container">
     <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
     <nav class="header-nav" aria-label="Основная навигация">
-      <a class="hide-sm" href="#download">Возможности</a>
+      <a class="hide-sm" href="#features">Возможности</a>
       <a class="hide-sm" href="#guides">Гайды</a>
       <a class="hide-sm" href="#faq">Вопросы</a>
       <details class="lang">
@@ -114,98 +114,113 @@
 </header>
 
 <main id="main">
+  <!-- home:start -->
   <section class="hero" aria-labelledby="hero-title">
-    <div class="container">
-      <div>
-        <img class="hero-icon" src="../assets/icon.png" alt="Значок приложения ManaPal" width="84" height="84">
-        <span class="eyebrow">ManaPal · скоро на iPhone и iPad</span>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img class="hero-icon" src="../assets/icon.png" alt="" width="72" height="72">
+        <span class="eyebrow">Скоро на iPhone и iPad</span>
         <h1 id="hero-title"><span class="gold">Приложение для Magic</span>, которое знает твои карты</h1>
-        <p class="lead">Сканируй свою коллекцию Magic: The Gathering, узнай, сколько она стоит, собирай колоды Commander из карт, которые у тебя уже есть, и записывай каждую партию. Mote, твой ИИ-эксперт по колодам, отвечает с учётом твоих карт.</p>
+        <p class="lead">Сканируй коллекцию, собирай колоды из своих карт и играй с друзьями. Mote, твой ИИ-эксперт по колодам, всё посчитает.</p>
         <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Скоро в</small><strong>App Store</strong></span></span>
         <p class="btn-note">Бесплатная загрузка · iPhone и iPad · iOS 18 или новее</p>
-        <ul class="trust">
-          <li>Сканер карт</li>
-          <li>Счётчик жизней для Commander</li>
-          <li>Правила офлайн</li>
-          <li>Играй с друзьями</li>
-          <li>14 языков</li>
-          <li>Синхронизация с iCloud</li>
-        </ul>
       </div>
-      <div class="hero-shot">
-        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ИИ-ассистент ManaPal предлагает три замены для колоды Commander из карт, которые у тебя уже есть, и показывает четыре недостающие карты с ценой" fetchpriority="high">
+      <div class="hero-media">
+        <div class="hero-back is-left" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/commander.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="hero-back is-right" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/swaps.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="Фойловая Giada, Font of Hope наклоняется в просмотрщике карт ManaPal и ловит свет"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
+    <nav class="container jumps" aria-label="Перейти к функции"><ul><li><a href="#scan">Сканер</a></li><li><a href="#foils">Фойл</a></li><li><a href="#commander">Командир</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">Тест</a></li><li><a href="#play">Игровой вечер</a></li><li><a href="#more">Ещё</a></li></ul></nav>
   </section>
 
-  <!-- reel:start -->
-  <section class="reel-section" id="screenshots" aria-labelledby="shots-title">
-    <div class="container section-head">
-      <h2 id="shots-title">ManaPal в деле</h2>
-    </div>
-    <div class="reel" data-reel tabindex="0" aria-roledescription="carousel" aria-labelledby="shots-title">
-      <ul class="reel-track">
-        <li class="reel-slide" data-caption="Фольга, которая ловит свет"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="Фольга, которая ловит свет"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Фольга, которая ловит свет</p></li>
-        <li class="reel-slide" data-caption="Найди подходящего командира"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Найди подходящего командира"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Найди подходящего командира</p></li>
-        <li class="reel-slide" data-caption="Замены из твоих собственных карт"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Замены из твоих собственных карт"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Замены из твоих собственных карт</p></li>
-        <li class="reel-slide" data-caption="Испытай колоду, прежде чем убрать её в протекторы"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="Испытай колоду, прежде чем убрать её в протекторы"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Испытай колоду, прежде чем убрать её в протекторы</p></li>
-        <li class="reel-slide" data-caption="Брось кубик"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="Брось кубик"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Брось кубик</p></li>
-        <li class="reel-slide" data-caption="Каждая карта крупным планом"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="Каждая карта крупным планом"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Каждая карта крупным планом</p></li>
-        <li class="reel-slide" data-caption="Сканируй карты камерой"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="Сканируй карты камерой" loading="lazy"></div><p class="reel-label">Сканируй карты камерой</p></li>
-      </ul>
-      <p class="reel-caption" aria-live="polite"></p>
-      <div class="reel-progress" aria-hidden="true"><span></span></div>
-      <div class="reel-controls">
-        <button type="button" class="reel-arrow" data-reel-prev aria-label="Назад">‹</button>
-        <div class="reel-dots"><button type="button" aria-label="Перейти к видео 1: Фольга, которая ловит свет"></button><button type="button" aria-label="Перейти к видео 2: Найди подходящего командира"></button><button type="button" aria-label="Перейти к видео 3: Замены из твоих собственных карт"></button><button type="button" aria-label="Перейти к видео 4: Испытай колоду, прежде чем убрать её в протекторы"></button><button type="button" aria-label="Перейти к видео 5: Брось кубик"></button><button type="button" aria-label="Перейти к видео 6: Каждая карта крупным планом"></button><button type="button" aria-label="Перейти к видео 7: Сканируй карты камерой"></button></div>
-        <button type="button" class="reel-arrow" data-reel-next aria-label="Далее">›</button>
+  <div id="features">
+  <section class="chapter t-collection" id="scan" aria-labelledby="scan-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Коллекция</p>
+        <h2 id="scan-title">Навёл. Отсканировал. Готово.</h2>
+        <p class="chapter-text">Карта за картой, без остановок: каждая попадает в коллекцию с ценой, а ты смотришь, как растёт общая сумма.</p>
+        <ul class="chips"><li>Сканировать подряд</li><li>Выпуск и фойл</li><li>Актуальные цены</li></ul>
       </div>
+      <div class="chapter-media reveal"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="Сканер камеры распознаёт The One Ring и добавляет её с ценой" loading="lazy"></div></div>
     </div>
   </section>
-  <!-- reel:end -->
+  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Каждая карта</p>
+        <h2 id="foils-title">Твои карты, какими ты их не видел.</h2>
+        <p class="chapter-text">Открой любую карту и наклони: фойл ловит свет. Текст правил, официальные разъяснения и цены всех магазинов — на расстоянии одного свайпа.</p>
+        <ul class="chips"><li>Эффект фойла</li><li>Официальные разъяснения</li><li>Цены в магазинах</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="Карта открывается из сетки коллекции на своей странице"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Найди своего командира</p>
+        <h2 id="commander-title">Командир, созданный для тебя.</h2>
+        <p class="chapter-text">Ответь на 12 вопросов о том, как ты играешь. Mote подберёт трёх командиров с бюджетным, средним и топовым списками, а ещё можно импортировать колоды, занявшие места на реальных турнирах.</p>
+        <ul class="chips"><li>12 вопросов</li><li>3 бюджета</li><li>Турнирные колоды</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Mote показывает трёх предложенных командиров: Lathril, Atarka и Omnath"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Mote, твой ИИ-эксперт</p>
+        <h2 id="mote-title">Эксперт, который читает твои карты.</h2>
+        <p class="chapter-text">Mote анализирует колоду и предлагает замены из карт, которые у тебя уже есть. Одно касание — и они в колоде. А ещё он соберёт целую колоду из твоей коллекции.</p>
+        <ul class="chips"><li>Анализ колоды</li><li>Собери мне колоду</li><li>Замены из твоих карт</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Анализ колоды от Mote показывает замены из карт, которые у тебя есть, и применяет пять из них"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Колоды</p>
+        <h2 id="playtest-title">Испытай до протекторов.</h2>
+        <p class="chapter-text">Возьми стартовую руку, сделай муллиган, сыграй первые ходы. Смотри шансы взять землю, кривую маны и цену недостающих карт.</p>
+        <ul class="chips"><li>Стартовая рука</li><li>Муллиган</li><li>Статистика колоды</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="Пробная партия: стартовая рука, муллиган и первые карты на поле битвы"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Игровой вечер</p>
+        <h2 id="play-title">Всё для игрового стола.</h2>
+        <p class="chapter-text">Счётчик жизней на 2–6 игроков с уроном от командира, ядом, монархом и инициативой. Зажми кубик, отпусти — и каждая партия попадает на телефоны друзей.</p>
+        <ul class="chips"><li>Урон от командира</li><li>3D-кубик</li><li>Играй с друзьями</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="Двадцатигранный 3D-кубик зажимают и бросают над счётчиком жизней на четырёх игроков"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  </div>
 
-  <section class="section" id="download" aria-labelledby="download-title">
+  <section class="section more" id="more" aria-labelledby="more-title">
     <div class="container">
-      <div class="panel">
-        <div class="download-grid">
-          <div>
-            <h2 id="download-title">Коллекция, колоды и партии в одном бесплатном приложении</h2>
-            <p class="lead">Хватит таблиц, трёх разных приложений и ручки с бумагой для подсчёта жизней. ManaPal собирает всё вместе, а ассистент смотрит на твои карты, прежде чем ответить.</p>
-            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Скоро в</small><strong>App Store</strong></span></span>
-          </div>
-          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="Mote, золотая капля Маны и ассистент ManaPal, подмигивает в знак приветствия">
-        </div>
-        <ul class="reasons">
-          <li class="t-collection"><strong>Сканируй и узнавай цену</strong><span>Наводи камеру на карты одну за другой: они попадают в коллекцию с ценой, без остановок. Следи за общей стоимостью коллекции со временем.</span></li>
-          <li class="t-decks"><strong>Колоды из того, что есть</strong><span>Mote соберёт колоду Commander из твоей коллекции или проанализирует твою и предложит замены из карт, которые у тебя уже есть.</span></li>
-          <li class="t-commander"><strong>Найди своего командира</strong><span>Ответь на 12 вопросов и получи подходящих тебе командиров в бюджетном, среднем и топовом списках, а потом импортируй турнирные колоды, занявшие места на реальных турнирах.</span></li>
-          <li class="t-games"><strong>Счётчик, созданный для Commander</strong><span>От 2 до 6 игроков, урон от командира, яд, монарх, инициатива, Planechase и Archenemy. Каждая партия попадает в историю.</span></li>
-          <li class="t-games"><strong>Играй с друзьями</strong><span>Добавляй друзей по QR-коду или ссылке: совместные партии появляются на телефоне у каждого вместе с рейтингом твоей игровой группы.</span></li>
-          <li class="t-mote"><strong>Правила прямо за столом</strong><span>Комплексные правила и официальные разъяснения по каждой карте, офлайн. В сложной ситуации «Спроси Mote» вынесет вердикт со ссылками на правила.</span></li>
-          <li class="t-decks"><strong>Статистика, которая объясняет колоду</strong><span>Кривая маны, земли, цвета, комбо, вероятности стартовой руки, стоимость колоды и цена недостающих карт.</span></li>
-          <li class="t-decks"><strong>Готовые колоды и пробные партии</strong><span>Все официальные готовые колоды с описанием и пробная партия, чтобы посмотреть, какие руки приходят из колоды, прежде чем убрать её в протекторы.</span></li>
-          <li class="t-collection"><strong>Перенеси свои карты</strong><span>Импорт из ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer или Cardmarket. Синхронизация через iCloud.</span></li>
-        </ul>
-        <p class="btn-note">Бесплатно навсегда: коллекция, цены, сканер, партии и до 7 собранных колод. Действия ИИ расходуют Ману, и стоимость всегда видна заранее: один быстрый вопрос в день бесплатно, как и первый «Найди своего командира». ManaPal Pro — по желанию: Мана каждый месяц, расширенная статистика, безлимитные колоды, биндеры и симулятор.</p>
+      <div class="section-head centered reveal">
+        <h2 id="more-title">И это ещё не всё</h2>
+        <p>Всё, что нужно игроку в Magic, в одном приложении.</p>
       </div>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>Правила за столом</strong><span>Комплексные правила и разъяснения по каждой карте, офлайн. Спроси вердикт у Mote.</span></li><li class="t-games reveal"><strong>Играй с друзьями</strong><span>Добавляй друзей по QR-коду: общие партии и рейтинг игровой группы.</span></li><li class="t-decks reveal"><strong>Все готовые колоды</strong><span>Официальные готовые колоды с описанием — импорт в одно касание.</span></li><li class="t-commander reveal"><strong>Турнирные колоды</strong><span>Списки, занявшие места на турнирах Commander, от TopDeck.gg.</span></li><li class="t-decks reveal"><strong>Статистика и комбо</strong><span>Кривая маны, земли, цвета, комбо и стоимость колоды.</span></li><li class="t-collection reveal"><strong>Перенеси свои карты</strong><span>Импорт из ManaBox, Moxfield, Archidekt, Delver Lens и не только.</span></li><li class="t-collection reveal"><strong>Биндеры, список желаний, обмен</strong><span>Упорядочивай карты и смотри, какие выпуски ты собираешь.</span></li><li class="t-mote reveal"><strong>iCloud и 14 языков</strong><span>Синхронизация на iPhone и iPad, на твоём языке и в твоей валюте.</span></li></ul>
     </div>
   </section>
 
-
-  <section class="section" id="how-it-works" aria-labelledby="how-title">
-    <div class="container">
-      <div class="section-head">
-        <h2 id="how-title">Как это работает</h2>
-        <p>От коробки карт до колоды на столе за четыре шага.</p>
-      </div>
-      <ol class="steps four">
-        <li><h3>Добавь карты</h3><p>Отсканируй их камерой, найди по названию или выпуску либо импортируй список из другого приложения.</p></li>
-        <li><h3>Собери или импортируй колоды</h3><p>Создай колоду, импортируй её из Moxfield, Archidekt или текстового списка, или попроси Mote собрать её из твоей коллекции.</p></li>
-        <li><h3>Спроси Mote</h3><p>Вопросы по правилам, анализ колоды и замены из твоих карт. Стоимость в Мане видна до начала.</p></li>
-        <li><h3>Играй и записывай</h3><p>Открой счётчик, играй, и каждый результат попадёт в твою историю, рейтинг группы и на телефоны друзей.</p></li>
-      </ol>
+  <section class="section plans" aria-label="Бесплатно навсегда · ManaPal Pro">
+    <div class="container plans-grid">
+      <div class="plan reveal"><h2>Бесплатно навсегда</h2><ul><li>Коллекция, цены и сканер</li><li>Счётчик жизней и история партий</li><li>До 7 собранных колод</li><li>Быстрый вопрос ИИ бесплатно каждый день</li><li>Первый запуск «Найди своего командира»</li></ul></div>
+      <div class="plan is-pro reveal"><h2>ManaPal Pro <span class="tag">По желанию</span></h2><ul><li>Mana для Mote каждый месяц</li><li>Расширенная статистика</li><li>Безлимитные колоды и биндеры</li><li>Безлимитный симулятор</li><li>Темы приложения и партии на свой вкус</li></ul></div>
+      <p class="plans-note">ИИ-действия расходуют Mana, и ты всегда видишь стоимость до начала действия.</p>
     </div>
   </section>
+  <!-- home:end -->
 
   <section class="section" id="guides" aria-labelledby="guides-title">
     <div class="container">
@@ -313,6 +328,6 @@
     <p class="legal-note">Данные и изображения карт: Scryfall. Apple, iPhone и iPad — товарные знаки Apple Inc. App Store — знак обслуживания Apple Inc.</p>
   </div>
 </footer>
-<script src="../assets/reel.js" defer></script>
+<script src="../assets/site.js" defer></script>
 </body>
 </html>

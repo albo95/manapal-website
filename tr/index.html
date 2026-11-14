@@ -87,7 +87,7 @@
   <div class="container">
     <a class="brand" href="index.html"><img src="../assets/icon.png" alt="" width="34" height="34">ManaPal</a>
     <nav class="header-nav" aria-label="Ana gezinme">
-      <a class="hide-sm" href="#download">Özellikler</a>
+      <a class="hide-sm" href="#features">Özellikler</a>
       <a class="hide-sm" href="#guides">Rehberler</a>
       <a class="hide-sm" href="#faq">SSS</a>
       <details class="lang">
@@ -114,98 +114,113 @@
 </header>
 
 <main id="main">
+  <!-- home:start -->
   <section class="hero" aria-labelledby="hero-title">
-    <div class="container">
-      <div>
-        <img class="hero-icon" src="../assets/icon.png" alt="ManaPal uygulama simgesi" width="84" height="84">
-        <span class="eyebrow">ManaPal · çok yakında iPhone ve iPad'de</span>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img class="hero-icon" src="../assets/icon.png" alt="" width="72" height="72">
+        <span class="eyebrow">Çok yakında iPhone ve iPad&#x27;de</span>
         <h1 id="hero-title">Kartlarını tanıyan <span class="gold">Magic uygulaması</span></h1>
-        <p class="lead">Magic: The Gathering koleksiyonunu tara, değerini öğren, zaten sahip olduğun kartlarla Commander desteleri kur ve her oyunu kaydet. Yapay zekâ deste uzmanın Mote, senin kartlarına bakarak cevap verir.</p>
+        <p class="lead">Koleksiyonunu tara, elindeki kartlarla desteler kur ve arkadaşlarınla oyna. Hesabı, yapay zekâ deste uzmanın Mote yapar.</p>
         <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Çok yakında</small><strong>App Store'da</strong></span></span>
         <p class="btn-note">Ücretsiz indirme · iPhone ve iPad · iOS 18 veya üstü</p>
-        <ul class="trust">
-          <li>Kart tarayıcı</li>
-          <li>Commander can sayacı</li>
-          <li>Çevrimdışı kurallar</li>
-          <li>Arkadaşlarınla oyna</li>
-          <li>14 dil</li>
-          <li>iCloud eşitleme</li>
-        </ul>
       </div>
-      <div class="hero-shot">
-        <img src="../assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ManaPal'ın yapay zekâ asistanı, sahip olduğun kartlarla bir Commander destesi için üç değişiklik öneriyor ve eksik dört kartı fiyatıyla gösteriyor" fetchpriority="high">
+      <div class="hero-media">
+        <div class="hero-back is-left" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/commander.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="hero-back is-right" aria-hidden="true"><div class="phone"><img class="phone-screen" src="../assets/app-images/videos/en/swaps.webp" alt="" loading="lazy"><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="ManaPal&#x27;ın kart görüntüleyicisinde eğilip ışığı yakalayan foil Giada, Font of Hope"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
+    <nav class="container jumps" aria-label="Bir özelliğe git"><ul><li><a href="#scan">Tara</a></li><li><a href="#foils">Foil</a></li><li><a href="#commander">Commander</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">Dene</a></li><li><a href="#play">Oyun gecesi</a></li><li><a href="#more">Dahası</a></li></ul></nav>
   </section>
 
-  <!-- reel:start -->
-  <section class="reel-section" id="screenshots" aria-labelledby="shots-title">
-    <div class="container section-head">
-      <h2 id="shots-title">ManaPal iş başında</h2>
-    </div>
-    <div class="reel" data-reel tabindex="0" aria-roledescription="carousel" aria-labelledby="shots-title">
-      <ul class="reel-track">
-        <li class="reel-slide" data-caption="Işığı yakalayan foil kartlar"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="Işığı yakalayan foil kartlar"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Işığı yakalayan foil kartlar</p></li>
-        <li class="reel-slide" data-caption="Sana uygun Commander&#x27;ı bul"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Sana uygun Commander&#x27;ı bul"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Sana uygun Commander&#x27;ı bul</p></li>
-        <li class="reel-slide" data-caption="Kendi kartlarınla değişiklikler"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Kendi kartlarınla değişiklikler"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Kendi kartlarınla değişiklikler</p></li>
-        <li class="reel-slide" data-caption="Desteyi kılıflamadan önce dene"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="Desteyi kılıflamadan önce dene"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Desteyi kılıflamadan önce dene</p></li>
-        <li class="reel-slide" data-caption="Zar at"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="Zar at"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Zar at</p></li>
-        <li class="reel-slide" data-caption="Her kart yakından"><div class="phone"><video muted playsinline preload="none" poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="Her kart yakından"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Her kart yakından</p></li>
-        <li class="reel-slide" data-caption="Kartları kamerayla tara"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="Kartları kamerayla tara" loading="lazy"></div><p class="reel-label">Kartları kamerayla tara</p></li>
-      </ul>
-      <p class="reel-caption" aria-live="polite"></p>
-      <div class="reel-progress" aria-hidden="true"><span></span></div>
-      <div class="reel-controls">
-        <button type="button" class="reel-arrow" data-reel-prev aria-label="Önceki">‹</button>
-        <div class="reel-dots"><button type="button" aria-label="Videoya git 1: Işığı yakalayan foil kartlar"></button><button type="button" aria-label="Videoya git 2: Sana uygun Commander&#x27;ı bul"></button><button type="button" aria-label="Videoya git 3: Kendi kartlarınla değişiklikler"></button><button type="button" aria-label="Videoya git 4: Desteyi kılıflamadan önce dene"></button><button type="button" aria-label="Videoya git 5: Zar at"></button><button type="button" aria-label="Videoya git 6: Her kart yakından"></button><button type="button" aria-label="Videoya git 7: Kartları kamerayla tara"></button></div>
-        <button type="button" class="reel-arrow" data-reel-next aria-label="Sonraki">›</button>
+  <div id="features">
+  <section class="chapter t-collection" id="scan" aria-labelledby="scan-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Koleksiyon</p>
+        <h2 id="scan-title">Tut. Tara. Bitti.</h2>
+        <p class="chapter-text">Kart kart, hiç durmadan: her biri fiyatıyla koleksiyonuna eklenir ve toplamın büyüdüğünü izlersin.</p>
+        <ul class="chips"><li>Art arda tara</li><li>Set ve foil</li><li>Güncel fiyatlar</li></ul>
       </div>
+      <div class="chapter-media reveal"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="Kamera tarayıcısı The One Ring&#x27;i tanıyor ve fiyatıyla ekliyor" loading="lazy"></div></div>
     </div>
   </section>
-  <!-- reel:end -->
+  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Her kart</p>
+        <h2 id="foils-title">Kartların, hiç görmediğin gibi.</h2>
+        <p class="chapter-text">Bir kartı aç ve eğ: foil&#x27;ler ışığı yakalar. Kart metni, resmî ruling&#x27;ler ve her mağazanın fiyatı bir kaydırma uzağında.</p>
+        <ul class="chips"><li>Foil efekti</li><li>Resmî ruling&#x27;ler</li><li>Mağaza fiyatları</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/card.webp" data-src="../assets/app-images/videos/en/card.mp4" aria-label="Koleksiyon ızgarasındaki bir kart, ayrıntı sayfasında açılıyor"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Commander&#x27;ını bul</p>
+        <h2 id="commander-title">Sana göre bir Commander.</h2>
+        <p class="chapter-text">Nasıl oynadığına dair 12 soruyu cevapla. Mote ekonomik, orta ve üst seviye listelerle üç komutan seçer; gerçek turnuvalarda derece yapmış desteleri de içe aktarabilirsin.</p>
+        <ul class="chips"><li>12 soru</li><li>3 bütçe</li><li>Turnuva desteleri</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Mote önerdiği üç komutanı gösteriyor: Lathril, Atarka ve Omnath"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Mote, yapay zekâ uzmanın</p>
+        <h2 id="mote-title">Kartlarını okuyan bir uzman.</h2>
+        <p class="chapter-text">Mote desteni analiz eder ve zaten sahip olduğun kartlarla değişiklikler önerir. Tek dokunuşla destede. Koleksiyonundan baştan sona bir deste de kurabilir.</p>
+        <ul class="chips"><li>Deste analizi</li><li>Bana bir deste kur</li><li>Kendi kartlarınla değişiklik</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Mote&#x27;un deste analizi sahip olduğun kartlarla önerilen değişiklikleri listeliyor, sonra beşini uyguluyor"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Desteler</p>
+        <h2 id="playtest-title">Kılıflamadan önce dene.</h2>
+        <p class="chapter-text">Açılış elini çek, mulligan yap, ilk turlarını oyna. Land çekme olasılığını, mana eğrini ve eksik kartların maliyetini gör.</p>
+        <ul class="chips"><li>Açılış eli</li><li>Mulligan</li><li>Deste istatistikleri</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/playtest.webp" data-src="../assets/app-images/videos/en/playtest.mp4" aria-label="Bir deneme oyunu: açılış eli, bir mulligan ve savaş alanındaki ilk kartlar"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Oyun gecesi</p>
+        <h2 id="play-title">Masa için her şey.</h2>
+        <p class="chapter-text">2 ila 6 oyuncu için komutan hasarı, zehir, Monarch ve Initiative takipli bir can sayacı. Zarı basılı tut, bırak yuvarlansın; her oyun arkadaşlarının telefonuna ulaşır.</p>
+        <ul class="chips"><li>Komutan hasarı</li><li>3D zar</li><li>Arkadaşlarınla oyna</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/dice.webp" data-src="../assets/app-images/videos/en/dice.mp4" aria-label="Dört oyunculu bir can sayacının üzerinde basılı tutulup atılan 3D yirmi yüzlü zar"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  </div>
 
-  <section class="section" id="download" aria-labelledby="download-title">
+  <section class="section more" id="more" aria-labelledby="more-title">
     <div class="container">
-      <div class="panel">
-        <div class="download-grid">
-          <div>
-            <h2 id="download-title">Koleksiyon, desteler ve oyunlar tek bir ücretsiz uygulamada</h2>
-            <p class="lead">Tablolara, üç farklı uygulamaya ve can puanı için kâğıt kaleme son. ManaPal her şeyi bir arada tutar ve asistanı cevap vermeden önce kartlarına bakar.</p>
-            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Çok yakında</small><strong>App Store'da</strong></span></span>
-          </div>
-          <img class="download-mote" src="../assets/app-images/mote/greeting.webp" width="170" height="170" alt="ManaPal'ın asistanı altın Mana damlası Mote göz kırparak selam veriyor">
-        </div>
-        <ul class="reasons">
-          <li class="t-collection"><strong>Tara ve değerini gör</strong><span>Kamerayı kartlara sırayla tut: hiç durmadan fiyatlarıyla birlikte eklenirler. Koleksiyonunun toplam değerini zaman içinde takip et.</span></li>
-          <li class="t-decks"><strong>Elindeki kartlarla desteler</strong><span>Mote koleksiyonundan bir Commander destesi kurar ya da senin desteni analiz edip sahip olduğun kartlarla değişiklik önerir.</span></li>
-          <li class="t-commander"><strong>Commander'ını bul</strong><span>12 soruyu cevapla, sana uygun komutanları ekonomik, orta ve üst seviye listelerde al, ardından gerçek turnuvalarda derece yapmış turnuva destelerini içe aktar.</span></li>
-          <li class="t-games"><strong>Commander için tasarlanmış sayaç</strong><span>2 ila 6 oyuncu, komutan hasarı, zehir, monark, inisiyatif, Planechase ve Archenemy. Her oyun geçmişine eklenir.</span></li>
-          <li class="t-games"><strong>Arkadaşlarınla oyna</strong><span>Arkadaşlarını QR kodu veya bağlantıyla ekle: birlikte oynadığınız oyunlar, oyun grubunuzun sıralamasıyla birlikte herkesin telefonunda görünür.</span></li>
-          <li class="t-mote"><strong>Masadaki kurallar</strong><span>Kapsamlı Kurallar ve her kartın resmî ruling'leri, çevrimdışı. Zorlu bir etkileşimde "Mote'a sor" dayandığı kuralları göstererek bir karar verir.</span></li>
-          <li class="t-decks"><strong>Desteni açıklayan istatistikler</strong><span>Mana eğrisi, araziler, renkler, kombolar, açılış eli olasılıkları, deste değeri ve eksik kartların maliyeti.</span></li>
-          <li class="t-decks"><strong>Hazır desteler ve deneme oyunları</strong><span>Her resmî hazır deste açıklamasıyla birlikte, bir de desteyi kılıflamadan önce nasıl eller açtığını görmek için deneme oyunu.</span></li>
-          <li class="t-collection"><strong>Kartlarını yanında getir</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer veya Cardmarket'ten içe aktar. iCloud ile eşitlenir.</span></li>
-        </ul>
-        <p class="btn-note">Sonsuza kadar ücretsiz: koleksiyon, fiyatlar, tarayıcı, oyunlar ve 7 desteye kadar kendi destelerin. Yapay zekâ işlemleri Mana kullanır ve maliyeti her zaman başlamadan önce görürsün: her gün bir hızlı soru ücretsizdir, ilk "Commander'ını bul" da öyle. ManaPal Pro isteğe bağlıdır: her ay Mana, gelişmiş istatistikler, sınırsız deste, binder ve simülatör.</p>
+      <div class="section-head centered reveal">
+        <h2 id="more-title">Dahası da var</h2>
+        <p>Bir Magic oyuncusunun ihtiyacı olan her şey, tek uygulamada.</p>
       </div>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>Masadaki kurallar</strong><span>Kapsamlı Kurallar ve her kartın ruling&#x27;leri, çevrimdışı. Kararı Mote&#x27;a sor.</span></li><li class="t-games reveal"><strong>Arkadaşlarınla oyna</strong><span>Arkadaşlarını QR koduyla ekle: ortak oyunlar ve oyun grubu sıralaması.</span></li><li class="t-decks reveal"><strong>Tüm hazır desteler</strong><span>Resmî hazır desteler açıklamalarıyla, içe aktarmaya hazır.</span></li><li class="t-commander reveal"><strong>Turnuva desteleri</strong><span>Commander turnuvalarında derece yapmış listeler, TopDeck.gg&#x27;den.</span></li><li class="t-decks reveal"><strong>İstatistikler ve kombolar</strong><span>Mana eğrisi, land&#x27;ler, renkler, kombolar ve destenin değeri.</span></li><li class="t-collection reveal"><strong>Kartlarını getir</strong><span>ManaBox, Moxfield, Archidekt, Delver Lens ve daha fazlasından içe aktar.</span></li><li class="t-collection reveal"><strong>Binder, istek listesi, takas</strong><span>Kartlarını düzenle ve hangi setleri tamamladığını gör.</span></li><li class="t-mote reveal"><strong>iCloud ve 14 dil</strong><span>iPhone ve iPad&#x27;de eşitlenir; senin dilinde, senin para biriminde.</span></li></ul>
     </div>
   </section>
 
-
-  <section class="section" id="how-it-works" aria-labelledby="how-title">
-    <div class="container">
-      <div class="section-head">
-        <h2 id="how-title">Nasıl çalışır</h2>
-        <p>Bir kutu karttan masadaki desteye dört adımda.</p>
-      </div>
-      <ol class="steps four">
-        <li><h3>Kartlarını ekle</h3><p>Kamerayla tara, isim ya da sete göre ara veya listeni başka bir uygulamadan içe aktar.</p></li>
-        <li><h3>Deste kur ya da içe aktar</h3><p>Bir deste oluştur, Moxfield, Archidekt ya da metin listesinden içe aktar veya Mote koleksiyonundan kursun.</p></li>
-        <li><h3>Mote'a sor</h3><p>Kural soruları, deste analizi ve kendi kartlarınla değişiklikler. Mana maliyetini başlamadan önce görürsün.</p></li>
-        <li><h3>Oyna ve kaydet</h3><p>Sayacı aç, oyna; her sonuç geçmişine, grubunun sıralamasına ve arkadaşlarının telefonlarına eklenir.</p></li>
-      </ol>
+  <section class="section plans" aria-label="Sonsuza dek ücretsiz · ManaPal Pro">
+    <div class="container plans-grid">
+      <div class="plan reveal"><h2>Sonsuza dek ücretsiz</h2><ul><li>Koleksiyon, fiyatlar ve tarayıcı</li><li>Can sayacı ve oyun geçmişi</li><li>En fazla 7 kurulmuş deste</li><li>Her gün ücretsiz bir hızlı yapay zekâ sorusu</li><li>İlk &quot;Commander&#x27;ını bul&quot; hakkın</li></ul></div>
+      <div class="plan is-pro reveal"><h2>ManaPal Pro <span class="tag">İsteğe bağlı</span></h2><ul><li>Her ay Mote için Mana</li><li>Gelişmiş istatistikler</li><li>Sınırsız deste ve binder</li><li>Sınırsız simülatör</li><li>Uygulama temaları ve sana özel oyunlar</li></ul></div>
+      <p class="plans-note">Yapay zekâ işlemleri Mana kullanır ve bir işlem başlamadan önce maliyetini her zaman görürsün.</p>
     </div>
   </section>
+  <!-- home:end -->
 
   <section class="section" id="guides" aria-labelledby="guides-title">
     <div class="container">
@@ -313,6 +328,6 @@
     <p class="legal-note">Kart verileri ve görselleri: Scryfall. Apple, iPhone ve iPad, Apple Inc.'in ticari markalarıdır. App Store, Apple Inc.'in hizmet markasıdır.</p>
   </div>
 </footer>
-<script src="../assets/reel.js" defer></script>
+<script src="../assets/site.js" defer></script>
 </body>
 </html>

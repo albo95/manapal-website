@@ -89,7 +89,7 @@
   <div class="container">
     <a class="brand" href="index.html"><img src="assets/icon.png" alt="" width="34" height="34">ManaPal</a>
     <nav class="header-nav" aria-label="Main">
-      <a class="hide-sm" href="#download">Features</a>
+      <a class="hide-sm" href="#features">Features</a>
       <a class="hide-sm" href="#guides">Guides</a>
       <a class="hide-sm" href="#faq">FAQ</a>
       <details class="lang">
@@ -116,98 +116,113 @@
 </header>
 
 <main id="main">
+  <!-- home:start -->
   <section class="hero" aria-labelledby="hero-title">
-    <div class="container">
-      <div>
-        <img class="hero-icon" src="assets/icon.png" alt="ManaPal app icon" width="84" height="84">
-        <span class="eyebrow">ManaPal · coming soon for iPhone and iPad</span>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <img class="hero-icon" src="assets/icon.png" alt="" width="72" height="72">
+        <span class="eyebrow">Coming soon for iPhone and iPad</span>
         <h1 id="hero-title">The <span class="gold">MTG app</span> that knows your cards</h1>
-        <p class="lead">Scan your Magic: The Gathering collection, see what it's worth, build Commander decks from the cards you already own and track every game. Mote, your AI deck expert, answers based on your cards.</p>
+        <p class="lead">Scan your collection, build decks from what you own and play with friends. Mote, your AI deck expert, does the math.</p>
         <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Coming soon on the</small><strong>App Store</strong></span></span>
         <p class="btn-note">Free to download · iPhone and iPad · iOS 18 or later</p>
-        <ul class="trust">
-          <li>Card scanner</li>
-          <li>Commander life counter</li>
-          <li>Offline rules</li>
-          <li>Play with friends</li>
-          <li>14 languages</li>
-          <li>iCloud sync</li>
-        </ul>
       </div>
-      <div class="hero-shot">
-        <img src="assets/app-images/screenshots/en/assistant.webp" width="490" height="1000" alt="ManaPal's AI assistant suggests three swaps for a Commander deck using cards you already own, and lists the four missing cards with their price" fetchpriority="high">
+      <div class="hero-media">
+        <div class="hero-back is-left" aria-hidden="true"><div class="phone"><img class="phone-screen" src="assets/app-images/videos/en/commander.webp" alt="" loading="lazy"><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="hero-back is-right" aria-hidden="true"><div class="phone"><img class="phone-screen" src="assets/app-images/videos/en/swaps.webp" alt="" loading="lazy"><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+        <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="assets/app-images/videos/en/foil.webp" data-src="assets/app-images/videos/en/foil.mp4" aria-label="A foil Giada, Font of Hope tilting in ManaPal&#x27;s card viewer, catching the light"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
+    <nav class="container jumps" aria-label="Jump to a feature"><ul><li><a href="#scan">Scan</a></li><li><a href="#foils">Foils</a></li><li><a href="#commander">Commander</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">Playtest</a></li><li><a href="#play">Game night</a></li><li><a href="#more">More</a></li></ul></nav>
   </section>
 
-  <!-- reel:start -->
-  <section class="reel-section" id="screenshots" aria-labelledby="shots-title">
-    <div class="container section-head">
-      <h2 id="shots-title">See ManaPal in action</h2>
-    </div>
-    <div class="reel" data-reel tabindex="0" aria-roledescription="carousel" aria-labelledby="shots-title">
-      <ul class="reel-track">
-        <li class="reel-slide" data-caption="Foils that catch the light"><div class="phone"><video muted playsinline preload="none" poster="assets/app-images/videos/en/foil.webp" data-src="assets/app-images/videos/en/foil.mp4" aria-label="Foils that catch the light"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Foils that catch the light</p></li>
-        <li class="reel-slide" data-caption="Find the right Commander for you"><div class="phone"><video muted playsinline preload="none" poster="assets/app-images/videos/en/commander.webp" data-src="assets/app-images/videos/en/commander.mp4" aria-label="Find the right Commander for you"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Find the right Commander for you</p></li>
-        <li class="reel-slide" data-caption="Swaps from your own cards"><div class="phone"><video muted playsinline preload="none" poster="assets/app-images/videos/en/swaps.webp" data-src="assets/app-images/videos/en/swaps.mp4" aria-label="Swaps from your own cards"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Swaps from your own cards</p></li>
-        <li class="reel-slide" data-caption="Test a deck before you sleeve it"><div class="phone"><video muted playsinline preload="none" poster="assets/app-images/videos/en/playtest.webp" data-src="assets/app-images/videos/en/playtest.mp4" aria-label="Test a deck before you sleeve it"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Test a deck before you sleeve it</p></li>
-        <li class="reel-slide" data-caption="Roll the die"><div class="phone"><video muted playsinline preload="none" poster="assets/app-images/videos/en/dice.webp" data-src="assets/app-images/videos/en/dice.mp4" aria-label="Roll the die"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Roll the die</p></li>
-        <li class="reel-slide" data-caption="Every card, up close"><div class="phone"><video muted playsinline preload="none" poster="assets/app-images/videos/en/card.webp" data-src="assets/app-images/videos/en/card.mp4" aria-label="Every card, up close"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div><p class="reel-label">Every card, up close</p></li>
-        <li class="reel-slide" data-caption="Scan cards with the camera"><div class="phone-shot"><img src="assets/app-images/screenshots/en/scanner.webp" alt="Scan cards with the camera" loading="lazy"></div><p class="reel-label">Scan cards with the camera</p></li>
-      </ul>
-      <p class="reel-caption" aria-live="polite"></p>
-      <div class="reel-progress" aria-hidden="true"><span></span></div>
-      <div class="reel-controls">
-        <button type="button" class="reel-arrow" data-reel-prev aria-label="Previous">‹</button>
-        <div class="reel-dots"><button type="button" aria-label="Go to clip 1: Foils that catch the light"></button><button type="button" aria-label="Go to clip 2: Find the right Commander for you"></button><button type="button" aria-label="Go to clip 3: Swaps from your own cards"></button><button type="button" aria-label="Go to clip 4: Test a deck before you sleeve it"></button><button type="button" aria-label="Go to clip 5: Roll the die"></button><button type="button" aria-label="Go to clip 6: Every card, up close"></button><button type="button" aria-label="Go to clip 7: Scan cards with the camera"></button></div>
-        <button type="button" class="reel-arrow" data-reel-next aria-label="Next">›</button>
+  <div id="features">
+  <section class="chapter t-collection" id="scan" aria-labelledby="scan-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Collection</p>
+        <h2 id="scan-title">Point. Scan. Done.</h2>
+        <p class="chapter-text">Card after card, without stopping: each one lands in your collection with its price, and you watch the total grow.</p>
+        <ul class="chips"><li>Continuous scanning</li><li>Set and foil</li><li>Live prices</li></ul>
       </div>
+      <div class="chapter-media reveal"><div class="phone-shot"><img src="assets/app-images/screenshots/en/scanner.webp" alt="The camera scanner recognizes The One Ring and adds it with its price" loading="lazy"></div></div>
     </div>
   </section>
-  <!-- reel:end -->
+  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Every card</p>
+        <h2 id="foils-title">Your cards, like you&#x27;ve never seen them.</h2>
+        <p class="chapter-text">Open any card and tilt it: foils catch the light. Rules text, official rulings and prices from every store are one swipe away.</p>
+        <ul class="chips"><li>Foil effect</li><li>Official rulings</li><li>Store prices</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="assets/app-images/videos/en/card.webp" data-src="assets/app-images/videos/en/card.mp4" aria-label="Opening a card from the collection grid into its detail page"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Find your Commander</p>
+        <h2 id="commander-title">The Commander made for you.</h2>
+        <p class="chapter-text">Answer 12 questions about how you play. Mote picks three commanders, with budget, mid and top lists, and you can import decks that placed at real tournaments.</p>
+        <ul class="chips"><li>12 questions</li><li>3 budgets</li><li>Tournament decks</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="assets/app-images/videos/en/commander.webp" data-src="assets/app-images/videos/en/commander.mp4" aria-label="Mote reveals three suggested commanders: Lathril, Atarka and Omnath"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Mote, your AI expert</p>
+        <h2 id="mote-title">An expert that reads your cards.</h2>
+        <p class="chapter-text">Mote analyzes your deck and suggests swaps with cards you already own. One tap and they&#x27;re in. It can also build a whole deck from your collection.</p>
+        <ul class="chips"><li>Deck analysis</li><li>Build me a deck</li><li>Swaps you own</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="assets/app-images/videos/en/swaps.webp" data-src="assets/app-images/videos/en/swaps.mp4" aria-label="Mote&#x27;s deck analysis lists suggested swaps marked You own it, then applies five swaps"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-decks" id="playtest" aria-labelledby="playtest-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Decks</p>
+        <h2 id="playtest-title">Test it before you sleeve it.</h2>
+        <p class="chapter-text">Draw an opening hand, mulligan, play your first turns. See the odds of drawing lands, your curve and what the missing cards cost.</p>
+        <ul class="chips"><li>Opening hand</li><li>Mulligan</li><li>Deck stats</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="assets/app-images/videos/en/playtest.webp" data-src="assets/app-images/videos/en/playtest.mp4" aria-label="A playtest: opening hand, a mulligan and the first cards on the battlefield"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-games is-flipped" id="play" aria-labelledby="play-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">Game night</p>
+        <h2 id="play-title">Everything for the table.</h2>
+        <p class="chapter-text">A life counter for 2 to 6 players with commander damage, poison, monarch and initiative. Hold the die, let it roll, and every game reaches your friends&#x27; phones.</p>
+        <ul class="chips"><li>Commander damage</li><li>3D die</li><li>Play with friends</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="assets/app-images/videos/en/dice.webp" data-src="assets/app-images/videos/en/dice.mp4" aria-label="Holding and rolling the 3D twenty-sided die over a four-player life counter"></video><img class="phone-frame" src="assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  </div>
 
-  <section class="section" id="download" aria-labelledby="download-title">
+  <section class="section more" id="more" aria-labelledby="more-title">
     <div class="container">
-      <div class="panel">
-        <div class="download-grid">
-          <div>
-            <h2 id="download-title">Your collection, decks and games in one free app</h2>
-            <p class="lead">No more spreadsheets, three different apps and a pen for life totals. ManaPal keeps it all together, and its assistant reads your actual cards before it answers.</p>
-            <span class="store-btn is-soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.5c.6 4.7 2.9 7.9 10.5 10.5-7.6 2.6-9.9 5.8-10.5 10.5C11.4 17.8 9.1 14.6 1.5 12 9.1 9.4 11.4 6.2 12 1.5z"/></svg><span><small>Coming soon on the</small><strong>App Store</strong></span></span>
-          </div>
-          <img class="download-mote" src="assets/app-images/mote/greeting.webp" width="170" height="170" alt="Mote, ManaPal's golden Mana-drop assistant, winking hello">
-        </div>
-        <ul class="reasons">
-          <li class="t-collection"><strong>Scan it, see what it's worth</strong><span>Point the camera at one card after another: they're added with their price, without stopping. Watch your collection's total value change over time.</span></li>
-          <li class="t-decks"><strong>Decks built from what you own</strong><span>Mote builds a Commander deck from your collection, or analyzes yours and suggests swaps with cards you already have.</span></li>
-          <li class="t-commander"><strong>Find your Commander</strong><span>Answer 12 questions and get commanders that fit you, in budget, mid and top lists, then import decks that placed at real tournaments.</span></li>
-          <li class="t-games"><strong>A life counter made for Commander</strong><span>2 to 6 players, commander damage, poison, monarch, initiative, Planechase and Archenemy. Every game lands in your history.</span></li>
-          <li class="t-games"><strong>Play with your friends</strong><span>Add friends with a QR code or a link: the games you play together show up on everyone's phone, with your playgroup's leaderboard.</span></li>
-          <li class="t-mote"><strong>Rules at the table</strong><span>The Comprehensive Rules and every card's official rulings, offline. For a tricky interaction, Ask Mote gives you a verdict with the rules it cites.</span></li>
-          <li class="t-decks"><strong>Stats that explain your deck</strong><span>Mana curve, lands, colors, combos, opening-hand odds, deck value and what the missing cards cost.</span></li>
-          <li class="t-decks"><strong>Precons and test games</strong><span>Every official precon with its description, and a test game to see how a deck draws before you sleeve it.</span></li>
-          <li class="t-collection"><strong>Bring your cards with you</strong><span>Import from ManaBox, Moxfield, Archidekt, Delver Lens, Dragon Shield, Deckbox, TCGplayer or Cardmarket. Synced with iCloud.</span></li>
-        </ul>
-        <p class="btn-note">Free forever: collection, prices, scanner, games and up to 7 built decks. AI actions use Mana and you always see the cost before an action starts: one quick question is free every day, and so is your first Find your Commander. ManaPal Pro is optional: Mana every month, advanced stats, unlimited decks, binders and playtest.</p>
+      <div class="section-head centered reveal">
+        <h2 id="more-title">And there&#x27;s more</h2>
+        <p>Everything a Magic player needs, in one app.</p>
       </div>
+      <ul class="more-grid"><li class="t-mote reveal"><strong>Rules at the table</strong><span>The Comprehensive Rules and every card&#x27;s rulings, offline. Ask Mote for a verdict.</span></li><li class="t-games reveal"><strong>Play with friends</strong><span>Add friends with a QR code: shared games and a playgroup leaderboard.</span></li><li class="t-decks reveal"><strong>Every precon</strong><span>Official preconstructed decks with their description, ready to import.</span></li><li class="t-commander reveal"><strong>Tournament decks</strong><span>Lists that placed at Commander tournaments, from TopDeck.gg.</span></li><li class="t-decks reveal"><strong>Stats and combos</strong><span>Curve, lands, colors, combos and the value of your deck.</span></li><li class="t-collection reveal"><strong>Bring your cards</strong><span>Import from ManaBox, Moxfield, Archidekt, Delver Lens and more.</span></li><li class="t-collection reveal"><strong>Binders, wishlist, trade</strong><span>Organize your cards and see which sets you&#x27;re completing.</span></li><li class="t-mote reveal"><strong>iCloud and 14 languages</strong><span>Synced on iPhone and iPad, in your language and your currency.</span></li></ul>
     </div>
   </section>
 
-
-  <section class="section" id="how-it-works" aria-labelledby="how-title">
-    <div class="container">
-      <div class="section-head">
-        <h2 id="how-title">How it works</h2>
-        <p>From a box of cards to a deck on the table in four steps.</p>
-      </div>
-      <ol class="steps four">
-        <li><h3>Add your cards</h3><p>Scan them with the camera, search by name or set, or import your list from another app.</p></li>
-        <li><h3>Build or import decks</h3><p>Create a deck, import it from Moxfield, Archidekt or a text list, or let Mote build one from your collection.</p></li>
-        <li><h3>Ask Mote</h3><p>Rules questions, deck analysis and swaps from your own cards. The Mana cost is shown before anything starts.</p></li>
-        <li><h3>Play and track</h3><p>Open the life counter, play, and every result goes into your history, your playgroup's leaderboard and your friends' phones.</p></li>
-      </ol>
+  <section class="section plans" aria-label="Free forever · ManaPal Pro">
+    <div class="container plans-grid">
+      <div class="plan reveal"><h2>Free forever</h2><ul><li>Collection, prices and scanner</li><li>Life counter and game history</li><li>Up to 7 built decks</li><li>A free quick AI question every day</li><li>Your first Find your Commander</li></ul></div>
+      <div class="plan is-pro reveal"><h2>ManaPal Pro <span class="tag">Optional</span></h2><ul><li>Mana for Mote every month</li><li>Advanced stats</li><li>Unlimited decks and binders</li><li>Unlimited playtest</li><li>App themes and custom games</li></ul></div>
+      <p class="plans-note">AI actions use Mana and you always see the cost before an action starts.</p>
     </div>
   </section>
+  <!-- home:end -->
 
   <section class="section" id="guides" aria-labelledby="guides-title">
     <div class="container">
@@ -314,6 +329,6 @@
     <p class="legal-note">ManaPal is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. Card data and images: Scryfall. Apple, iPhone and iPad are trademarks of Apple Inc. App Store is a service mark of Apple Inc.</p>
   </div>
 </footer>
-<script src="assets/reel.js" defer></script>
+<script src="assets/site.js" defer></script>
 </body>
 </html>

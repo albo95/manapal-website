@@ -1,0 +1,169 @@
+{
+  "eyebrow": "Muy pronto en iPhone y iPad",
+  "h1": "La <span class=\"gold\">app para Magic</span> que conoce tus cartas",
+  "lead": "Escanea tu colección, arma mazos con lo que tienes y juega con tus amigos. Mote, tu experto en IA para mazos, hace las cuentas.",
+  "store_small": "Muy pronto en el",
+  "store_big": "App Store",
+  "note": "Descarga gratis · iPhone y iPad · iOS 18 o posterior",
+  "hero_alt": "Una Giada foil se inclina en el visor de ManaPal y atrapa la luz",
+  "jump_label": "Ir a una función",
+  "jumps": [
+    "Escáner",
+    "Foils",
+    "Commander",
+    "Mote",
+    "Prueba",
+    "Noche de juego",
+    "Más"
+  ],
+  "chapters": [
+    {
+      "id": "scan",
+      "tab": "collection",
+      "kicker": "Colección",
+      "title": "Apunta. Escanea. Listo.",
+      "text": "Carta tras carta, sin detenerte: cada una entra a tu colección con su precio, y ves crecer el total.",
+      "chips": [
+        "Escanear en serie",
+        "Expansión y foil",
+        "Precios actualizados"
+      ],
+      "alt": "El escáner reconoce The One Ring y lo agrega con su precio"
+    },
+    {
+      "id": "foils",
+      "tab": "collection",
+      "kicker": "Cada carta",
+      "title": "Tus cartas como nunca las habías visto.",
+      "text": "Abre una carta e inclínala: los foils atrapan la luz. Texto de reglas, rulings oficiales y precios de cada tienda, a un gesto.",
+      "chips": [
+        "Efecto foil",
+        "Rulings oficiales",
+        "Precios en tiendas"
+      ],
+      "alt": "Una carta se abre desde la cuadrícula de la colección a su página de detalle"
+    },
+    {
+      "id": "commander",
+      "tab": "commander",
+      "kicker": "Encuentra tu Commander",
+      "title": "El Commander hecho para ti.",
+      "text": "Responde 12 preguntas sobre cómo juegas. Mote elige tres comandantes, con listas económica, media y top, y puedes importar mazos que lograron buenos resultados en torneos reales.",
+      "chips": [
+        "12 preguntas",
+        "3 presupuestos",
+        "Mazos de torneo"
+      ],
+      "alt": "Mote revela tres comandantes sugeridos: Lathril, Atarka y Omnath"
+    },
+    {
+      "id": "mote",
+      "tab": "mote",
+      "kicker": "Mote, tu experto en IA",
+      "title": "Un experto que lee tus cartas.",
+      "text": "Mote analiza tu mazo y sugiere cambios con cartas que ya tienes. Un toque y quedan dentro. También puede armarte un mazo completo con tu colección.",
+      "chips": [
+        "Análisis del mazo",
+        "Ármame un mazo",
+        "Cambios con tus cartas"
+      ],
+      "alt": "El análisis de Mote muestra cambios con cartas que tienes y luego aplica cinco"
+    },
+    {
+      "id": "playtest",
+      "tab": "decks",
+      "kicker": "Mazos",
+      "title": "Pruébalo antes de enfundarlo.",
+      "text": "Roba una mano inicial, haz mulligan, juega los primeros turnos. Mira la probabilidad de robar tierras, tu curva y cuánto cuestan las cartas que faltan.",
+      "chips": [
+        "Mano inicial",
+        "Mulligan",
+        "Estadísticas"
+      ],
+      "alt": "Una partida de prueba: mano inicial, un mulligan y las primeras cartas en el campo de batalla"
+    },
+    {
+      "id": "play",
+      "tab": "games",
+      "kicker": "Noche de juego",
+      "title": "Todo para la mesa.",
+      "text": "Un contador de vidas de 2 a 6 jugadores con daño de comandante, veneno, monarca e iniciativa. Mantén presionado el dado, déjalo rodar, y cada partida llega al celular de tus amigos.",
+      "chips": [
+        "Daño de comandante",
+        "Dado 3D",
+        "Juega con tus amigos"
+      ],
+      "alt": "El dado 3D de veinte caras, sostenido y lanzado sobre un contador de vidas de cuatro jugadores"
+    }
+  ],
+  "more_title": "Y aún hay más",
+  "more_lead": "Todo lo que necesita un jugador de Magic, en una sola app.",
+  "more": [
+    {
+      "tab": "mote",
+      "icon": "⚖️",
+      "title": "Reglas en la mesa",
+      "text": "Las Reglas completas y los rulings de cada carta, sin conexión. Pídele un veredicto a Mote."
+    },
+    {
+      "tab": "games",
+      "icon": "🤝",
+      "title": "Juega con tus amigos",
+      "text": "Agrega amigos con un código QR: partidas compartidas y clasificación del grupo."
+    },
+    {
+      "tab": "decks",
+      "icon": "📦",
+      "title": "Todos los precons",
+      "text": "Los mazos preconstruidos oficiales con su descripción, listos para importar."
+    },
+    {
+      "tab": "commander",
+      "icon": "🏆",
+      "title": "Mazos de torneo",
+      "text": "Listas que lograron buenos resultados en torneos de Commander, de TopDeck.gg."
+    },
+    {
+      "tab": "decks",
+      "icon": "📊",
+      "title": "Estadísticas y combos",
+      "text": "Curva, tierras, colores, combos y el valor de tu mazo."
+    },
+    {
+      "tab": "collection",
+      "icon": "⇄",
+      "title": "Trae tus cartas",
+      "text": "Importa desde ManaBox, Moxfield, Archidekt, Delver Lens y más."
+    },
+    {
+      "tab": "collection",
+      "icon": "📒",
+      "title": "Carpetas, lista de deseos, intercambio",
+      "text": "Organiza tus cartas y revisa qué expansiones estás completando."
+    },
+    {
+      "tab": "mote",
+      "icon": "☁️",
+      "title": "iCloud y 14 idiomas",
+      "text": "Sincronizada en iPhone y iPad, en tu idioma y tu moneda."
+    }
+  ],
+  "free_title": "Gratis para siempre",
+  "free_items": [
+    "Colección, precios y escáner",
+    "Contador de vidas e historial de partidas",
+    "Hasta 7 mazos armados",
+    "Una pregunta rápida a la IA gratis cada día",
+    "Tu primer “Encuentra tu Commander”"
+  ],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "Opcional",
+  "pro_items": [
+    "Mana incluido cada mes para Mote",
+    "Estadísticas avanzadas",
+    "Mazos y carpetas ilimitados",
+    "Simulador ilimitado",
+    "Temas de la app y partidas a tu medida"
+  ],
+  "pricing_note": "Las acciones de IA usan Mana y siempre ves el costo antes de que empiece una acción."
+}

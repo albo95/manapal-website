@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Presto su iPhone e iPad",
+  "h1": "L'<span class=\"gold\">app per Magic</span> che conosce le tue carte",
+  "lead": "Scansiona la collezione, costruisci mazzi con le carte che hai e gioca con gli amici. Mote, il tuo esperto AI di mazzi, fa i conti per te.",
+  "store_small": "Presto disponibile",
+  "store_big": "sull'App Store",
+  "note": "Download gratuito · iPhone e iPad · iOS 18 o successivo",
+  "hero_alt": "Giada foil che si inclina nel visore di ManaPal e cattura la luce",
+  "jump_label": "Vai a una funzione",
+  "jumps": ["Scanner", "Foil", "Commander", "Mote", "Prova", "Serata di gioco", "Altro"],
+  "chapters": [
+    {"id": "scan", "tab": "collection", "kicker": "Collezione", "title": "Inquadra. Scansiona. Fatto.", "text": "Una carta dopo l'altra, senza fermarti: ognuna finisce nella collezione con il suo prezzo, e vedi il totale crescere.", "chips": ["Scansiona di fila", "Espansione e foil", "Prezzi aggiornati"], "alt": "Lo scanner riconosce The One Ring e lo aggiunge con il suo prezzo"},
+    {"id": "foils", "tab": "collection", "kicker": "Ogni carta", "title": "Le tue carte come non le hai mai viste.", "text": "Apri una carta e inclinala: le foil catturano la luce. Testo, ruling ufficiali e prezzi di ogni negozio sono a un passo.", "chips": ["Effetto foil", "Ruling ufficiali", "Prezzi dei negozi"], "alt": "Una carta si apre dalla griglia della collezione nella sua pagina di dettaglio"},
+    {"id": "commander", "tab": "commander", "kicker": "Trova il tuo Commander", "title": "Il Commander fatto per te.", "text": "Rispondi a 12 domande su come giochi. Mote sceglie tre comandanti, con liste economica, media e top, e puoi importare mazzi piazzati in tornei veri.", "chips": ["12 domande", "3 budget", "Mazzi da torneo"], "alt": "Mote svela tre comandanti consigliati: Lathril, Atarka e Omnath"},
+    {"id": "mote", "tab": "mote", "kicker": "Mote, il tuo esperto AI", "title": "Un esperto che legge le tue carte.", "text": "Mote analizza il mazzo e propone scambi con carte che possiedi già. Un tocco e sono dentro. E può costruirti un mazzo intero con la tua collezione.", "chips": ["Analisi del mazzo", "Costruiscimi un mazzo", "Scambi con le tue carte"], "alt": "L'analisi di Mote elenca gli scambi che possiedi, poi applica cinque scambi"},
+    {"id": "playtest", "tab": "decks", "kicker": "Mazzi", "title": "Provalo prima di imbustarlo.", "text": "Pesca la mano iniziale, fai mulligan, gioca i primi turni. Vedi le probabilità di pescare terre, la curva e quanto costano le carte che mancano.", "chips": ["Mano iniziale", "Mulligan", "Statistiche"], "alt": "Una partita di prova: mano iniziale, un mulligan e le prime carte sul campo di battaglia"},
+    {"id": "play", "tab": "games", "kicker": "Serata di gioco", "title": "Tutto quello che serve al tavolo.", "text": "Un contapunti per 2-6 giocatori con danno da comandante, veleno, monarca e iniziativa. Tieni premuto il dado, lascialo rotolare, e ogni partita arriva sui telefoni dei tuoi amici.", "chips": ["Danno da comandante", "Dado 3D", "Gioca con gli amici"], "alt": "Il dado a venti facce 3D tenuto sotto il dito e lanciato sopra un contapunti a quattro giocatori"}
+  ],
+  "more_title": "E non è tutto",
+  "more_lead": "Tutto quello che serve a chi gioca a Magic, in un'app sola.",
+  "more": [
+    {"tab": "mote", "title": "Le regole al tavolo", "text": "Il Regolamento completo e i ruling di ogni carta, offline. Chiedi a Mote un verdetto."},
+    {"tab": "games", "title": "Gioca con gli amici", "text": "Aggiungi gli amici con un codice QR: partite condivise e classifica del gruppo."},
+    {"tab": "decks", "title": "Tutti i precostruiti", "text": "I mazzi precostruiti ufficiali con la loro descrizione, pronti da importare."},
+    {"tab": "commander", "title": "Mazzi da torneo", "text": "Le liste piazzate nei tornei Commander, da TopDeck.gg."},
+    {"tab": "decks", "title": "Statistiche e combo", "text": "Curva, terre, colori, combo e valore del mazzo."},
+    {"tab": "collection", "title": "Porta le tue carte", "text": "Importa da ManaBox, Moxfield, Archidekt, Delver Lens e altre app."},
+    {"tab": "collection", "title": "Binder, wishlist, scambi", "text": "Organizza le carte e guarda quali espansioni stai completando."},
+    {"tab": "mote", "title": "iCloud e 14 lingue", "text": "Sincronizzata su iPhone e iPad, nella tua lingua e nella tua valuta."}
+  ],
+  "free_title": "Gratis per sempre",
+  "free_items": ["Collezione, prezzi e scanner", "Contapunti e storico delle partite", "Fino a 7 mazzi costruiti", "Una domanda veloce all'AI gratis ogni giorno", "Il tuo primo Trova il tuo Commander"],
+  "pro_title": "ManaPal Pro",
+  "pro_tag": "Facoltativo",
+  "pro_items": ["Mana per Mote ogni mese", "Statistiche avanzate", "Mazzi e binder illimitati", "Simulatore illimitato", "Temi dell'app e partite su misura"],
+  "pricing_note": "Le azioni AI usano i Mana e vedi sempre il costo prima che un'azione parta."
+}
