@@ -312,6 +312,92 @@ p { margin: 0 0 1em; }
 .shots figcaption { margin-top: 0.6rem; font-size: 0.92rem; color: var(--muted); text-align: center; }
 .scroll-hint { color: var(--muted); font-size: 0.9rem; }
 
+/* Video reel: one phone in the middle plays, its neighbours wait paused on either side. */
+.reel-section { padding: clamp(1rem, 4vw, 2.5rem) 0 clamp(2.5rem, 6vw, 4rem); overflow: hidden; }
+.reel-section .section-head { text-align: center; margin-inline: auto; margin-bottom: 1.25rem; }
+.reel { --phone: min(68vw, 300px); position: relative; outline: none; }
+.reel-track {
+  position: relative;
+  height: calc(var(--phone) * 2.17 + 8px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.reel-slide {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: var(--phone);
+  margin-left: calc(var(--phone) / -2);
+  cursor: pointer;
+  transition: transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.55s ease, filter 0.55s ease;
+  will-change: transform;
+}
+.reel-slide[data-pos="0"] { transform: none; z-index: 3; cursor: default; }
+.reel-slide[data-pos="1"] { transform: translateX(78%) scale(0.74); opacity: 0.55; filter: saturate(0.7) brightness(0.75); z-index: 2; }
+.reel-slide[data-pos="-1"] { transform: translateX(-78%) scale(0.74); opacity: 0.55; filter: saturate(0.7) brightness(0.75); z-index: 2; }
+.reel-slide[data-pos="2"] { transform: translateX(140%) scale(0.56); opacity: 0; pointer-events: none; z-index: 1; }
+.reel-slide[data-pos="-2"] { transform: translateX(-140%) scale(0.56); opacity: 0; pointer-events: none; z-index: 1; }
+.reel-slide[data-pos="3"], .reel-slide[data-pos="-3"] { transform: scale(0.5); opacity: 0; pointer-events: none; z-index: 0; }
+@media (min-width: 900px) {
+  .reel { --phone: 300px; }
+  .reel-slide[data-pos="1"] { transform: translateX(92%) scale(0.78); }
+  .reel-slide[data-pos="-1"] { transform: translateX(-92%) scale(0.78); }
+  .reel-slide[data-pos="2"] { transform: translateX(170%) scale(0.6); opacity: 0.25; pointer-events: auto; }
+  .reel-slide[data-pos="-2"] { transform: translateX(-170%) scale(0.6); opacity: 0.25; pointer-events: auto; }
+}
+/* An iPhone drawn in CSS around the clip. */
+.phone {
+  position: relative;
+  aspect-ratio: 1206 / 2622;
+  padding: 3.2%;
+  border-radius: 15% / 7%;
+  background: linear-gradient(145deg, #3a3842, #15141a 40%, #2b2a31);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14) inset, 0 30px 60px rgba(0, 0, 0, 0.55);
+}
+.phone video, .phone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12.5% / 5.8%;
+  background: var(--bg);
+  display: block;
+}
+.phone-shot img { width: 100%; height: auto; display: block; filter: drop-shadow(0 30px 50px rgba(0, 0, 0, 0.5)); }
+.reel-slide[data-pos="0"] .phone { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16) inset, 0 30px 70px rgba(0, 0, 0, 0.6), 0 0 90px rgba(255, 198, 60, 0.18); }
+.reel-label { margin-top: 0.9rem; text-align: center; font-size: 0.9rem; color: var(--muted); }
+.reel-slide[data-pos="0"] .reel-label { visibility: hidden; }
+.reel-controls { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 0.6rem; }
+.reel-caption { margin: 0.4rem auto 0; text-align: center; font-family: var(--serif); font-size: 1.35rem; min-height: 1.6em; max-width: 30rem; }
+.reel-progress { width: 120px; height: 4px; margin: 0.5rem auto 0; border-radius: 999px; background: rgba(255, 255, 255, 0.12); overflow: hidden; }
+.reel-progress span { display: block; height: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; }
+.reel-arrow {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  color: var(--accent-text);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.reel-arrow:hover { background: rgba(255, 255, 255, 0.12); }
+.reel-dots { display: flex; gap: 0.45rem; }
+.reel-dots button { width: 8px; height: 8px; padding: 0; border: 0; border-radius: 999px; background: rgba(255, 255, 255, 0.25); cursor: pointer; transition: width 0.3s ease, background 0.3s ease; }
+.reel-dots button[aria-current="true"] { width: 22px; background: var(--accent); }
+/* Without JavaScript the reel is a plain row you can scroll. */
+.reel:not(.is-ready) .reel-track { display: flex; gap: 1rem; height: auto; overflow-x: auto; padding: 0 1.25rem; }
+.reel:not(.is-ready) .reel-slide { position: static; margin: 0; flex: 0 0 auto; width: 220px; transform: none; opacity: 1; filter: none; }
+.reel:not(.is-ready) .reel-controls, .reel:not(.is-ready) .reel-caption, .reel:not(.is-ready) .reel-progress { display: none; }
+.reel:not(.is-ready) .reel-slide .reel-label { visibility: visible; }
+
 /* Steps */
 .steps { display: grid; gap: 1rem; margin: 0; padding: 0; list-style: none; counter-reset: step; }
 @media (min-width: 760px) { .steps { grid-template-columns: repeat(2, 1fr); } }
@@ -459,6 +545,7 @@ td { color: var(--muted); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
+  .reel-slide { transition: none !important; }
   .card-link:hover { transform: none; }
 }
 
