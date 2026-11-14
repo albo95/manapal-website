@@ -1,0 +1,2 @@
+# The site's clips are published: override the global *.mp4 ignore.
+!*.mp4
