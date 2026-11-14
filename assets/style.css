@@ -318,7 +318,7 @@ p { margin: 0 0 1em; }
 .reel { --phone: min(68vw, 300px); position: relative; outline: none; }
 .reel-track {
   position: relative;
-  height: calc(var(--phone) * 2.17 + 8px);
+  height: calc(var(--phone) * 2.045 + 1rem);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -349,30 +349,31 @@ p { margin: 0 0 1em; }
   .reel-slide[data-pos="2"] { transform: translateX(170%) scale(0.6); opacity: 0.25; pointer-events: auto; }
   .reel-slide[data-pos="-2"] { transform: translateX(-170%) scale(0.6); opacity: 0.25; pointer-events: auto; }
 }
-/* An iPhone drawn in CSS around the clip. */
+/* The iPhone 16 mockup on top of the clip; the clip sits in the mockup's screen. */
 .phone {
   position: relative;
-  aspect-ratio: 1206 / 2622;
-  padding: 3.2%;
-  border-radius: 15% / 7%;
-  background: linear-gradient(145deg, #3a3842, #15141a 40%, #2b2a31);
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14) inset, 0 30px 60px rgba(0, 0, 0, 0.55);
+  aspect-ratio: 978 / 2000;
+  filter: drop-shadow(0 30px 50px rgba(0, 0, 0, 0.5));
 }
-.phone video, .phone img {
-  width: 100%;
-  height: 100%;
+.phone video, .phone .phone-screen {
+  position: absolute;
+  left: 5.62%;
+  top: 2.5%;
+  width: 89.06%;
+  height: 94.95%;
   object-fit: cover;
-  border-radius: 12.5% / 5.8%;
+  object-position: top;
   background: var(--bg);
   display: block;
 }
+.phone .phone-frame { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 .phone-shot img { width: 100%; height: auto; display: block; filter: drop-shadow(0 30px 50px rgba(0, 0, 0, 0.5)); }
-.reel-slide[data-pos="0"] .phone { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.16) inset, 0 30px 70px rgba(0, 0, 0, 0.6), 0 0 90px rgba(255, 198, 60, 0.18); }
-.reel-label { margin-top: 0.9rem; text-align: center; font-size: 0.9rem; color: var(--muted); }
+.reel-slide[data-pos="0"] .phone { filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.55)) drop-shadow(0 0 60px rgba(255, 198, 60, 0.16)); }
+.reel-label { margin-top: 1.5rem; text-align: center; font-size: 0.9rem; color: var(--muted); }
 .reel-slide[data-pos="0"] .reel-label { visibility: hidden; }
-.reel-controls { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 0.6rem; }
-.reel-caption { margin: 0.4rem auto 0; text-align: center; font-family: var(--serif); font-size: 1.35rem; min-height: 1.6em; max-width: 30rem; }
-.reel-progress { width: 120px; height: 4px; margin: 0.5rem auto 0; border-radius: 999px; background: rgba(255, 255, 255, 0.12); overflow: hidden; }
+.reel-controls { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.1rem; }
+.reel-caption { margin: 1.75rem auto 0; text-align: center; font-family: var(--serif); font-size: 1.35rem; min-height: 1.6em; max-width: 30rem; }
+.reel-progress { width: 120px; height: 4px; margin: 0.75rem auto 0; border-radius: 999px; background: rgba(255, 255, 255, 0.12); overflow: hidden; }
 .reel-progress span { display: block; height: 100%; background: var(--accent); transform: scaleX(0); transform-origin: left; }
 .reel-arrow {
   display: grid;

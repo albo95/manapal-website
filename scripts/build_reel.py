@@ -13,6 +13,9 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# iPhone 16 mockup drawn over every clip (from Altri File/Mock-iPhone).
+MOCK = "assets/app-images/mock/iphone-16.webp"
+
 # Order of the slides.
 SLIDES = ["foil", "commander", "swaps", "playtest", "dice", "card", "scanner"]
 
@@ -96,13 +99,17 @@ def block(lang, title_html, prefix):
         if clip:
             media = (f'<video muted playsinline loop="false" preload="none" poster="{prefix}{poster or screenshot(lang, slide)}" '
                      f'data-src="{prefix}{clip}" aria-label="{caption}"></video>').replace(' loop="false"', "")
-            phone = f'<div class="phone">{media}</div>'
+            phone = f'<div class="phone">{media}<img class="phone-frame" src="{prefix}{MOCK}" alt=""></div>'
         else:
             # Old screenshots already have their phone frame drawn in.
             image = poster or screenshot(lang, slide)
             framed = poster is not None
             img = f'<img src="{prefix}{image}" alt="{caption}" loading="lazy">'
-            phone = f'<div class="phone">{img}</div>' if framed else f'<div class="phone-shot">{img}</div>'
+            if framed:
+                img = f'<img class="phone-screen" src="{prefix}{image}" alt="{caption}" loading="lazy">'
+                phone = f'<div class="phone">{img}<img class="phone-frame" src="{prefix}{MOCK}" alt=""></div>'
+            else:
+                phone = f'<div class="phone-shot">{img}</div>'
         items.append(f'        <li class="reel-slide" data-caption="{caption}">{phone}<p class="reel-label">{caption}</p></li>')
         dots.append(f'<button type="button" aria-label="{go_to} {index + 1}: {caption}"></button>')
     return f'''<!-- reel:start -->
