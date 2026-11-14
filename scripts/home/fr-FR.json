@@ -9,10 +9,10 @@
   "jump_label": "Aller à une fonction",
   "jumps": [
     "Scan",
+    "Decks",
     "Foils",
     "Commander",
     "Mote",
-    "Decks",
     "Test",
     "Soirée jeux",
     "Plus"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Collection",
       "title": "Vise. Scanne. C'est fait.",
-      "text": "Carte après carte, sans t'arrêter : chacune rejoint ta collection avec son prix, et tu vois le total grimper.",
+      "text": "Carte après carte sans t'arrêter, ou une page entière de classeur en une photo : les neuf cartes rejoignent ta collection, chacune dans sa pochette, avec son prix.",
       "chips": [
         "Scanner à la suite",
-        "Édition et foil",
+        "Pages de classeur",
         "Prix à jour"
       ],
       "alt": "Le scanner reconnaît The One Ring et l'ajoute avec son prix"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Construction de deck",
+      "title": "Des decks qui tournent.",
+      "text": "Vois ton deck en piles, triées par coût. Touche une carte pour voir comment elle fonctionne avec le reste du deck, les combos auxquelles il ne manque qu'une carte et ce que tu pourrais jouer à sa place.",
+      "chips": [
+        "Piles par coût",
+        "Synergies et combos",
+        "Alternatives"
+      ],
+      "alt": "Un deck Commander en deux piles de cartes ; Juri s'ouvre avec ses synergies, une combo et des alternatives"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Échanges avec tes cartes"
       ],
       "alt": "L'analyse de Mote liste des échanges avec des cartes que tu possèdes, puis en applique cinq"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Construction de deck",
-      "title": "Des decks qui tournent.",
-      "text": "Vois ton deck en piles, triées par coût. Touche une carte pour voir comment elle fonctionne avec le reste du deck, les combos auxquelles il ne manque qu'une carte et ce que tu pourrais jouer à sa place.",
-      "chips": [
-        "Piles par coût",
-        "Synergies et combos",
-        "Alternatives"
-      ],
-      "alt": "Un deck Commander en deux piles de cartes ; Juri s'ouvre avec ses synergies, une combo et des alternatives"
     },
     {
       "id": "playtest",

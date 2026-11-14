@@ -9,10 +9,10 @@
   "jump_label": "Zu einer Funktion springen",
   "jumps": [
     "Scannen",
+    "Decks",
     "Foils",
     "Commander",
     "Mote",
-    "Decks",
     "Testen",
     "Spieleabend",
     "Mehr"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Sammlung",
       "title": "Zielen. Scannen. Fertig.",
-      "text": "Karte für Karte, ohne Pause: Jede landet mit ihrem Preis in deiner Sammlung, und du siehst den Gesamtwert wachsen.",
+      "text": "Karte für Karte ohne Pause, oder eine ganze Binder-Seite mit einem Foto: Alle neun Karten landen in deiner Sammlung, jede in ihrem Fach, mit ihrem Preis.",
       "chips": [
         "Serienscan",
-        "Set und Foil",
+        "Binder-Seiten",
         "Aktuelle Preise"
       ],
       "alt": "Der Kamerascanner erkennt The One Ring und fügt ihn mit seinem Preis hinzu"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Deckbau",
+      "title": "Decks, die zünden.",
+      "text": "Sieh dein Deck in Stapeln, nach Kosten sortiert. Tippe auf eine Karte und sieh, wie sie mit dem Rest des Decks zusammenspielt, welchen Combos nur noch eine Karte fehlt und was du stattdessen spielen könntest.",
+      "chips": [
+        "Stapel nach Kosten",
+        "Synergien und Combos",
+        "Alternativen"
+      ],
+      "alt": "Ein Commander-Deck in zwei Kartenstapeln; Juri öffnet sich mit Synergien, einer Combo und Alternativen"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Tausch mit deinen Karten"
       ],
       "alt": "Motes Deck-Analyse listet Tausche mit Karten auf, die du besitzt, und wendet dann fünf davon an"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Deckbau",
-      "title": "Decks, die zünden.",
-      "text": "Sieh dein Deck in Stapeln, nach Kosten sortiert. Tippe auf eine Karte und sieh, wie sie mit dem Rest des Decks zusammenspielt, welchen Combos nur noch eine Karte fehlt und was du stattdessen spielen könntest.",
-      "chips": [
-        "Stapel nach Kosten",
-        "Synergien und Combos",
-        "Alternativen"
-      ],
-      "alt": "Ein Commander-Deck in zwei Kartenstapeln; Juri öffnet sich mit Synergien, einer Combo und Alternativen"
     },
     {
       "id": "playtest",

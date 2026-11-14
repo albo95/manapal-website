@@ -131,7 +131,7 @@
         <div class="phone is-hero"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/foil.webp" data-src="../assets/app-images/videos/en/foil.mp4" aria-label="ManaPalのカードビューアで傾けると光をとらえる、フォイルのGiada, Font of Hope"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div>
       </div>
     </div>
-    <nav class="container jumps" aria-label="機能へ移動"><ul><li><a href="#scan">スキャン</a></li><li><a href="#foils">フォイル</a></li><li><a href="#commander">統率者</a></li><li><a href="#mote">Mote</a></li><li><a href="#deckbuild">デッキ</a></li><li><a href="#playtest">テストプレイ</a></li><li><a href="#play">対戦</a></li><li><a href="#more">その他</a></li></ul></nav>
+    <nav class="container jumps" aria-label="機能へ移動"><ul><li><a href="#scan">スキャン</a></li><li><a href="#deckbuild">デッキ</a></li><li><a href="#foils">フォイル</a></li><li><a href="#commander">統率者</a></li><li><a href="#mote">Mote</a></li><li><a href="#playtest">テストプレイ</a></li><li><a href="#play">対戦</a></li><li><a href="#more">その他</a></li></ul></nav>
   </section>
 
   <div id="features">
@@ -140,13 +140,24 @@
       <div class="chapter-copy reveal">
         <p class="kicker">コレクション</p>
         <h2 id="scan-title">かざす。スキャン。完了。</h2>
-        <p class="chapter-text">1枚、また1枚と止まらずに。どのカードも価格つきでコレクションに入り、合計額が増えていくのが見えます。</p>
-        <ul class="chips"><li>連続スキャン</li><li>セットとフォイル</li><li>最新の価格</li></ul>
+        <p class="chapter-text">1枚、また1枚と止まらずに。バインダーのページ全体を1枚の写真で撮ることも。9枚のカードがそれぞれのポケットに入り、価格つきでコレクションに追加されます。</p>
+        <ul class="chips"><li>連続スキャン</li><li>バインダーのページ</li><li>最新の価格</li></ul>
       </div>
       <div class="chapter-media reveal"><div class="phone-shot"><img src="../assets/app-images/screenshots/en/scanner.webp" alt="カメラスキャナーがThe One Ringを認識し、価格つきで追加" loading="lazy"></div></div>
     </div>
   </section>
-  <section class="chapter t-collection is-flipped" id="foils" aria-labelledby="foils-title">
+  <section class="chapter t-decks is-flipped" id="deckbuild" aria-labelledby="deckbuild-title">
+    <div class="container chapter-grid">
+      <div class="chapter-copy reveal">
+        <p class="kicker">デッキ構築</p>
+        <h2 id="deckbuild-title">かみ合うデッキを。</h2>
+        <p class="chapter-text">デッキをコスト別の山で表示。カードをタップすると、デッキのほかのカードとどう噛み合うか、あと1枚で完成するコンボ、代わりに入れられるカードがわかります。</p>
+        <ul class="chips"><li>コスト別の山</li><li>シナジーとコンボ</li><li>代わりのカード</li></ul>
+      </div>
+      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/deckbuild.webp" data-src="../assets/app-images/videos/en/deckbuild.mp4" aria-label="2つの山に分かれた統率者デッキ。Juriを開くと、シナジー、コンボ、代わりのカードが表示される"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
+    </div>
+  </section>
+  <section class="chapter t-collection" id="foils" aria-labelledby="foils-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">すべてのカードを</p>
@@ -157,7 +168,7 @@
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/cards.webp" data-src="../assets/app-images/videos/en/cards.mp4" aria-label="コレクションのグリッドからカードを開き、詳細ページを表示"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
-  <section class="chapter t-commander" id="commander" aria-labelledby="commander-title">
+  <section class="chapter t-commander is-flipped" id="commander" aria-labelledby="commander-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">あなたの統率者を探す</p>
@@ -168,7 +179,7 @@
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/commander.webp" data-src="../assets/app-images/videos/en/commander.mp4" aria-label="Moteがおすすめの統率者3体を発表：Lathril、Atarka、Omnath"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
-  <section class="chapter t-mote is-flipped" id="mote" aria-labelledby="mote-title">
+  <section class="chapter t-mote" id="mote" aria-labelledby="mote-title">
     <div class="container chapter-grid">
       <div class="chapter-copy reveal">
         <p class="kicker">AIエキスパート、Mote</p>
@@ -177,17 +188,6 @@
         <ul class="chips"><li>デッキ分析</li><li>デッキを組んで</li><li>手持ちで入れ替え</li></ul>
       </div>
       <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/swaps.webp" data-src="../assets/app-images/videos/en/swaps.mp4" aria-label="Moteのデッキ分析が手持ちのカードでの入れ替え候補を挙げ、5枚を入れ替える"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
-    </div>
-  </section>
-  <section class="chapter t-decks" id="deckbuild" aria-labelledby="deckbuild-title">
-    <div class="container chapter-grid">
-      <div class="chapter-copy reveal">
-        <p class="kicker">デッキ構築</p>
-        <h2 id="deckbuild-title">かみ合うデッキを。</h2>
-        <p class="chapter-text">デッキをコスト別の山で表示。カードをタップすると、デッキのほかのカードとどう噛み合うか、あと1枚で完成するコンボ、代わりに入れられるカードがわかります。</p>
-        <ul class="chips"><li>コスト別の山</li><li>シナジーとコンボ</li><li>代わりのカード</li></ul>
-      </div>
-      <div class="chapter-media reveal"><div class="phone"><video muted playsinline loop preload="none" data-autoplay poster="../assets/app-images/videos/en/deckbuild.webp" data-src="../assets/app-images/videos/en/deckbuild.mp4" aria-label="2つの山に分かれた統率者デッキ。Juriを開くと、シナジー、コンボ、代わりのカードが表示される"></video><img class="phone-frame" src="../assets/app-images/mock/iphone-16.webp" alt=""></div></div>
     </div>
   </section>
   <section class="chapter t-decks is-flipped" id="playtest" aria-labelledby="playtest-title">

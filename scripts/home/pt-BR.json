@@ -9,10 +9,10 @@
   "jump_label": "Ir para um recurso",
   "jumps": [
     "Scanner",
+    "Decks",
     "Foils",
     "Commander",
     "Mote",
-    "Decks",
     "Teste",
     "Noite de jogo",
     "Mais"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Coleção",
       "title": "Aponte. Escaneie. Pronto.",
-      "text": "Card após card, sem parar: cada um entra na sua coleção com o preço, e você vê o total crescer.",
+      "text": "Card após card sem parar, ou uma página inteira do fichário em uma foto: os nove cards entram na sua coleção, cada um no seu bolso, com o preço.",
       "chips": [
         "Escanear em sequência",
-        "Edição e foil",
+        "Páginas do fichário",
         "Preços atualizados"
       ],
       "alt": "O scanner reconhece The One Ring e o adiciona com o preço"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Montagem de deck",
+      "title": "Decks que se encaixam.",
+      "text": "Veja seu deck em pilhas, ordenadas por custo. Toque em um card para ver como ele funciona com o resto do deck, os combos aos quais só falta um card e o que você poderia jogar no lugar dele.",
+      "chips": [
+        "Pilhas por custo",
+        "Sinergias e combos",
+        "Alternativas"
+      ],
+      "alt": "Um deck Commander em duas pilhas de cards; Juri se abre com suas sinergias, um combo e alternativas"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Trocas com seus cards"
       ],
       "alt": "A análise do Mote lista trocas com cards que você tem e depois aplica cinco"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Montagem de deck",
-      "title": "Decks que se encaixam.",
-      "text": "Veja seu deck em pilhas, ordenadas por custo. Toque em um card para ver como ele funciona com o resto do deck, os combos aos quais só falta um card e o que você poderia jogar no lugar dele.",
-      "chips": [
-        "Pilhas por custo",
-        "Sinergias e combos",
-        "Alternativas"
-      ],
-      "alt": "Um deck Commander em duas pilhas de cards; Juri se abre com suas sinergias, um combo e alternativas"
     },
     {
       "id": "playtest",

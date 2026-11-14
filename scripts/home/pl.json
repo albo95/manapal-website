@@ -9,10 +9,10 @@
   "jump_label": "Przejdź do funkcji",
   "jumps": [
     "Skaner",
+    "Talie",
     "Foile",
     "Dowódca",
     "Mote",
-    "Talie",
     "Test",
     "Wieczór gier",
     "Więcej"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Kolekcja",
       "title": "Celuj. Skanuj. Gotowe.",
-      "text": "Karta za kartą, bez zatrzymywania: każda trafia do kolekcji z ceną, a Ty patrzysz, jak rośnie suma.",
+      "text": "Karta za kartą bez zatrzymywania albo cała strona bindera na jednym zdjęciu: dziewięć kart trafia do kolekcji, każda do swojej kieszeni, z ceną.",
       "chips": [
         "Skanuj seryjnie",
-        "Dodatek i foil",
+        "Strony bindera",
         "Aktualne ceny"
       ],
       "alt": "Skaner rozpoznaje The One Ring i dodaje go z ceną"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Budowanie talii",
+      "title": "Talie, które grają.",
+      "text": "Zobacz talię w stosach, posortowaną według kosztu. Dotknij karty, by zobaczyć, jak współgra z resztą talii, którym combo brakuje już tylko jednej karty i co możesz zagrać zamiast niej.",
+      "chips": [
+        "Stosy według kosztu",
+        "Synergie i combo",
+        "Alternatywy"
+      ],
+      "alt": "Talia Commander w dwóch stosach kart; Juri otwiera się z synergiami, combo i alternatywami"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Zamiany z Twoich kart"
       ],
       "alt": "Analiza Mote pokazuje zamiany na posiadane karty, a potem stosuje pięć z nich"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Budowanie talii",
-      "title": "Talie, które grają.",
-      "text": "Zobacz talię w stosach, posortowaną według kosztu. Dotknij karty, by zobaczyć, jak współgra z resztą talii, którym combo brakuje już tylko jednej karty i co możesz zagrać zamiast niej.",
-      "chips": [
-        "Stosy według kosztu",
-        "Synergie i combo",
-        "Alternatywy"
-      ],
-      "alt": "Talia Commander w dwóch stosach kart; Juri otwiera się z synergiami, combo i alternatywami"
     },
     {
       "id": "playtest",

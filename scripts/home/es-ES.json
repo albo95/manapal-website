@@ -9,10 +9,10 @@
   "jump_label": "Ir a una función",
   "jumps": [
     "Escáner",
+    "Mazos",
     "Foils",
     "Commander",
     "Mote",
-    "Mazos",
     "Prueba",
     "Noche de juego",
     "Más"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Colección",
       "title": "Apunta. Escanea. Listo.",
-      "text": "Carta tras carta, sin parar: cada una entra en tu colección con su precio, y ves crecer el total.",
+      "text": "Carta tras carta sin parar, o una página entera de la carpeta en una foto: las nueve cartas entran en tu colección, cada una en su bolsillo, con su precio.",
       "chips": [
         "Escanear en serie",
-        "Expansión y foil",
+        "Páginas de carpeta",
         "Precios actualizados"
       ],
       "alt": "El escáner reconoce The One Ring y lo añade con su precio"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Construcción de mazos",
+      "title": "Mazos que encajan.",
+      "text": "Mira tu mazo en pilas, ordenadas por coste. Toca una carta para ver cómo funciona con el resto del mazo, los combos a los que solo les falta una carta y qué podrías jugar en su lugar.",
+      "chips": [
+        "Pilas por coste",
+        "Sinergias y combos",
+        "Alternativas"
+      ],
+      "alt": "Un mazo Commander en dos pilas de cartas; Juri se abre con sus sinergias, un combo y alternativas"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Cambios con tus cartas"
       ],
       "alt": "El análisis de Mote muestra cambios con cartas que tienes y luego aplica cinco"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Construcción de mazos",
-      "title": "Mazos que encajan.",
-      "text": "Mira tu mazo en pilas, ordenadas por coste. Toca una carta para ver cómo funciona con el resto del mazo, los combos a los que solo les falta una carta y qué podrías jugar en su lugar.",
-      "chips": [
-        "Pilas por coste",
-        "Sinergias y combos",
-        "Alternativas"
-      ],
-      "alt": "Un mazo Commander en dos pilas de cartas; Juri se abre con sus sinergias, un combo y alternativas"
     },
     {
       "id": "playtest",

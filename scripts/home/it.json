@@ -9,10 +9,10 @@
   "jump_label": "Vai a una funzione",
   "jumps": [
     "Scanner",
+    "Mazzi",
     "Foil",
     "Commander",
     "Mote",
-    "Mazzi",
     "Prova",
     "Serata di gioco",
     "Altro"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Collezione",
       "title": "Inquadra. Scansiona. Fatto.",
-      "text": "Una carta dopo l'altra, senza fermarti: ognuna finisce nella collezione con il suo prezzo, e vedi il totale crescere.",
+      "text": "Una carta dopo l'altra senza fermarti, o una pagina intera del raccoglitore in una foto: le nove carte finiscono nella collezione, ognuna nella sua tasca, con il suo prezzo.",
       "chips": [
         "Scansiona di fila",
-        "Espansione e foil",
+        "Pagine del raccoglitore",
         "Prezzi aggiornati"
       ],
       "alt": "Lo scanner riconosce The One Ring e lo aggiunge con il suo prezzo"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Costruzione del mazzo",
+      "title": "Mazzi che girano.",
+      "text": "Guarda il mazzo in pile ordinate per costo. Tocca una carta per vedere come lavora con il resto del mazzo, le combo a cui manca una carta e cosa potresti giocare al suo posto.",
+      "chips": [
+        "Pile per costo",
+        "Sinergie e combo",
+        "Alternative"
+      ],
+      "alt": "Un mazzo Commander in due pile di carte; Juri si apre con le sue sinergie, una combo e le alternative"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Scambi con le tue carte"
       ],
       "alt": "L'analisi di Mote elenca gli scambi che possiedi, poi applica cinque scambi"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Costruzione del mazzo",
-      "title": "Mazzi che girano.",
-      "text": "Guarda il mazzo in pile ordinate per costo. Tocca una carta per vedere come lavora con il resto del mazzo, le combo a cui manca una carta e cosa potresti giocare al suo posto.",
-      "chips": [
-        "Pile per costo",
-        "Sinergie e combo",
-        "Alternative"
-      ],
-      "alt": "Un mazzo Commander in due pile di carte; Juri si apre con le sue sinergie, una combo e le alternative"
     },
     {
       "id": "playtest",

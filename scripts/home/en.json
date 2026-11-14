@@ -9,10 +9,10 @@
   "jump_label": "Jump to a feature",
   "jumps": [
     "Scan",
+    "Decks",
     "Foils",
     "Commander",
     "Mote",
-    "Decks",
     "Playtest",
     "Game night",
     "More"
@@ -23,13 +23,26 @@
       "tab": "collection",
       "kicker": "Collection",
       "title": "Point. Scan. Done.",
-      "text": "Card after card, without stopping: each one lands in your collection with its price, and you watch the total grow.",
+      "text": "Card after card without stopping, or a whole binder page in one photo: all nine cards land in your collection, each in its pocket, with its price.",
       "chips": [
         "Continuous scanning",
-        "Set and foil",
+        "Binder pages",
         "Live prices"
       ],
       "alt": "The camera scanner recognizes The One Ring and adds it with its price"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Deck building",
+      "title": "Build decks that click.",
+      "text": "See your deck in piles, sorted by cost. Tap a card to see how it works with the rest of the deck, the combos it's one card away from and what you could play instead.",
+      "chips": [
+        "Piles by cost",
+        "Synergies and combos",
+        "Alternatives"
+      ],
+      "alt": "A Commander deck in two piles of cards; Juri opens with its synergies, a combo and alternatives"
     },
     {
       "id": "foils",
@@ -69,19 +82,6 @@
         "Swaps you own"
       ],
       "alt": "Mote's deck analysis lists suggested swaps marked You own it, then applies five swaps"
-    },
-    {
-      "id": "deckbuild",
-      "tab": "decks",
-      "kicker": "Deck building",
-      "title": "Build decks that click.",
-      "text": "See your deck in piles, sorted by cost. Tap a card to see how it works with the rest of the deck, the combos it's one card away from and what you could play instead.",
-      "chips": [
-        "Piles by cost",
-        "Synergies and combos",
-        "Alternatives"
-      ],
-      "alt": "A Commander deck in two piles of cards; Juri opens with its synergies, a combo and alternatives"
     },
     {
       "id": "playtest",

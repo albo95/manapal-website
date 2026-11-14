@@ -7,32 +7,177 @@
   "note": "Ücretsiz indirme · iPhone ve iPad · iOS 18 veya üstü",
   "hero_alt": "ManaPal'ın kart görüntüleyicisinde eğilip ışığı yakalayan foil Giada, Font of Hope",
   "jump_label": "Bir özelliğe git",
-  "jumps": ["Tara", "Foil", "Commander", "Mote", "Desteler", "Dene", "Oyun gecesi", "Dahası"],
+  "jumps": [
+    "Tara",
+    "Desteler",
+    "Foil",
+    "Commander",
+    "Mote",
+    "Dene",
+    "Oyun gecesi",
+    "Dahası"
+  ],
   "chapters": [
-    {"id": "scan", "tab": "collection", "kicker": "Koleksiyon", "title": "Tut. Tara. Bitti.", "text": "Kart kart, hiç durmadan: her biri fiyatıyla koleksiyonuna eklenir ve toplamın büyüdüğünü izlersin.", "chips": ["Art arda tara", "Set ve foil", "Güncel fiyatlar"], "alt": "Kamera tarayıcısı The One Ring'i tanıyor ve fiyatıyla ekliyor"},
-    {"id": "foils", "tab": "collection", "kicker": "Her kart", "title": "Kartların, hiç görmediğin gibi.", "text": "Bir kartı aç ve eğ: foil'ler ışığı yakalar. Kart metni, resmî ruling'ler ve her mağazanın fiyatı bir kaydırma uzağında.", "chips": ["Foil efekti", "Resmî ruling'ler", "Mağaza fiyatları"], "alt": "Koleksiyon ızgarasındaki bir kart, ayrıntı sayfasında açılıyor"},
-    {"id": "commander", "tab": "commander", "kicker": "Commander'ını bul", "title": "Sana göre bir Commander.", "text": "Nasıl oynadığına dair 12 soruyu cevapla. Mote ekonomik, orta ve üst seviye listelerle üç komutan seçer; gerçek turnuvalarda derece yapmış desteleri de içe aktarabilirsin.", "chips": ["12 soru", "3 bütçe", "Turnuva desteleri"], "alt": "Mote önerdiği üç komutanı gösteriyor: Lathril, Atarka ve Omnath"},
-    {"id": "mote", "tab": "mote", "kicker": "Mote, yapay zekâ uzmanın", "title": "Kartlarını okuyan bir uzman.", "text": "Mote desteni analiz eder ve zaten sahip olduğun kartlarla değişiklikler önerir. Tek dokunuşla destede. Koleksiyonundan baştan sona bir deste de kurabilir.", "chips": ["Deste analizi", "Bana bir deste kur", "Kendi kartlarınla değişiklik"], "alt": "Mote'un deste analizi sahip olduğun kartlarla önerilen değişiklikleri listeliyor, sonra beşini uyguluyor"},
-    {"id": "deckbuild", "tab": "decks", "kicker": "Deste kurma", "title": "Tıkır tıkır işleyen desteler.", "text": "Desteni maliyete göre sıralanmış yığınlar halinde gör. Bir karta dokun: destenin geri kalanıyla nasıl çalıştığını, tamamlanmasına tek kart kalan komboları ve yerine ne oynayabileceğini gör.", "chips": ["Maliyete göre yığınlar", "Sinerjiler ve kombolar", "Alternatifler"], "alt": "İki kart yığınında bir Commander destesi; Juri sinerjileri, bir kombo ve alternatiflerle açılıyor"},
-    {"id": "playtest", "tab": "decks", "kicker": "Desteler", "title": "Kılıflamadan önce dene.", "text": "Açılış elini çek, mulligan yap, ilk turlarını oyna. Land çekme olasılığını, mana eğrini ve eksik kartların maliyetini gör.", "chips": ["Açılış eli", "Mulligan", "Deste istatistikleri"], "alt": "Bir deneme oyunu: açılış eli, bir mulligan ve savaş alanındaki ilk kartlar"},
-    {"id": "play", "tab": "games", "kicker": "Oyun gecesi", "title": "Masa için her şey.", "text": "2 ila 6 oyuncu için komutan hasarı, zehir, Monarch ve Initiative takipli bir can sayacı. Zarı basılı tut, bırak yuvarlansın; her oyun arkadaşlarının telefonuna ulaşır.", "chips": ["Komutan hasarı", "3D zar", "Arkadaşlarınla oyna"], "alt": "Dört oyunculu bir can sayacının üzerinde basılı tutulup atılan 3D yirmi yüzlü zar"}
+    {
+      "id": "scan",
+      "tab": "collection",
+      "kicker": "Koleksiyon",
+      "title": "Tut. Tara. Bitti.",
+      "text": "Kart kart hiç durmadan ya da tek fotoğrafta binder'ın koca bir sayfası: dokuz kartın hepsi koleksiyonuna eklenir, her biri kendi cebine, fiyatıyla.",
+      "chips": [
+        "Art arda tara",
+        "Binder sayfaları",
+        "Güncel fiyatlar"
+      ],
+      "alt": "Kamera tarayıcısı The One Ring'i tanıyor ve fiyatıyla ekliyor"
+    },
+    {
+      "id": "deckbuild",
+      "tab": "decks",
+      "kicker": "Deste kurma",
+      "title": "Tıkır tıkır işleyen desteler.",
+      "text": "Desteni maliyete göre sıralanmış yığınlar halinde gör. Bir karta dokun: destenin geri kalanıyla nasıl çalıştığını, tamamlanmasına tek kart kalan komboları ve yerine ne oynayabileceğini gör.",
+      "chips": [
+        "Maliyete göre yığınlar",
+        "Sinerjiler ve kombolar",
+        "Alternatifler"
+      ],
+      "alt": "İki kart yığınında bir Commander destesi; Juri sinerjileri, bir kombo ve alternatiflerle açılıyor"
+    },
+    {
+      "id": "foils",
+      "tab": "collection",
+      "kicker": "Her kart",
+      "title": "Kartların, hiç görmediğin gibi.",
+      "text": "Bir kartı aç ve eğ: foil'ler ışığı yakalar. Kart metni, resmî ruling'ler ve her mağazanın fiyatı bir kaydırma uzağında.",
+      "chips": [
+        "Foil efekti",
+        "Resmî ruling'ler",
+        "Mağaza fiyatları"
+      ],
+      "alt": "Koleksiyon ızgarasındaki bir kart, ayrıntı sayfasında açılıyor"
+    },
+    {
+      "id": "commander",
+      "tab": "commander",
+      "kicker": "Commander'ını bul",
+      "title": "Sana göre bir Commander.",
+      "text": "Nasıl oynadığına dair 12 soruyu cevapla. Mote ekonomik, orta ve üst seviye listelerle üç komutan seçer; gerçek turnuvalarda derece yapmış desteleri de içe aktarabilirsin.",
+      "chips": [
+        "12 soru",
+        "3 bütçe",
+        "Turnuva desteleri"
+      ],
+      "alt": "Mote önerdiği üç komutanı gösteriyor: Lathril, Atarka ve Omnath"
+    },
+    {
+      "id": "mote",
+      "tab": "mote",
+      "kicker": "Mote, yapay zekâ uzmanın",
+      "title": "Kartlarını okuyan bir uzman.",
+      "text": "Mote desteni analiz eder ve zaten sahip olduğun kartlarla değişiklikler önerir. Tek dokunuşla destede. Koleksiyonundan baştan sona bir deste de kurabilir.",
+      "chips": [
+        "Deste analizi",
+        "Bana bir deste kur",
+        "Kendi kartlarınla değişiklik"
+      ],
+      "alt": "Mote'un deste analizi sahip olduğun kartlarla önerilen değişiklikleri listeliyor, sonra beşini uyguluyor"
+    },
+    {
+      "id": "playtest",
+      "tab": "decks",
+      "kicker": "Desteler",
+      "title": "Kılıflamadan önce dene.",
+      "text": "Açılış elini çek, mulligan yap, ilk turlarını oyna. Land çekme olasılığını, mana eğrini ve eksik kartların maliyetini gör.",
+      "chips": [
+        "Açılış eli",
+        "Mulligan",
+        "Deste istatistikleri"
+      ],
+      "alt": "Bir deneme oyunu: açılış eli, bir mulligan ve savaş alanındaki ilk kartlar"
+    },
+    {
+      "id": "play",
+      "tab": "games",
+      "kicker": "Oyun gecesi",
+      "title": "Masa için her şey.",
+      "text": "2 ila 6 oyuncu için komutan hasarı, zehir, Monarch ve Initiative takipli bir can sayacı. Zarı basılı tut, bırak yuvarlansın; her oyun arkadaşlarının telefonuna ulaşır.",
+      "chips": [
+        "Komutan hasarı",
+        "3D zar",
+        "Arkadaşlarınla oyna"
+      ],
+      "alt": "Dört oyunculu bir can sayacının üzerinde basılı tutulup atılan 3D yirmi yüzlü zar"
+    }
   ],
   "more_title": "Dahası da var",
   "more_lead": "Bir Magic oyuncusunun ihtiyacı olan her şey, tek uygulamada.",
   "more": [
-    {"tab": "mote", "icon": "⚖️", "title": "Masadaki kurallar", "text": "Kapsamlı Kurallar ve her kartın ruling'leri, çevrimdışı. Kararı Mote'a sor."},
-    {"tab": "games", "icon": "🤝", "title": "Arkadaşlarınla oyna", "text": "Arkadaşlarını QR koduyla ekle: ortak oyunlar ve oyun grubu sıralaması."},
-    {"tab": "decks", "icon": "📦", "title": "Tüm hazır desteler", "text": "Resmî hazır desteler açıklamalarıyla, içe aktarmaya hazır."},
-    {"tab": "commander", "icon": "🏆", "title": "Turnuva desteleri", "text": "Commander turnuvalarında derece yapmış listeler, TopDeck.gg'den."},
-    {"tab": "decks", "icon": "📊", "title": "İstatistikler ve kombolar", "text": "Mana eğrisi, land'ler, renkler, kombolar ve destenin değeri."},
-    {"tab": "collection", "icon": "⇄", "title": "Kartlarını getir", "text": "ManaBox, Moxfield, Archidekt, Delver Lens ve daha fazlasından içe aktar."},
-    {"tab": "collection", "icon": "📒", "title": "Binder, istek listesi, takas", "text": "Kartlarını düzenle ve hangi setleri tamamladığını gör."},
-    {"tab": "mote", "icon": "☁️", "title": "iCloud ve 14 dil", "text": "iPhone ve iPad'de eşitlenir; senin dilinde, senin para biriminde."}
+    {
+      "tab": "mote",
+      "icon": "⚖️",
+      "title": "Masadaki kurallar",
+      "text": "Kapsamlı Kurallar ve her kartın ruling'leri, çevrimdışı. Kararı Mote'a sor."
+    },
+    {
+      "tab": "games",
+      "icon": "🤝",
+      "title": "Arkadaşlarınla oyna",
+      "text": "Arkadaşlarını QR koduyla ekle: ortak oyunlar ve oyun grubu sıralaması."
+    },
+    {
+      "tab": "decks",
+      "icon": "📦",
+      "title": "Tüm hazır desteler",
+      "text": "Resmî hazır desteler açıklamalarıyla, içe aktarmaya hazır."
+    },
+    {
+      "tab": "commander",
+      "icon": "🏆",
+      "title": "Turnuva desteleri",
+      "text": "Commander turnuvalarında derece yapmış listeler, TopDeck.gg'den."
+    },
+    {
+      "tab": "decks",
+      "icon": "📊",
+      "title": "İstatistikler ve kombolar",
+      "text": "Mana eğrisi, land'ler, renkler, kombolar ve destenin değeri."
+    },
+    {
+      "tab": "collection",
+      "icon": "⇄",
+      "title": "Kartlarını getir",
+      "text": "ManaBox, Moxfield, Archidekt, Delver Lens ve daha fazlasından içe aktar."
+    },
+    {
+      "tab": "collection",
+      "icon": "📒",
+      "title": "Binder, istek listesi, takas",
+      "text": "Kartlarını düzenle ve hangi setleri tamamladığını gör."
+    },
+    {
+      "tab": "mote",
+      "icon": "☁️",
+      "title": "iCloud ve 14 dil",
+      "text": "iPhone ve iPad'de eşitlenir; senin dilinde, senin para biriminde."
+    }
   ],
   "free_title": "Sonsuza dek ücretsiz",
-  "free_items": ["Koleksiyon, fiyatlar ve tarayıcı", "Can sayacı ve oyun geçmişi", "En fazla 7 kurulmuş deste", "Her gün ücretsiz bir hızlı yapay zekâ sorusu", "İlk \"Commander'ını bul\" hakkın"],
+  "free_items": [
+    "Koleksiyon, fiyatlar ve tarayıcı",
+    "Can sayacı ve oyun geçmişi",
+    "En fazla 7 kurulmuş deste",
+    "Her gün ücretsiz bir hızlı yapay zekâ sorusu",
+    "İlk \"Commander'ını bul\" hakkın"
+  ],
   "pro_title": "ManaPal Pro",
   "pro_tag": "İsteğe bağlı",
-  "pro_items": ["Her ay Mote için Mana", "Gelişmiş istatistikler", "Sınırsız deste ve binder", "Sınırsız simülatör", "Uygulama temaları ve sana özel oyunlar"],
+  "pro_items": [
+    "Her ay Mote için Mana",
+    "Gelişmiş istatistikler",
+    "Sınırsız deste ve binder",
+    "Sınırsız simülatör",
+    "Uygulama temaları ve sana özel oyunlar"
+  ],
   "pricing_note": "Yapay zekâ işlemleri Mana kullanır ve bir işlem başlamadan önce maliyetini her zaman görürsün."
 }
