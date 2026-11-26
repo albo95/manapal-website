@@ -99,11 +99,12 @@ Immagini in WebP, icone in PNG. Screenshot di fine ottobre 2026.
 
 ## 4. Link che l'app genera
 
-- QR delle partite: `https://manapal.app/g#d=<dati>`; l'app li apre anche come `manapal://game?d=<dati>`.
-- QR dei mazzi: `https://manapal.app/d#d=<dati>`; l'app li apre anche come `manapal://deck?d=<dati>`.
-- Finché `AppLinks.webHost` è `nil` (oggi) l'app genera solo i link `manapal://`; i link `https://manapal.app/...` si attivano quando il dominio è online.
+- Link ai mazzi (dal server): `https://manapal.app/d/<slug>` (10 caratteri). `vercel.json` lo riscrive su `api/deck.js`, che legge il mazzo dalla funzione pubblica Supabase `manapal-deck` e scrive nella pagina l'anteprima per le chat (titolo, "di …", art del comandante) e il mazzo stesso. L'app li apre anche come `manapal://d/<slug>`.
+- Mazzi "fotografia" (tutto il mazzo nel link): `https://manapal.app/d#d=<dati>`; li decodifica `assets/links/deck.js`, i nomi e le immagini arrivano da Scryfall. L'app li apre anche come `manapal://deck?d=<dati>`.
+- Partite: `https://manapal.app/g#d=<dati>` (pagina `g/`); inviti amico: `https://manapal.app/f/<token>` (pagina `f/`).
+- `AppLinks.webHost` è `manapal.app`: l'app genera i link https. `.well-known/apple-app-site-association` apre l'app per `/d/*`, `/d#d=…`, `/g#d=…` e `/f/*`.
+- Testi delle pagine dei link in 14 lingue: `assets/links/i18n.js`.
 - Identificativi per i link universali: Team ID `2L7RFD7CXX`, bundle `com.albertobruno.magicpal.app`.
-- La bozza esistente in `Tools/Website` ha: pagina principale, privacy, termini, pagina `/g`, file `apple-app-site-association` con il percorso `/g*`. Non ha ancora nulla per `/d`.
 
 ## 5. Dati fissi
 - Dominio: **manapal.app** (il dominio .app richiede HTTPS).

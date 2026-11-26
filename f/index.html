@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ManaPal · An invite to play</title>
+<meta name="robots" content="noindex">
+<meta name="apple-itunes-app" content="app-id=6822809444">
+<meta name="theme-color" content="#0b0a10">
+<meta property="og:site_name" content="ManaPal">
+<meta property="og:title" content="An invite to play on ManaPal">
+<meta property="og:description" content="The games you play together will reach both phones.">
+<meta property="og:image" content="https://manapal.app/assets/icon.png">
+<link rel="icon" type="image/png" href="/assets/icon.png">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/links/links.css">
+</head>
+<body class="dl-landing">
+<main>
+  <img class="dl-mark" src="/assets/icon.png" alt="" width="84" height="84">
+  <h1 data-t="friendTitle">An invite to play</h1>
+  <p data-t="friendBody"></p>
+  <a class="dl-button primary" id="open" href="#" data-t="friendOpen">Accept in ManaPal</a>
+  <a class="dl-button secondary" href="https://apps.apple.com/app/id6822809444" data-t="get">Get ManaPal</a>
+  <small data-t="noApp"></small>
+</main>
+<script src="/assets/links/i18n.js"></script>
+<script>
+  // manapal.app/f/<token>: the app reads the same invite as manapal://friend/<token>.
+  MP.translate();
+  var match = location.pathname.match(/^\/f\/([A-Za-z0-9_.-]{16,120})\/?$/);
+  if (match) document.getElementById("open").href = "manapal://friend/" + match[1];
+</script>
+</body>
+</html>

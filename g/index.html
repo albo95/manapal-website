@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ManaPal · A game for you</title>
+<meta name="robots" content="noindex">
+<meta name="apple-itunes-app" content="app-id=6822809444">
+<meta name="theme-color" content="#0b0a10">
+<meta property="og:site_name" content="ManaPal">
+<meta property="og:title" content="A game recorded with ManaPal">
+<meta property="og:description" content="Open it in ManaPal: it goes into your history and your stats.">
+<meta property="og:image" content="https://manapal.app/assets/icon.png">
+<link rel="icon" type="image/png" href="/assets/icon.png">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/links/links.css">
+</head>
+<body class="dl-landing">
+<main>
+  <img class="dl-mark" src="/assets/icon.png" alt="" width="84" height="84">
+  <h1 data-t="gameTitle">A game is waiting for you</h1>
+  <p data-t="gameBody"></p>
+  <a class="dl-button primary" id="open" href="manapal://game" data-t="gameOpen">Open the game</a>
+  <a class="dl-button secondary" href="https://apps.apple.com/app/id6822809444" data-t="get">Get ManaPal</a>
+  <small data-t="noApp"></small>
+</main>
+<script src="/assets/links/i18n.js"></script>
+<script>
+  // manapal.app/g#d=<data>: the whole game is in the link, the app reads it as manapal://game?d=<data>.
+  MP.translate();
+  var data = new URLSearchParams(location.hash.replace(/^#/, "")).get("d") || new URLSearchParams(location.search).get("d");
+  if (data) document.getElementById("open").href = "manapal://game?d=" + encodeURIComponent(data);
+</script>
+</body>
+</html>

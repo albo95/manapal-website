@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["2L7RFD7CXX.com.albertobruno.magicpal.app"],
+        "components": [
+          { "/": "/d/*", "comment": "Deck links (short, from the server)" },
+          { "/": "/d", "#": "d=*", "comment": "Deck snapshots (the deck in the link)" },
+          { "/": "/g", "#": "d=*", "comment": "Games shared with a QR" },
+          { "/": "/f/*", "comment": "Friend invites" }
+        ]
+      }
+    ]
+  }
+}

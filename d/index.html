@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!--HEAD-->
+<title>ManaPal deck</title>
+<meta name="description" content="A Magic: The Gathering deck shared from ManaPal.">
+<meta property="og:site_name" content="ManaPal">
+<meta property="og:type" content="website">
+<meta property="og:title" content="A deck shared from ManaPal">
+<meta property="og:description" content="Open it to see the list and which cards you already have.">
+<meta property="og:image" content="https://manapal.app/assets/icon.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-itunes-app" content="app-id=6822809444">
+<!--/HEAD-->
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b0a10">
+<link rel="icon" type="image/png" href="/assets/icon.png">
+<link rel="apple-touch-icon" href="/assets/icon.png">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="/assets/links/links.css">
+</head>
+<body>
+<div class="dl">
+  <div class="dl-top">
+    <a class="dl-brand" href="/"><img src="/assets/icon.png" alt="" width="30" height="30">ManaPal</a>
+  </div>
+
+  <div class="dl-loading" id="dl-loading">
+    <div class="dl-spinner" aria-hidden="true"></div>
+    <p data-t="loading">Opening the deck…</p>
+  </div>
+
+  <div class="dl-state" id="dl-state" hidden>
+    <h1></h1>
+    <p></p>
+    <a class="dl-button primary" href="https://apps.apple.com/app/id6822809444" data-t="get">Get ManaPal</a>
+  </div>
+
+  <main id="dl-content" hidden>
+    <header class="dl-hero" id="dl-hero">
+      <p class="dl-owner" id="dl-owner" hidden><img src="" alt="" width="28" height="28"><span></span></p>
+      <h1 class="dl-title" id="dl-title"></h1>
+      <p class="dl-meta" id="dl-meta"></p>
+    </header>
+
+    <div class="dl-actions">
+      <a class="dl-button primary" id="dl-open" href="#" data-t="open">Open in ManaPal</a>
+      <a class="dl-button secondary" id="dl-get" href="https://apps.apple.com/app/id6822809444" data-t="get">Get ManaPal</a>
+    </div>
+    <p class="dl-pitch" data-t="pitch"></p>
+
+    <section class="dl-wish" id="dl-wish" hidden>
+      <h2></h2>
+      <p data-t="wishBody"></p>
+      <div class="dl-grid"></div>
+    </section>
+
+    <div id="dl-list"></div>
+
+    <div class="dl-copy-box">
+      <button class="dl-button secondary" id="dl-copy" type="button"><span data-t="copy">Copy list</span></button>
+      <p data-t="copyHint"></p>
+    </div>
+    <p class="dl-note" id="dl-note"></p>
+  </main>
+
+  <footer class="dl-foot">
+    <p id="dl-credit"></p>
+    <p>ManaPal is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC. Card data and images: <a href="https://scryfall.com">Scryfall</a>.</p>
+  </footer>
+</div>
+<!--DATA-->
+<script src="/assets/links/i18n.js"></script>
+<script src="/assets/links/deck.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    { "source": "/d/:slug([A-Za-z0-9]{10})", "destination": "/api/deck?slug=:slug" },
+    { "source": "/d", "destination": "/d/index.html" },
+    { "source": "/g", "destination": "/g/index.html" },
+    { "source": "/f/:token", "destination": "/f/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/.well-known/apple-app-site-association",
+      "headers": [{ "key": "Content-Type", "value": "application/json" }]
+    }
+  ],
+  "functions": {
+    "api/deck.js": { "includeFiles": "d/index.html" }
+  }
+}
