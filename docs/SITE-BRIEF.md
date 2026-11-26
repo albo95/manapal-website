@@ -108,7 +108,7 @@ Immagini in WebP, icone in PNG. Screenshot di fine ottobre 2026.
 
 ## 5. Dati fissi
 - Dominio: **manapal.app** (il dominio .app richiede HTTPS).
-- App Store ID: non ancora assegnato.
+- App Store ID: 6822809444 (anche in `AppLinks.appStoreID` nell'app).
 - Email di supporto: non ancora decisa.
 - Privacy policy: https://manapal.app/privacy.html (nell'app il link punta ancora a https://albosapps.github.io/manapal/privacy.html). Descrive le statistiche d'uso con Google Analytics for Firebase come attive: solo con consenso esplicito (interruttore "Aiutaci a migliorare ManaPal", spento di default), senza testi scritti dall'utente. Sono pseudonime, non anonime.
 - Termini: oggi l'EULA standard di Apple.
